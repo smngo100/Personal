@@ -1,0 +1,23 @@
+Three numeric data types built-in to Python: 
+  1. integers - int 
+  2. floating point numbers - float 
+  3. complex numbers - complex 
+
+Following operators are defined for all three numeric types above: 
+  * Addition: + 
+  * Subtraction/Negation: - 
+  * Multiplication: * 
+  * Division: / 
+  * Exponentiation: ** 
+
+Operates defined for int and float: 
+  * Floor division: // 
+  * Modulo (Remainder): % 
+
+Python follows the PEMDAS order of operations: 
+P - parenthesses
+E - exponents 
+M - multiplication, modulo, or 
+D - division 
+A - addition, or 
+S - subtraction
