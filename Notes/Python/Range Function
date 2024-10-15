@@ -1,0 +1,18 @@
+# Range function 
+The range function is exclusive of the end value. When you call range(start, stop), it includes start but excludes stop.
+
+Example:
+years = 5 
+for i in range(years): 
+  print(i, end = " ") 
+
+Output: 
+0 1 2 3 4
+
+# To make it inclusive, add 1 to the stop value
+years = 5 
+for i in range(years + 1): 
+  print(i, end = " ") 
+
+Output: 
+0 1 2 3 4 5 
