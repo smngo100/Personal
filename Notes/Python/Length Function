@@ -1,0 +1,15 @@
+len()
+
+The len() function is used to determine the number of items in an object. 
+
+Usage with Different Data Types: 
+* String: Returns the number of characters 
+* Lists/Tuples: Returns the number of elements 
+* Dictionaries: Returns teh number of key-value pairs
+* Custom Objects: Returns the result of the __len__ method defined in the object's class.
+
+String Example
+string = "Hello"
+n = len(string)
+print(n) # Output 5
+
