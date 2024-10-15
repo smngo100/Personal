@@ -1,5 +1,6 @@
-# Range function 
-The range function is exclusive of the end value. When you call range(start, stop), it includes start but excludes stop.
+range() 
+
+The range() function is exclusive of the end value. When you call range(start, stop), it includes start but excludes stop.
 
 Example:
 years = 5 
