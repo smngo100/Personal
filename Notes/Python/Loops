@@ -1,4 +1,4 @@
-# For Loops 
+# ---------------------------------------- For Loops ----------------------------------------
 How to read a for loop statement 
 Example:
 for i in range(0, n)
@@ -25,4 +25,4 @@ for number in numbers:
 Read as: For each number in the list numbers, print the number.
 
 
-# While Loops
+# ---------------------------------------- While Loops ----------------------------------------
