@@ -7,7 +7,7 @@
     Example: Think of values 1, 2, 3
               You're holding papers (THE LABEL) and you assign labels one, two, three to the values 1, 2, 3
 
-# String - Series of characters
+# String:  Series of characters
 
 # Method 
 * An action that Python can perform on a piece of data
@@ -15,6 +15,13 @@
 Example
 name = "ada lovelace"
 print(name.title())
-* The dot (.) after name in name.title() tells Python to make the title() methjod act on the variable name
+* The dot (.) after name in name.title() tells Python to make the title() method act on the variable name
 
 # f - string: The f is for format, because Python formats the string by replacing the name of anyu variable in braces with its value.
+
+# whitespaces: refer to nonprinting character, such as spaces, tabs, and end-of-line symbols
+* \t to add a tab to text 
+* \n to add a newline in a string 
+
+# Syntax error: errors when Python doesn't recognize a section of your program as valid Python code.
+
