@@ -1,0 +1,15 @@
+# Variables 
+* Every variable holds a value, which is the information associated with that variable 
+
+# Variables are Labels
+* Often described as boxes you can store values in (helpful but not accurate way to describe how they're represented in Python)
+* Better to think of variables as LABELS that you can assign to values
+    Example: Think of values 1, 2, 3
+              You're holding papers (THE LABEL) and you assign labels one, two, three to the values 1, 2, 3
+
+# 
+
+
+
+
+
