@@ -1,14 +1,22 @@
 # For Loops 
 How to read a for loop statement 
 Example:
-  for i in range(0, n)
-Read as: The loop variable i takes on each value in the sequence range(0, n) 
+for i in range(0, n)
+Read as: The loop variable i takes on each value in the sequence range(0, n).
 
 Example: 
-  for entry in phonebook
-Read as: The loop variable entry takes on each value in the iterable phonebook list
+for entry in phonebook
+Read as: The loop variable entry takes on each value in the iterable phonebook list.
 
+Example: 
+for item in collection
+Read as: For each item in the collection, do something.
 
+Example: 
+numbers = [1, 2, 3, 4, 5]
+for number in numbers:  
+  print(number)
+Read as: For each number in the list numbers, print the number.
 
 
 # While Loops
