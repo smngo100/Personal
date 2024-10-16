@@ -1,0 +1,14 @@
+# For Loops 
+How to read a for loop statement 
+Example:
+  for i in range(0, n)
+Read as: The loop variable i takes on each value in the sequence range(0, n) 
+
+Example: 
+  for entry in phonebook
+Read as: The loop variable entry takes on each value in the iterable phonebook list
+
+
+
+
+# While Loops
