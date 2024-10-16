@@ -1,5 +1,5 @@
 # ---------------------------------------- For Loops ----------------------------------------
-How to read a for loop statement 
+READING A LOOP STATEMENT 
 Example:
 for i in range(0, n)
 Read as: The loop variable i takes on each value in the sequence range(0, n).
