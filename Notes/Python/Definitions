@@ -7,9 +7,7 @@
     Example: Think of values 1, 2, 3
               You're holding papers (THE LABEL) and you assign labels one, two, three to the values 1, 2, 3
 
-# String 
-* Series of characters
-* Can use single or double quotations around strings
+# String - Series of characters
 
 # Method 
 * An action that Python can perform on a piece of data
@@ -19,4 +17,4 @@ name = "ada lovelace"
 print(name.title())
 * The dot (.) after name in name.title() tells Python to make the title() methjod act on the variable name
 
-
+# f - string: The f is for format, because Python formats the string by replacing the name of anyu variable in braces with its value.
