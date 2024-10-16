@@ -1,0 +1,6 @@
+name = "ada lovelace"
+print(name.title())  # Output: Ada Lovelace
+
+name = "Ada Lovelace"
+print(name.upper())  # Output: ADA LOVELACE
+print(name.lower())  # Output: ada lovelace
