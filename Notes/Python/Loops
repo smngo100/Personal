@@ -4,9 +4,15 @@ Example:
 for i in range(0, n)
 Read as: The loop variable i takes on each value in the sequence range(0, n).
 
-Example: 
+Example (LIST): 
 for entry in phonebook
 Read as: The loop variable entry takes on each value in the iterable phonebook list.
+* NOTE: Here I am talking about a LIST not a DICTIONARY. For a dictionary, the statement would be read differently.
+
+Example (DICTIONARY):
+phonebook = {"a":b, "c":d, "e":f)
+for entry in phonebook
+Read as: The loop variable entry takes on each key in the iterable phonebook dictionary.
 
 Example: 
 for item in collection
