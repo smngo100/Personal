@@ -11,6 +11,12 @@
 * Series of characters
 * Can use single or double quotations around strings
 
-
+# Method 
+* An action that Python can perform on a piece of data
+* Every method is followed by a set of parentheses 
+Example
+name = "ada lovelace"
+print(name.title())
+* The dot (.) after name in name.title() tells Python to make the title() methjod act on the variable name
 
 
