@@ -12,7 +12,7 @@ Read as: The loop variable entry takes on each value in the iterable phonebook l
 Example (DICTIONARY):
 phonebook = {"a":b, "c":d, "e":f)
 for entry in phonebook
-Read as: The loop variable entry takes on each key in the iterable phonebook dictionary.
+Read as: The loop variable entry takes on each KEY in the iterable phonebook dictionary.
 
 Example: 
 for item in collection
