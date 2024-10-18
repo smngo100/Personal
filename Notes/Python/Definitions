@@ -27,3 +27,11 @@ print(name.title())
 
 # Float: Any number with a decimal point. This term refers to the face that a decimal point can appear at any position in a number.
 * Python defaults to a float in any operation that uses a float, even if the output is a whole number.
+
+# Constant: A variable whose value stays the same throughour the life of a program.
+* Python programmers use all CAPITAL letters to indicate a variable should be treated as a constant and never be changed.
+Example
+MAX_CONNECTIONS = 5000
+
+# Comment: Allows user to write notes in their spoken language, within the programs.
+
