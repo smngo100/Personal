@@ -25,3 +25,5 @@ print(name.title())
 
 # Syntax error: errors when Python doesn't recognize a section of your program as valid Python code.
 
+# Float: Any number with a decimal point. This term refers to the face that a decimal point can appear at any position in a number.
+* Python defaults to a float in any operation that uses a float, even if the output is a whole number.
