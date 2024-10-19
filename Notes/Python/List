@@ -9,6 +9,7 @@ list.pop()           Remove and return last item in list.
 list.pop(i)          Remove and return item at position i in list.
 
 # Modifying elements
+list[index] = "element"
 list.sort()          Sort the items of list in-place.
 list.reverse()       Reverse the elements of list in-place.
 
