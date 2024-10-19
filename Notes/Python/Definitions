@@ -35,3 +35,6 @@ MAX_CONNECTIONS = 5000
 
 # Comment: Allows user to write notes in their spoken language, within the programs.
 
+# List: A collection of items in a particular order.
+
+# 
