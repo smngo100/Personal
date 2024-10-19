@@ -36,5 +36,6 @@ MAX_CONNECTIONS = 5000
 # Comment: Allows user to write notes in their spoken language, within the programs.
 
 # List: A collection of items in a particular order.
+* Most lists the user will create will be dynamic, meaning they'll build a list and then add and remove elements from it as their program runs its course.
 
-# 
+# Append: When you append an item to a list, the new element is added to the end of the list.
