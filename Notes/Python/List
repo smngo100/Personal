@@ -1,3 +1,8 @@
+* x is an element
+
+# Accessing Element 
+variable[index]
+
 # Adding Elements
 list.append(x)        Add an item to the end of list.
 list.extend([x])      Add all items in [x] to list.
