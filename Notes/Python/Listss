@@ -44,3 +44,10 @@ print(popped_motorcycle)
 Output: ['honda', 'yamaha', 'suzuki']
         ['honda', 'yamaha']
         suzuki
+
+# Popping Items from Any Position in a List 
+motorcycles = ['honda', 'yamaha', 'suzuki']
+first_owned = motorcycles.pop(0)
+print(f"The first motorcycle I owned was a {first_owned.title()}.")
+
+# Removing an Item by Value
