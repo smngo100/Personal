@@ -1,0 +1,3 @@
+* Way to decide if you're unsure whether to use the del statement or the pop() method: 
+    * When you want to delete an item from a list and not use that item in any way use del statment (ex. del variable[index]
+    * When you want to use an item as you remove it, use the pop() methood (ex. variable.pop(index) 
