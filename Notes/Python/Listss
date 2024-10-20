@@ -11,7 +11,7 @@ motorcycles[0] = 'ducati'
 print(motorcycles) 
 Output: ['ducati', 'yamaha', 'suzuki']
 
-##### Adding Elements to a List #####
+########## Adding Elements to a List ##########
 
 # Appending Elements to the End of a List 
 * append() method adds the new element to the end of the list.
@@ -26,6 +26,8 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.insert(0, 'ducati') 
 print(motorcycles) 
 Output: ['ducati', 'honda', 'yamaha', 'suzuki']
+
+########## Removing Elements in a List ##########
 
 # Removing an Item Using the del Statement 
 * Use del statement if you know the position of the item you want to remove from a list. 
@@ -51,3 +53,19 @@ first_owned = motorcycles.pop(0)
 print(f"The first motorcycle I owned was a {first_owned.title()}.")
 
 # Removing an Item by Value
+* Use the remove() method if you only know the value of the item you want to remove.
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles) 
+motorcycles.remove('ducati')
+print(motorcycles) 
+Output: ['honda', 'yamaha', 'suzuki', 'ducati']
+        ['honda', 'yamaha', 'suzuki']
+
+######################################## Organizing a List ########################################
+
+
+
+
+
+
+
