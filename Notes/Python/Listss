@@ -1,0 +1,46 @@
+# Accessing Elements in a list
+* Access elemenet in a list by telling Python the position, or index of the item desired.
+bicycles = ['trek', 'connondale', 'redline', 'specialized']
+print(bicycles[0]) # Output: trek 
+
+######################################## Modifying, Adding, and Removing Elements ########################################
+
+# Modifying Elements in a List 
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles[0] = 'ducati' 
+print(motorcycles) 
+Output: ['ducati', 'yamaha', 'suzuki']
+
+##### Adding Elements to a List #####
+
+# Appending Elements to the End of a List 
+* append() method adds the new element to the end of the list.
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.append('ducati') 
+print(motorcycles) 
+Output: ['honda', 'yamaha', 'suzuki', 'ducati']
+
+# Inserting Elements into a List 
+* Add a new element at any position in the list using the insert() method. Do so by specifying the index of the new element and the value of the new item.
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.insert(0, 'ducati') 
+print(motorcycles) 
+Output: ['ducati', 'honda', 'yamaha', 'suzuki']
+
+# Removing an Item Using the del Statement 
+* Use del statement if you know the position of the item you want to remove from a list. 
+motorcycles = ['honda', 'yamaha', 'suzuki']
+del motorcycles[0]
+print(motorcycle) 
+Output: ['yamaha', 'suzuki']
+
+# Removing an Item Using the pop() Method 
+* pop() method removes the last item in a list, but it lets you work with that item after removing it. 
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles) 
+popped_motorcycle = motorcycles.pop()
+print(motorcycles) 
+print(popped_motorcycle) 
+Output: ['honda', 'yamaha', 'suzuki']
+        ['honda', 'yamaha']
+        suzuki
