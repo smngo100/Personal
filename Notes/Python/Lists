@@ -92,6 +92,11 @@ Output: Here is the original list:
         Here is the original list again:
         ['bmw', 'audi', 'toyota', 'subaru']
 
+# Reversing a List Temporarily with the sorted() Function 
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(sorted(cars, reverse = True))
+Output: ['toyota', 'subaru', 'bmw', 'audi']
+
 # Printing a List in Reverse Order 
 * Use the reverse() method to reverse the original order of a list.
 cars = ['bmw', 'audi', 'toyota', 'subaru']
