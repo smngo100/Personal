@@ -25,4 +25,12 @@ for number in numbers:
 Read as: For each number in the list numbers, print the number.
 
 
+Python Crash course by Eric Matthes 
+Chapter 4: Working with Lists 
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians: 
+  print(magician)
+Read as: For every magician in the list of magicians, print the magician's name.
+
 # ---------------------------------------- While Loops ----------------------------------------
