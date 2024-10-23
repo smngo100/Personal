@@ -35,5 +35,8 @@ for magician in magicians:
 Read as: For every magician in the list of magicians, print the magician's name.
 
 
+DOING SOMETHING AFTER A FOR LOOP
+* After a for loop, the user tends to display a message after all of the individual messages have been printed.
+
 
 # ---------------------------------------- While Loops ----------------------------------------
