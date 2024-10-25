@@ -1,0 +1,22 @@
+squares = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+print(squares, "\n")
+Output:
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100] 
+
+squares = [value ** 2 for value in range(1,11)]
+print(squares, "\n")
+Output: 
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100] 
+
+even_num = [num for num in range(2,11,2)]
+print(even_num, "\n")
+Output: 
+[2, 4, 6, 8, 10] 
+
+res = [value * 2 for value in range(1, 6)]
+print(res)
+Output: 
+[2, 4, 6, 8, 10] 
