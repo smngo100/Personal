@@ -109,7 +109,9 @@ Output: ['bmw', 'audi', 'toyota', 'subaru']
 * reverse() method changes the order of a list permantely, but you can revert to the original order anytime by applying reverse() to the same list a second time.
 
 # Find the Length of a List 
-
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+len(cars)
+Output: 4
 
 
 
