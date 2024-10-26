@@ -45,6 +45,6 @@ for i in range(1, 11):
     cubes.append(cube)
 print(cubes)
 
-# 4-8. Cube Comprehension
+# 4-9. Cube Comprehension
 cubes = [cube ** 3 for cube in range(1, 11)]
 print(cubes)
