@@ -43,3 +43,6 @@ MAX_CONNECTIONS = 5000
 # remove() method: If you don't know the position of the value you want to remove from a list.
 
 # List comprehension: Allows you to generate this same list in just one line of code. A list comprehension combines the for loop and the creation of new elements into one line, and automatically appends each new element.
+
+# Tuple: Values that cannot change are called immutable, an immutable list is called a tuple.
+
