@@ -46,3 +46,5 @@ MAX_CONNECTIONS = 5000
 
 # Tuple: Values that cannot change are called immutable, an immutable list is called a tuple.
 
+# Dictionary: Similar to a list but it allows user to connect pieces of information.
+
