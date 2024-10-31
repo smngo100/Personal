@@ -25,6 +25,26 @@ Output:
 """
 
 # Modifying Values in Dictionary
+alien_0 = {'color': 'green}
+print(f"The alien is {alien_0['color']}.")
 
+alien_0['color'] = 'yellow'
+print(f"the alien is {alien_0['color']}.")
+"""
+Output: 
+The alien is green.
+The alien is yellow.
+"""
 
+# Removing Key-Value Pairs
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+
+del alien_0['points']
+print(alien_0)
+"""
+Output:
+{'color': 'green', 'points': 5}
+{'color': 'green'}
+"""
 
