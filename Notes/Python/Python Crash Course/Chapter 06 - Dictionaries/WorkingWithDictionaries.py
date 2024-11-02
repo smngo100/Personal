@@ -6,7 +6,7 @@
 
 # Accessing Values in a Dictionary
 alien_0 = {'color': 'green'}
-print(alien_0['color'] 
+print(alien_0['color'])
 """
 Output:
 green
@@ -27,7 +27,7 @@ Output:
 
 # Modifying Values in Dictionary
 # Think of it as basically overwriting the value
-alien_0 = {'color': 'green}
+alien_0 = {'color': 'green'}
 print(f"The alien is {alien_0['color']}.")
 
 # See it overwrites it here with 'yellow'
@@ -51,3 +51,23 @@ Output:
 {'color': 'green'}
 """
 
+# Using get() to Access Values 
+alien_0 = {'color': 'green', 'speed': 'slow'}
+print(alien_0['points'])
+"""
+Output: 
+Traceback (most recent call last):
+  File "alien_no_points.py", line 2, in <module>
+    print(alien_0['points'])
+          ~~~~~~~^^^^^^^^^^
+KeyError: 'points'
+"""
+
+# Use the get() method. It requires a key as a first argument. As a second optional argument, you can pass the value to be returned if the key doesn't exist.
+alien_0 = {'color': 'green', 'speed': 'slow'}
+point_value = alien_0.get('points', 'No point value assigned.')
+print(point_value)
+"""
+Output:
+No point value assigned.
+"""
