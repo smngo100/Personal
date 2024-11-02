@@ -25,9 +25,11 @@ Output:
 """
 
 # Modifying Values in Dictionary
+# Think of it as basically overwriting the value
 alien_0 = {'color': 'green}
 print(f"The alien is {alien_0['color']}.")
 
+# See it overwrites it here with 'yellow'
 alien_0['color'] = 'yellow'
 print(f"the alien is {alien_0['color']}.")
 """
