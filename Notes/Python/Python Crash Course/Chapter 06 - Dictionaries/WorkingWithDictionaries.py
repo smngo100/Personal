@@ -77,3 +77,19 @@ print(point_value)
 Output:
 No point value assigned.
 """
+
+# Looping Through All Key-Value Pairs 
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'rust',
+    'phil': 'python',
+}
+
+for name, language in favorite_languages.items():
+    print(f"{name.title()}'s favorite language is {language.title()}.")
+
+# The key is assigned to the variable name, and the value is assigned to the variable language.
+
+# Looping Through All the Keys in a Dictionary 
+# The keys() method is useful when you don't need to work with all of the values in a dictionary.
