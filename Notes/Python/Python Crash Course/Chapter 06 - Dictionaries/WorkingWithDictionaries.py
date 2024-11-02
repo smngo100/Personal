@@ -2,6 +2,7 @@
 # Note: A key's value can be a number, a string, a list, or even enother dictionary. Basically, you can use any object that you can create in Python as a value in a dictionary.
 # A key-value pair is a set of values associated with each other.
 # A dictionary is wrapped in braces {}
+# Note: get() is a method for dictionaries
 
 # Accessing Values in a Dictionary
 alien_0 = {'color': 'green'}
