@@ -24,6 +24,19 @@ for number in numbers:
   print(number)
 Read as: For each number in the list numbers, print the number.
 
+Dictionary Example: 
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'rust',
+    'phil': 'python',
+}
+
+for name, language in favorite_languages.items():
+    print(f"\nName: {name.title()}")
+    print(f"Language: {language.title()}")
+Interpreted as: The key is assigned to the variable name, and the value is assigned to the variable language.
+
 
 ---------- Python Crash course by Eric Matthes ----------
 ------------- Chapter 4: Working with Lists -------------
