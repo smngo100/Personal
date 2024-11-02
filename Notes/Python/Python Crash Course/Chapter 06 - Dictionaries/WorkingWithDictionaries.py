@@ -63,7 +63,7 @@ Traceback (most recent call last):
 KeyError: 'points'
 """
 
-# Use the get() method. It requires a key as a first argument. As a second optional argument, you can pass the value to be returned if the key doesn't exist.
+# Use the get() method. It requires a key as a first argument. As a second optional argument, you can pass the value to be returned if the key doesn't exist. If you call .get with just one argument, the key, the default value is None).
 alien_0 = {'color': 'green', 'speed': 'slow'}
 point_value = alien_0.get('points', 'No point value assigned.')
 print(point_value)
