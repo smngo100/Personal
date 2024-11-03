@@ -125,6 +125,7 @@ for language in favorite_languages.values():
 
 # Using a set() 
 # A set is a collection in which each item must be unique.
+# set() wraps around a collection of values
 favorite_languages = {
     'jen': 'python',
     'sarah': 'c',
