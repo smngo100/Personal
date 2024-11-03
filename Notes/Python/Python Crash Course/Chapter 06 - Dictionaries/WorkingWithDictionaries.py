@@ -85,7 +85,6 @@ favorite_languages = {
     'edward': 'rust',
     'phil': 'python',
     }
-
 for name, language in favorite_languages.items():
   print(f"{name.title()}'s favorite language is {language.title()}.")
 # The key is assigned to the variable name, and the value is assigned to the variable language.
@@ -98,20 +97,9 @@ favorite_languages = {
     'edward': 'rust',
     'phil': 'python',
     }
-
 for name in favorite_languages.keys():
   print(name.title())
   # Looping through the keys is the default behavior when looping through a dictionary, so this code would have the same output if you wrote for name in favorite_languages
-
-# Looping Through All the Values in a Dictionary 
-favorite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'rust',
-    'phil': 'python',
-    }
-for language in favorite_languages.values():
-  print(language.title())
 
 # Looping Through a Dictionary's Keys in a Particular Order
 # Can use the sorted() method to temporarily sort the keys order
@@ -123,3 +111,26 @@ favorite_languages = {
     }
 for name in sorted(favorite_languages.keys()):
   print(f"{name.title()}, thank you for taking the poll.")
+
+# Looping Through All the Values in a Dictionary 
+# The values() method returns a sequence of values without any keys.
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'rust',
+    'phil': 'python',
+    }
+for language in favorite_languages.values():
+  print(language.title())
+
+# Using a set() 
+# A set is a collection in which each item must be unique.
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'rust',
+    'phil': 'python',
+    }
+print("The following languages have been mentioned:")
+for language in set(favorite_languages.values()):
+  print(language.title())
