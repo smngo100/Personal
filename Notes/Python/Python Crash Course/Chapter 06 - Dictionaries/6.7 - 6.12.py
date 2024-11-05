@@ -1,4 +1,5 @@
 # 6-7. People
+# A list of dictionaries 
 person_1 = {
     'first': 'john',
     'last': 'steel',
@@ -26,6 +27,7 @@ for person in persons:
     print(f"{person['first'].title()} {person['last'].title()} is {person['age']} years old and lives in {person['city'].title()}.")
 
 # 6-8. Pets
+# A list of dictionaries 
 dog = {
     'animal': 'dog',
     'owner': 'bob',
@@ -47,6 +49,7 @@ for pet in pets:
     print(f"{pet['owner'].title()} has a {pet['animal']}.")
 
 # 6-9. Favorite Places
+# A list in a dictionary
 favorite_places = {
     'bob': ['paris', 'new york', 'philadelphia'],
     'sally': ['houston', 'boston'],
@@ -63,6 +66,7 @@ for name, places in favorite_places.items():
         print(f"\t{place.title()}")
 
 # 6-10. Favorite Numbers
+# A list in a dictionary
 fav_nums = {
     'kelly': [5, 20, 48],
     'mike': [25, 14, 56],
@@ -78,6 +82,7 @@ for name, numbers in fav_nums.items():
         print(f"\t{number}")
 
 # 6-11. Cities
+# A dictionary in a dictionary
 cities = {
     'paris': {
         'country': 'france',
