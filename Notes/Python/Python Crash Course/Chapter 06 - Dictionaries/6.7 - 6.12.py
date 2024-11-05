@@ -101,9 +101,9 @@ cities = {
 
 for city, city_info in cities.items():
     print(f"\nCity: {city.title()}")
-    country_population_face = f"{city.title()}, {city_info['country'].title()} has a population of {city_info['population']} and is {city_info['fact']}."
+    country_population_fact = f"{city.title()}, {city_info['country'].title()} has a population of {city_info['population']} and is {city_info['fact']}."
 
-    print(f"\t{country_population_face}")
+    print(f"\t{country_population_fact}")
 
 # 6-12. Extensions
 # Do
