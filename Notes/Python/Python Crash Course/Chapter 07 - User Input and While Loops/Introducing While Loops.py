@@ -42,4 +42,6 @@ while True:
 * Break statements are cleaner for simple, single-condition exits, reducing the need for additional variables.
 """
 
+# Using continue in a Loop
+
 
