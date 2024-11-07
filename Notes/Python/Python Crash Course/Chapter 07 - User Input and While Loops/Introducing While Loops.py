@@ -36,6 +36,7 @@ while True:
 2. Exit Conditions: 
 * Using a flag can make sense when there are multiple conditions that might end the loop since you can set the flag from different points in the loop.
 * A break statement is more straightforward for a single exit condition.
+
 3. Code Structure: 
 * Flags are useful for loops with complex exit conditions where the decision to exit can depend on multiple factors and might be set at various points within the loop.
 * Break statements are cleaner for simple, single-condition exits, reducing the need for additional variables.
