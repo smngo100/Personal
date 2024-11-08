@@ -43,5 +43,5 @@ while True:
 """
 
 # Using continue in a Loop
-
+# The continue statement returns to the beginning of the loop
 
