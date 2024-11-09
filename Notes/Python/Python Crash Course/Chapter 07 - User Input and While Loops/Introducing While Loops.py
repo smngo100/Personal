@@ -45,3 +45,20 @@ while True:
 # Using continue in a Loop
 # The continue statement returns to the beginning of the loop
 
+# Using a while loop with Lists and Dictionaries 
+# A for loop is effective for looping through a list, but you shoudlnt' modify a list inside a for loop. To modify a list as you work through it, use a while lop. 
+unconfirmed_users = ['alice', 'brian', 'candace']
+confirmed_users = []
+
+while unconfirmed_users:
+    current_user = unconfirmed_users.pop()
+
+    print(f"Verifying user: {current_user.title()}")
+    confirmed_users.append(current_user)
+
+print(f"\nThe following users have been confirmed: ")
+
+for confirmed_user in confirmed_users:
+    print(confirmed_user.title())
+
+# Removing All Instance of Specific Values from a List
