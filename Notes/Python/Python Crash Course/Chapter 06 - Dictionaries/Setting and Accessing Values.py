@@ -29,6 +29,21 @@ responses[name] = response  # Now, responses = {'Alice': 'Hello, world!'}
 # responses[name] = response sets the value for the key "Alice" to "Hello, world!".
 
 
+######################################## SUMMARY ########################################
+"""
+
+- Setting a value: 
+  response[key] = value 
+  * This assigns value to the dictionary for the given key.
+
+- Accessing a value: 
+  value = response[key]
+  * This retrieves the value for the given key from the dictionary.
+  
+"""
+
+
+
 
 
 
