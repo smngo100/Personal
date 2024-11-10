@@ -33,11 +33,11 @@ responses[name] = response  # Now, responses = {'Alice': 'Hello, world!'}
 """
 
 - Setting a value: 
-  response[key] = value 
+  responses[key] = value 
   * This assigns value to the dictionary for the given key.
 
 - Accessing a value: 
-  value = response[key]
+  value = responses[key]
   * This retrieves the value for the given key from the dictionary.
   
 """
