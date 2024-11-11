@@ -1,49 +1,42 @@
-# Accessing Values
-"""
-- When you use a key within square brackets with a dictionary, it retrieves the value associated with that key
-- Accessing a Value for a Key (Right Side of Assignment or in an Expression) 
-- When you use brackets on the right side of an assignment or within an expression, you are accessing the value associated with a specific key in the dictionary
-"""
+# 7-8. Deli
+sandwich_orders = ['tuna', 'reuben', 'turkey', 'ham']   # List with various sandwiches
+finished_sandwiches = []                                # Empty list of finished sandwiches
 
-responses = {'Alice': 'Hello, world!'}  # Existing dictionary
-name = "Alice"  # Define a key
+while sandwich_orders:                                  # While there are still sandwiches in sandwich_orders
+  making_sandwich = sandwich_orders.pop()               # Pop a sandwich as it is being made
 
-# Accessing the value for the key "Alice"
-response = responses[name]  # This retrieves 'Hello, world!' and assigns it to `response`
-print(response)  # Output: Hello, world!
+  print(f"Making {making_sandwich} sandwich.")
+  finished_sandwiches.append(making_sandwich)           # Append popped sandwich into finished_sandwiches
 
+print("\nFinished making the following sandwiches: ")
+for sandwich in finished_sandwiches:                    # Loop through finished_sandwiches
+    print(f"I made your {sandwich} sandwich.")
 
-# Setting Values 
-""" 
-- Setting a Value for a Key (Left Side of Assignment) 
-- When you use brackets on the left side of an assignment, you are setting or updating the value associated with a specific key in the dictionary
-- When you use a key within square brackets and assign a value to it, it either updates an existing key or adds a new key-value pair to the dictionary
-"""
+# 7-9. No Pastrami
+sandwich_orders = ['pastrami', 'tuna', 'reuben', 'pastrami', 'turkey', 'ham', 'pastrami']   # List of sandwiches but with multiple same sandwiches
+print("\nThe deli has run out of pastrami.")
 
-nses = {}  # Create an empty dictionary
-name = "Alice"  # Define a key
-response = "Hello, world!"  # Define a value
+while 'pastrami' in sandwich_orders:                    # While pastrami is still in sandwich_orders
+    sandwich_orders.remove('pastrami')                  # Remove pastrami until there's none left
 
-# Setting the value for the key "Alice"
-responses[name] = response  # Now, responses = {'Alice': 'Hello, world!'}
-# responses[name] = response sets the value for the key "Alice" to "Hello, world!".
+print(f"The following sandwiches are left: ")
+for sandwich in sandwich_orders:                        # Loop through sandwich_orders
+  print(f"{sandwich.title()} sandwich")
 
+# 7-10. Dream Vacation
+responses = {}                                          # Define an empty dictionary (responses)
+polling_active = True                                   # Set a flag (polling_active) to indicate that polling is active.
 
-######################################## SUMMARY ########################################
-"""
+while polling_active:                                   # As long as polling_active is True, Python wil run the code in the while loop.
+    name = input("\nWhat is your name? ")
+    response = input("If you could visit one place in the world, where would you go? ")
+             # Key    # Value
+    responses[name] = response                          # Set user's response to responses dictionary
+                                                        
+    repeat = input("Would you like to let another person respond? (yes / no) ")
+    if repeat == 'no':                                  # If user's answer is no, polling ends
+        polling_active = False
 
-- Setting a value: 
-  responses[key] = value 
-  * This assigns value to the dictionary for the given key.
-
-- Accessing a value: 
-  value = responses[key]
-  * This retrieves the value for the given key from the dictionary.
-  
-"""
-
-
-
-
-
-
+print(f"\n--- Poll Results ---")
+for name, response in responses.items():                # for key, value in dictionary.items()
+    print(f"{name.title()} would like to visit {response.title()}.")
