@@ -1,7 +1,7 @@
 # 7-4. Pizza Toppings
-pizza_toppings = []
-message = ""
-while message != 'quit':
+pizza_toppings = [] # Define empty list pizza toppings   
+message = ""        # Define as an empty string so Python has something to check the first time it reaches the while line 
+while message != 'quit':    # While message is not quit
     message = input("\nEnter a pizza topping (or enter 'quit' to stop): ").lower()
 
     if message != 'quit':
