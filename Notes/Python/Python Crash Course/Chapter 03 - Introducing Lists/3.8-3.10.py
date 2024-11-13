@@ -40,7 +40,6 @@ print(languages)
 
 # Removing an Item using the pop() Method
 print(languages)
-print(languages)
 popped_language = languages.pop()
 print(popped_language)
 
@@ -53,4 +52,4 @@ languages.remove("Chinese")
 print(languages)
 
 # Index error
-#print(languages[2])
+#print(languages[2]) # IndexError: list index out of range
