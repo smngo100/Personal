@@ -6,11 +6,12 @@ print(f"The last three items in the list are: {animals[5:]}\n")
 
 # 4-11. My Pizzas, Your Pizzas
 fav_pizzas = ["pineapple", "mushroom", "pepperoni"]
-friend_pizzas = fav_pizzas[:]
+friend_pizzas = fav_pizzas[:]  # Make a copy of the list of pizzas
 
-fav_pizzas.append("cheese")
-friend_pizzas.append("bbq")
+fav_pizzas.append("cheese")    # Add a new pizza to the original list 
+friend_pizzas.append("bbq")    # Add a different pizza to the list friend_pizzas
 
+# Prove you have two separate lists 
 print("My favorite pizzas are: ")
 for fav_pizza in fav_pizzas:
     print(fav_pizza)
