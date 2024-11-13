@@ -1,7 +1,7 @@
 # Functions: named blocks of code designed to do one specific job. When you want to perform particular task that you've defined in a function, you call the function responsible for it. 
 
 # Defining a Function 
-def greet_user():                   # keyword def informs Python that you're defining a function. 
+def greet_user():                   
   """Display a simple greeting."""  # Docstring: describes what the function does. A string used to document a Python module, class, function or method.
   print("Hello!")
 
