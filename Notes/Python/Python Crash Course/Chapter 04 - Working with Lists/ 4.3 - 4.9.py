@@ -21,7 +21,7 @@ print(f"Sum num: {sum(num)}")
 print()
 
 # 4-6. Odd Numbers
-for i in range(1, 20, 2):
+for i in range(1, 20, 2):    # for i in range(first value, second value, step size)
     print(i)
 print()
 
