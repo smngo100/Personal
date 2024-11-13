@@ -17,7 +17,7 @@ for i in range(1, 1000001):
     num.append(i)
 print(f"Min num: {min(num)}")
 print(f"Max num: {max(num)}")
-print(f"Sum num: {sum(num)})
+print(f"Sum num: {sum(num)}")
 print()
 
 # 4-6. Odd Numbers
