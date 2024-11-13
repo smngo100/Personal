@@ -10,3 +10,8 @@ greet_user()
 # This is the function definition, which tells Pytthon the name of the fucntion and, if applicable, what kind of information the function needs to do its job. The parentheses hold that information.
 
 # Passing Information to a Function 
+def greet_user(username):
+    """Display a simple greeting."""
+    print(f"Hello, {username.title()}!")
+
+greet_user('jesse'
