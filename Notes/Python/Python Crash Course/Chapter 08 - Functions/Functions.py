@@ -17,3 +17,5 @@ def greet_user(username):
 greet_user('jesse')
 
 # Arguments and Parameters
+# Parameter: A piece of information the function needs to do its job.
+# Argument: A piece of informaiton that's passed from a function call to a function.
