@@ -16,6 +16,44 @@ def greet_user(username):
 
 greet_user('jesse')
 
-# Arguments and Parameters
-# Parameter: A piece of information the function needs to do its job.
-# Argument: A piece of informaiton that's passed from a function call to a function.
+"""
+Arguments and Parameters
+- Parameter: A piece of information the function needs to do its job.
+- Argument: A piece of informaiton that's passed from a function call to a function.
+"""
+
+# Passing Arguments 
+  # Positional arguments: need to be in the same order the parameters were written 
+  # Keyword arguments: each argument consists of a variable name and a value
+
+# Positional Arguments 
+def describe_pet(animal_type, pet_name):
+    """Display information about a pet."""
+    print(f"\nI have a {animal_type}.")
+    print(f"My {animal_type}'s name is {pet_name.title()}.")
+
+describe_pet('hamster', 'harry')
+# The definition shows function needs a type of animal and the animal's name
+  # Need to provide an animal type and name in that order
+
+# Keyword Arguments 
+  # Keyword argument: a name-value pair that you pass to a function 
+def describe_pet(animal_type, pet_name):
+    """Display information about a pet."""
+    print(f"\nI have a {animal_type}.")
+    print(f"My {animal_type}'s name is {pet_name.title()}.")
+
+describe_pet(animal_type='hamster', pet_name='harry')
+
+# Default Values 
+def describe_pet(pet_name, animal_type='dog'):
+    """Display information about a pet."""
+    print(f"\nI have a {animal_type}.")
+    print(f"My {animal_type}'s name is {pet_name.title()}.")
+
+describe_pet(pet_name='willie')
+# *Note*: When you use default values, any parameter with a default value needs to be listed after all the parameters taht don't have default values. 
+# . . . So that Python can continue interpreting positional arguments correctly.
+
+
+
