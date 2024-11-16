@@ -10,11 +10,11 @@ for username in usernames:
 
 # 5-9. No Users
 usernames = []
-if usernames:
+if usernames:                                # if list is NOT empty, print statement     
     for username in usernames:
-        print(f"Hello, {username}")
-else:
-    print("We need to find some users!\n")
+        print(f"Hello, {username}")    
+else:                                        # If list is empty, print statement
+    print("We need to find some users!\n")   
 
 # 5-10. Checking Usernames
 current_users = ['mochiz', 'blueberry', 'pinecone', 'breadie', 'creampuff']
