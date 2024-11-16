@@ -1,6 +1,6 @@
 # 5-8. Hello Admin
 usernames = ['admin', 'mochiz', 'superdog', 'blueberry', 'creampuff']
-user = input("What is your username?").lower()
+user = input("What is your username? ").lower()
 
 for username in usernames:
     if username == 'admin':
