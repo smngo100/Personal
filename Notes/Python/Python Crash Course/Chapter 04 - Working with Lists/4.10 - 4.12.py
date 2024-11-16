@@ -1,6 +1,8 @@
+# In silcing, when you include an end value, it excluse that value when printed. 
+
 # 4-10. Slices
 animals = ["wolf", "bear", "lion", "deer", "bobcat", "fox", "moose", "zebra"]
-print(f"The first three items in the list are: {animals[:3]}.") # animals[0:3] would give same output
+print(f"The first three items in the list are: {animals[:3]}.") # animals[0:3] would give same output    # Here, it excludes the element at index 3. It will print "worlf", "bear", "lion", but not the last element "deer"
 print(f"Three items from the middle of the list are: {animals[2:5]}.")
 print(f"The last three items in the list are: {animals[5:]}\n")
 
