@@ -2,6 +2,7 @@
 foods = ("pizza", "sandwiches", "tacos", "burgers", "salad")    # Store five simple foods in tuple
 
 # Print each food the restaurant offers
+# For a tuple, you use a for loop as you would a list
 for food in foods:
     print(food)
 
