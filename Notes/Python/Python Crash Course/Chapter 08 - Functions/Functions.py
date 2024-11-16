@@ -55,5 +55,15 @@ describe_pet(pet_name='willie')
 # *Note*: When you use default values, any parameter with a default value needs to be listed after all the parameters taht don't have default values. 
 # . . . So that Python can continue interpreting positional arguments correctly.
 
+# Return Values
+# Return value: The value the function returns
+# return statement takes a value from inside a function and sends it back to the line that called the function
 
+def get_formatted_name(first_name, last_name):
+    """Return a full name, neatly formatted."""
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+
+musician = get_formatted_name('jimi', 'hendrix')
+print(musician)
 
