@@ -13,7 +13,7 @@ usernames = []
 if usernames:                                # if list is NOT empty, print statement     
     for username in usernames:
         print(f"Hello, {username}")    
-else:                                        # If list is empty, print statement
+else:                                        # Else, if list is empty, print statement
     print("We need to find some users!\n")   
 
 # 5-10. Checking Usernames
