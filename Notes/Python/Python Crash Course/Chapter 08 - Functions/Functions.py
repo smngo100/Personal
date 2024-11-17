@@ -67,3 +67,8 @@ def get_formatted_name(first_name, last_name):
 musician = get_formatted_name('jimi', 'hendrix')
 print(musician)
 
+# Making an Argument Optional 
+# To make argument optional, give the argument an empty default value and ignore the the argument unless the user provides a value 
+# set the default value of the argument to an empty string and move it to the end of the list of parameters 
+
+# 
