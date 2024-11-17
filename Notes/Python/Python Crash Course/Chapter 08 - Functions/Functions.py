@@ -71,4 +71,11 @@ print(musician)
 # To make argument optional, give the argument an empty default value and ignore the the argument unless the user provides a value 
 # set the default value of the argument to an empty string and move it to the end of the list of parameters 
 
-# 
+# Returning a Dictionary 
+def build_person(first_name, last_name):
+    """Return a dictionary of information about a person."""
+  person = {'first': first_name, 'last': last_name}
+  return person
+
+musician = build_person('jimi', 'hendrix')
+  print(musician)
