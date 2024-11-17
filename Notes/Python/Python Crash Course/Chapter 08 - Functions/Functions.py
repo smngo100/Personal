@@ -5,7 +5,7 @@ def greet_user():
   """Display a simple greeting."""  # Docstring: describes what the function does. A string used to document a Python module, class, function or method.
   print("Hello!")
 
-greet_user() 
+greet_user()   # function call: tells Python to execute the code in the function
 # Keyword def informs Python that you're defining a function 
 # This is the function definition, which tells Pytthon the name of the fucntion and, if applicable, what kind of information the function needs to do its job. The parentheses hold that information.
 
