@@ -131,3 +131,7 @@ completed_models = []
 
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
+# Preventing a Function from Modifying a List 
+# Send a copy of a list to a function 
+function_name(list_name[:])  # Slice notation makes a copy of the list to send to the function 
