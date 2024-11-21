@@ -19,7 +19,7 @@ print(response)  # Output: Hello, world!
 - When you use a key within square brackets and assign a value to it, it either updates an existing key or adds a new key-value pair to the dictionary
 """
 
-nses = {}  # Create an empty dictionary
+responses = {}  # Create an empty dictionary
 name = "Alice"  # Define a key
 response = "Hello, world!"  # Define a value
 
