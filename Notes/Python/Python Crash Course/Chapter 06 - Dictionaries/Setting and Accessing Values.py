@@ -37,6 +37,5 @@ responses[name] = response  # Now, responses = {'Alice': 'Hello, world!'}
 - Accessing a value: 
   value = response[key]
   value = responses[key]
-  * This retrieves the value for the given key from the dictionary.
-  
+  * This retrieves the value for the given key from the dictionary. 
 """
