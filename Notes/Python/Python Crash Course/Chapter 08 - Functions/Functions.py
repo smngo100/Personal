@@ -115,13 +115,13 @@ usernames = ['hannah', 'ty', 'margot']
 greet_users(usernames) 
 
 # Modifying a List in a Function 
-def print_models(unprinted_designs, completed_models):
+def print_models(unprinted_designs, completed_models):  # Handles printing the designs 
     while unprinted_designs:
         current_design = unprinted_designs.pop()
         print(f"Printing mode: {current_design}")
         completed_models.append(current_design)
 
-def show_completed_models(completed_models):
+def show_completed_models(completed_models):            # Summarizes the prints that have been made 
     print(f"\n The following models that were printed.")
     for completed_model in completed_models:
         print(completed_model)
