@@ -135,3 +135,13 @@ show_completed_models(completed_models)
 # Preventing a Function from Modifying a List 
 # Send a copy of a list to a function 
 function_name(list_name[:])  # Slice notation makes a copy of the list to send to the function 
+
+# Passing an Arbitrary Number of Arguments 
+def make_pizza(*toppings): 
+    print(toppings) 
+
+make_pizza('pepperoni')
+make_pizza('mushrooms', 'green peppers', 'extra cheese') 
+# * asterisk in the parameter name *toppings tells Python to make a tuple called toppings, containing all the values this function receives
+# ** double asterisks tells Python to createa a dictionary containing all the extra name-value pairs the function receives
+# You'll often see the parameter name **kwargs used to collect nonspecific keyword arugments 
