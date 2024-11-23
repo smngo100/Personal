@@ -112,10 +112,3 @@ Output: ['bmw', 'audi', 'toyota', 'subaru']
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 len(cars)
 Output: 4
-
-
-
-
-
-
-
