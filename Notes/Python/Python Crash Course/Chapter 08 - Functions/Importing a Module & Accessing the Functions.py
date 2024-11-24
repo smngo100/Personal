@@ -7,4 +7,7 @@ Each function in the module is available through the following syntax:
 
 You can also import a SPECIFIC FUNCTION from a module: 
   from module_name import function_name
+
+You can import as many functions as you want from a module by separating each function's name with a comma: 
+  from module_name import function_0, function_1, function_2
 """
