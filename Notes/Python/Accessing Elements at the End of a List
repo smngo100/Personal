@@ -1,0 +1,10 @@
+Zero-based indexing:
+Python uses zero-based indexing, meaning that the first element in a list has an index of 0, the second has an index of 1, and so on. Therefore, the last element has an index of n - 1, where n is the total number of elements in the list.
+
+Accessing the last element:
+If you were to set the right bound to n, you would be trying to access an element that doesn't exist (since the last index is n - 1). This would result in an index out of range error.
+
+Example:
+Consider a list with 5 elements: [2, 5, 8, 12, 16].
+* The first element is at index 0.
+* The last element is at index 4 (which is 5 - 1).
