@@ -1,6 +1,12 @@
-# nModule: a file ending in .py that contaisn the code you wan tto import into your program
+# Module: a file ending in .py that contaisn the code you wan tto import into your program
 
 """
+# Importing an Entire Module 
+
+  import module_name
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Each function in the module is available through the following syntax:
 
   module_name.function_name() 
