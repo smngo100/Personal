@@ -22,4 +22,4 @@ def describe_city(city, country = 'the united states'):
     print(f"{city.title()} is in {country.title()}.")
 describe_city('california')
 describe_city('san diego')
-describe_city(city = 'paris', country = 'europe')
+describe_city(city = 'paris', country = 'france')
