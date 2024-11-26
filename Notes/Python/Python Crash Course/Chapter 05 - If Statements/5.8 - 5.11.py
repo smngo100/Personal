@@ -23,9 +23,9 @@ new_users = ['pineapple', 'popcorn', 'bloop', 'blueberry', 'creampuff']
 # Need to make case-insensitive??
 for new_user in new_users:
     if new_user in current_users:
-        print("User must enter a new username.")
+        print("\nUser must enter a new username.")
     else:
-        print(f"The username {new_user} is available.")
+        print(f"\nThe username {new_user} is available.")
         print("Creating username!")
 
 # 5-11. Ordinal Numbers
