@@ -147,3 +147,15 @@ make_pizza('mushrooms', 'green peppers', 'extra cheese')
 
 # ** double asterisks tells Python to createa a dictionary containing all the extra name-value pairs the function receives
 # You'll often see the parameter name **kwargs used to collect nonspecific keyword arugments 
+
+"""
+If you specify a default value for a parameter, no spaces should be used on either side of the equal sign:
+
+  def function_name(parameter_0, parameter_1='default value')
+
+
+The same convention should be used for keyword arguments in function calls:
+  
+  function_name(value_0, parameter_1='value')
+
+"""
