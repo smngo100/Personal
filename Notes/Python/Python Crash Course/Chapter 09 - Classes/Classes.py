@@ -18,4 +18,13 @@ Notes
 The __init__() Method  # Special method that Python runs automatically whenever a new instanced based on the class
 # Any variable prefixed with self is available to every method in the class
 
+Accessing Attributes 
+# To access the attributes of an instance, you use DOT NOTATION. 
+  my_dog.name 
+
+Calling Methods 
+# Use dot notation to call any method 
+  my_dog.sit() 
+  my_dog.roll_over()
+
 
