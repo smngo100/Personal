@@ -8,15 +8,19 @@ class Restaurant:
         print(f"{self.restaurant_name.title()} has {self.cuisine_type}.")
 
     def open_restaurant(self):
-        print(f"The restaurant {self.restaurant_name.title()} is open.")
+        print(f"The restaurant {self.restaurant_name.title()} is now open.")
 
-restaurant = Restaurant('pizza hut', 'pizza')
+# Instance
+restaurant = Restaurant('in-n-out', 'burgers')
 
+# Print the two attributes individually
 print(restaurant.restaurant_name)
 print(restaurant.cuisine_type)
 
+# Call both methods
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
+print()
 
 
 # 9-2. Three Restaurants
@@ -29,38 +33,47 @@ class Restaurant:
         print(f"{self.restaurant_name.title()} has {self.cuisine_type}.")
 
     def open_restaurant(self):
-        print(f"The restaurant {self.restaurant_name.title()} is open.")
+        print(f"The restaurant {self.restaurant_name.title()} is now open.")
 
-restaurant1 = Restaurant('del taco', 'tacos')
-restaurant2 = Restaurant('in-n-out', 'burgers')
-restaurant3 = Restaurant('kfc', 'chicken')
+# Three different instances
+r1 = Restaurant('taco bell', 'tacos')
+r2 = Restaurant('dominos', 'pizza')
+r3 = Restaurant('the habit', 'burgers')
 
-restaurant1.describe_restaurant()
-restaurant2.describe_restaurant()
-restaurant3.describe_restaurant()
+# Call describe_restaurant() for each instance
+r1.describe_restaurant()
+r2.describe_restaurant()
+r3.describe_restaurant()
+print()
 
 
 # 9-3. Users
-class User:
-    def __init__(self, first_name, last_name, age):
+class Users:
+    def __init__(self, first_name, last_name, fav_color, hobby):
         self.first_name = first_name
         self.last_name = last_name
-        self.age = age
+        self.fav_color = fav_color
+        self.hobby = hobby
 
     def describe_user(self):
-        print(f"{self.first_name.title()} {self.last_name.title()} is {self.age} years old.")
+        print(f"Name: {self.first_name.title()} {self.last_name.title()}"
+              f"\nFavorite Color: {self.fav_color}"
+              f"\nHobby: {self.hobby}")
 
     def greet_user(self):
-        print(f"Welcome, {self.first_name.title()} {self.last_name.title()}.")
+        print(f"Welcome, {self.first_name.title()} {self.last_name.title()}!\n")
 
-user1 = User('mochiz', 'cheese', 19)
-user2 = User('blueberry', 'muffin', 14)
-user3 = User('cream', 'puff', 10)
+# Several instances representing different users 
+user1 = Users('mochiz', 'cheese', 'blue', 'gaming')
+user2 = Users('blueberry', 'muffin', 'lavender', 'baking')
+user3 = Users('spaghetti', 'meatball', 'red', 'cooking')
 
+# Call both methods for each user
 user1.describe_user()
-user2.describe_user()
-user3.describe_user()
-
 user1.greet_user()
+
+user2.describe_user()
 user2.greet_user()
+
+user3.describe_user()
 user3.greet_user()
