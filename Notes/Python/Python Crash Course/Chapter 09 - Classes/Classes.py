@@ -15,7 +15,7 @@ Notes
 # By convention, capitalized names refer to classes in Python
 # No parentheses in the class definition
 
-The __init__() Method  # Special method that Python runs automatically whenever a new instanced based on the class
+The __init__() Method  # Special method that Python runs automatically whenever we create a new instanced based on the class
 # Any variable prefixed with self is available to every method in the class
 
 Accessing Attributes 
