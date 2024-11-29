@@ -57,13 +57,13 @@ class Users:
 
     def describe_user(self):
         print(f"Name: {self.first_name.title()} {self.last_name.title()}"
-              f"\nFavorite Color: {self.fav_color}"
-              f"\nHobby: {self.hobby}")
+              f"\nFavorite Color: {self.fav_color.title()}"
+              f"\nHobby: {self.hobby.title()}")
 
     def greet_user(self):
         print(f"Welcome, {self.first_name.title()} {self.last_name.title()}!\n")
 
-# Several instances representing different users 
+# Several instances representing different users
 user1 = Users('mochiz', 'cheese', 'blue', 'gaming')
 user2 = Users('blueberry', 'muffin', 'lavender', 'baking')
 user3 = Users('spaghetti', 'meatball', 'red', 'cooking')
