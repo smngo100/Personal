@@ -10,7 +10,7 @@ class Restaurant:
     def open_restaurant(self):
         print(f"The restaurant {self.restaurant_name.title()} is now open.")
 
-# Instance
+# Make an instance from the Restaurant class and assign it to the variable restaurant
 restaurant = Restaurant('in-n-out', 'burgers')
 
 # Print the two attributes individually
@@ -36,6 +36,7 @@ class Restaurant:
         print(f"The restaurant {self.restaurant_name.title()} is now open.")
 
 # Three different instances
+# Create three different instances from the Restaurant class and assign it to each variable
 r1 = Restaurant('taco bell', 'tacos')
 r2 = Restaurant('dominos', 'pizza')
 r3 = Restaurant('the habit', 'burgers')
@@ -64,6 +65,7 @@ class Users:
         print(f"Welcome, {self.first_name.title()} {self.last_name.title()}!\n")
 
 # Several instances representing different users
+# Create several instances from the Users class and assign it to each variable
 user1 = Users('mochiz', 'cheese', 'blue', 'gaming')
 user2 = Users('blueberry', 'muffin', 'lavender', 'baking')
 user3 = Users('spaghetti', 'meatball', 'red', 'cooking')
