@@ -17,7 +17,13 @@ def __init__(self, make, model, year):
 
 
 ##### Modifying an Attribute's Value Directly #####
+# Use DOT NOTATION to access the car's odometer_reading attribute, and set its value directly 
+class Car:
+    --snip--
+  
+my_new_car.odometer_reading = 23
+my_new_car.read_odometer()
 
 
-
+##### Modifying an Attribute's Value Through a Method #####
 
