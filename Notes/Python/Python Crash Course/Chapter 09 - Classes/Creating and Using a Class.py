@@ -18,6 +18,10 @@ Notes
 The __init__() Method  # Special method that Python runs automatically whenever we create a new instanced based on the class
 # Any variable prefixed with self is available to every method in the class
 
+Making an Instance from a Class 
+# Create an instance 
+my_dog = Dog('Willie', 6)
+
 Accessing Attributes 
 # To access the attributes of an instance, you use DOT NOTATION. 
   my_dog.name 
