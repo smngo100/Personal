@@ -30,7 +30,7 @@ class Car:
     --snip--
 
     def update_odometer(self, mileage):
-        """Set the odometer reading to the given value."""
+        #"""Set the odometer reading to the given value."""
         self.odometer_reading = mileage
       
 my_new_car.update_odometer(23)
@@ -45,7 +45,7 @@ class Car:
     --snip--
   
   def increment_odometer(self, miles):
-    """Add the given amount to the odometer reading."""
+    #"""Add the given amount to the odometer reading."""
     self.odometer_reading += miles
 
 my_used_car = Car('subaru', 'outback', 2019)
