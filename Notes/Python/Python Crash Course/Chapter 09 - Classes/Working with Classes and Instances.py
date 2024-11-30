@@ -1,4 +1,4 @@
-# Setting a Default Value for an Attribute 
+##### Setting a Default Value for an Attribute #####
 class Car:
 
 def __init__(self, make, model, year):
@@ -16,7 +16,7 @@ def __init__(self, make, model, year):
 # 3) Increment the value (add a certain amount to it) through a method 
 
 
-# Modifying an Attribute's Value Directly 
+##### Modifying an Attribute's Value Directly #####
 
 
 
