@@ -15,10 +15,32 @@ super().__init__(parameter)
 ##### Defining Attributes and Methods for the Child Class #####
 # To define an attribute specific to the child class just add the attribute below the super.__init__(parameter) 
 class Car:
-  -- snip -- 
+  --snip-- 
 
 class ElectricCar(Car): 
   def __init__(self, make, model, year): 
     super.__init__(make, model, year) 
     self.battery_size = 40  # attribute specific to the child class
+
+
+##### Overriding Methods from the Parent Class #####
+# You can override any method from the parent class that doesn't fit what you're trying to model with the child clas. 
+# To do this, you define a method in the child clas with the same name as the method you want to override in the parent class. 
+# Python will disregard the parent class method and only pay attention to the method you define in the child class. 
+class ElectricCar(Car): 
+  --snip-- 
+
+  def fill_gas_tank(self): 
+    print("This car doesn't have a gas tank!")
+# Now if someone tries to call fill_gas_tank() with an electric car, Python will ignore this method in Car and run this code instead. 
+# When you use inheritance, you can make your child class retain what you need and override anything you don't need from the parent class. 
+
+
+##### Instances as Attributes #####
+
+
+
+
+
+
 
