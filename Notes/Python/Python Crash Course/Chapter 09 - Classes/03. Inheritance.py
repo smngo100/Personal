@@ -12,5 +12,13 @@
 super().__init__(parameter)
 
 
+##### Defining Attributes and Methods for the Child Class #####
+# To define an attribute specific to the child class just add the attribute below the super.__init__(parameter) 
+class Car:
+  -- snip -- 
 
+class ElectricCar(Car): 
+  def __init__(self, make, model, year): 
+    super.__init__(make, model, year) 
+    self.battery_size = 40  # attribute specific to the child class
 
