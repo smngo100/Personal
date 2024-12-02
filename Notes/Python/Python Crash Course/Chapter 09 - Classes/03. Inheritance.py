@@ -4,7 +4,11 @@
 
 
 ##### The __init__() Method for a Child Class #####
+# When you create a child class, the parent class must be part of the current file and must appear before the child class in the file. 
+# The name of the parent class must be included in the parentheses in the definition of a child class. 
 
+# super() function is a special function that allows you to call a method from the parent class
+super().__init__(self, parameter)
 
 
 
