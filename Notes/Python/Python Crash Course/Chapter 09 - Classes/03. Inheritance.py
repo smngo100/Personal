@@ -61,3 +61,10 @@ my_leaf.battery.describe_battery()
 # So, basically 
 variable.attribute_name.method_name()
 
+
+##### Modeling Real-World Objects #####
+
+
+
+
+
