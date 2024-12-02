@@ -50,12 +50,14 @@ class Battery():
 class ElectricCar(Car):
   def __init__(self, make, model, year):
     super().__init__(make, model, year)         
-    self.battery = Battery()
+    self.battery = Battery()  # battery attribute
 
 
 my_leaf = ElectricCar('nissan', 'leaf', 2024)
 print(my_leaf.get_descriptive_name())
-my_leaf.battery.describe_battery()
+my_leaf.battery.describe_battery()  
+# When we want to describe the battery, we work through the car's battery attribute 
 
-
+# So, basically 
+variable.attribute_name.method_name()
 
