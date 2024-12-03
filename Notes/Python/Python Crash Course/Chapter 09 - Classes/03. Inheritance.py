@@ -9,7 +9,7 @@
 
 # super() function is a special function that allows you to call a method from the parent class
 # The name super comes from a convention of calling the parent class a superclass and the child class a subclass
-super().__init__(parameter)
+super().__init__(parameter(s))
 
 
 ##### Defining Attributes and Methods for the Child Class #####
