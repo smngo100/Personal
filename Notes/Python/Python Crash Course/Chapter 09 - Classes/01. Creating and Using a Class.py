@@ -30,6 +30,12 @@ my_dog = Dog('Willie', 6)
 
 ##### Accessing Attributes #####
 # To access the attributes of an instance, you use DOT NOTATION. 
+class Dog: 
+  def __init__(self, name, age): 
+    self.name = name 
+    self.age = age 
+    
+# So attribute name is name 
 variable_name.attribute_name
 my_dog.name 
 
