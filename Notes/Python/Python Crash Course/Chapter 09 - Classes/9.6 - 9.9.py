@@ -46,7 +46,7 @@ class Users:
 class Admin(Users):
     def __init__(self, first_name, last_name, fav_color, hobby, *privileges):
         super().__init__(first_name, last_name, fav_color, hobby)
-        self.privileges = privileges    # new attribute privileges that stores a list of strings 
+        self.privileges = privileges    # new attribute privileges that stores a list of strings
 
 # Make an instance of the Admin class and assign it to the variable _admin
 _admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
@@ -58,8 +58,8 @@ class Privileges:
     def __init__(self, *privileges):
         self.privileges = privileges    # stores a list of strings
 
-    # Moved the show_privileges method to the Privileges class 
-    def show_privileges(self):  
+    # Moved the show_privileges method to the Privileges class
+    def show_privileges(self):
         print(f"Administrator's set of privileges: {self.privileges}.")
 
 class Admin(Users):
@@ -124,7 +124,7 @@ class ElectricCar(Car):
         super().__init__(make, model, year)
         self.battery = Battery()
 
-
+# Make an instance of the ElectricCar class and assign it to the variable my_leaf
 my_leaf = ElectricCar('nissan', 'leaf', 2024)
 print(my_leaf.get_descriptive_name())
 my_leaf.battery.describe_battery()
