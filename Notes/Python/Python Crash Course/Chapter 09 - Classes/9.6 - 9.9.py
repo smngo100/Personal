@@ -46,18 +46,20 @@ class Users:
 class Admin(Users):
     def __init__(self, first_name, last_name, fav_color, hobby, *privileges):
         super().__init__(first_name, last_name, fav_color, hobby)
-        self.privileges = privileges
+        self.privileges = privileges    # new attribute privileges that stores a list of strings 
 
 # Make an instance of the Admin class and assign it to the variable _admin
 _admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
 
 
 # 9-8. Privileges
+# Separate Privileges class
 class Privileges:
     def __init__(self, *privileges):
-        self.privileges = privileges
+        self.privileges = privileges    # stores a list of strings
 
-    def show_privileges(self):
+    # Moved the show_privileges method to the Privileges class 
+    def show_privileges(self):  
         print(f"Administrator's set of privileges: {self.privileges}.")
 
 class Admin(Users):
@@ -65,6 +67,7 @@ class Admin(Users):
         super().__init__(first_name, last_name, fav_color, hobby)
         self.privileges = Privileges(*admin_privileges)
 
+# Make a new instance of the Admin class and assign it to the variable _admin
 _admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
 _admin.privileges.show_privileges()
 
