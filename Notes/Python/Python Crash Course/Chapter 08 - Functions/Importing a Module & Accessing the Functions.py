@@ -1,4 +1,4 @@
-# Module: a file ending in .py that contaisn the code you wan tto import into your program
+# Module: a file ending in .py that contains the code you want to import into your program
 
 """
 # Importing an Entire Module 
