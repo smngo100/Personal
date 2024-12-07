@@ -48,6 +48,23 @@ from module_name import *
 
 
 ##### Importing a Module into a Module #####
+# Sometimes you'll want to spread out your classes over several modules to keep any one file from growing too large and avoid storing unrelated classes in the same module. 
+
+electric_cary.py 
+from car import Car 
+
+class Battery: 
+  --snip-- 
+
+class Electric(Car): 
+  --snip--
+# The class ElectricCar needs access to its parent class Car, so we import Car directly into the module 
+
+car.py 
+class Car: 
+  --snip--
+
+my_cars.py # aka main.py
 
 
 
