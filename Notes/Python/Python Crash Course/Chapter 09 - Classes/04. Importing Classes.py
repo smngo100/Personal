@@ -76,6 +76,12 @@ print(my_leaf.get_descriptive_name())
 
 
 ##### Using Aliases ##### 
-from electric_car import ElectricCar as EC 
+
 # Give class an alias
+from electric_car import ElectricCar as EC 
 my_leaf = EC('nissan', 'leaf, 2024)
+
+# Give module an alias 
+# Now you can use this module alias with the full class name  
+import electric_car as ec
+my_leaf = ec.ElectricCar('nissan', 'leaf', 2024) 
