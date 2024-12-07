@@ -19,7 +19,7 @@ Object-oriented programming (OOP) is one of the most effective approaches to wri
 
 
 ##### The __init__() Method ##### 
-# Special method that Python runs automatically whenever we create a new instanced based on the class
+# Special method that Python runs automatically whenever we create a new instance based on the class
 # Any variable prefixed with self is available to every method in the class
 
 
