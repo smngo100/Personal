@@ -65,10 +65,17 @@ class Car:
   --snip--
 
 my_cars.py # aka main.py
+from car import Car
+from electric_car import ElectricCar 
+
+my_mustage = Car('ford', 'mustang', 2024) 
+print(my_mustang.get_descriptive_name())
+
+my_leaf = ElectriCar('nissan', 'leaf', 2024)
+print(my_leaf.get_descriptive_name())
 
 
-
-
-
-
-
+##### Using Aliases ##### 
+from electric_car import ElectricCar as EC 
+# Give class an alias
+my_leaf = EC('nissan', 'leaf, 2024)
