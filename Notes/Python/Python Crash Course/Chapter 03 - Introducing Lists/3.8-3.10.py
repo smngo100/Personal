@@ -11,12 +11,15 @@ print(f"Reversed order: {places}")
 places.reverse()
 print(f"Reverse to change the order of the list again: {places}\n")
 
+
 # 3-9. Dinner Guests
 guest_list = ["Albert Einstein", "Vincent Van Gogh", "Bob Ross"]
 print(f"I am inviting {len(guest_list)} people to the dinner\n")
 
+
 # 3-10. Every Function
 languages = ["Chinese", "Vietnamese", "French", "Spanish"]
+
 
 ############### Below uses every function introduced in Chapter 3 ###############
 # Accessing Elements in a List
