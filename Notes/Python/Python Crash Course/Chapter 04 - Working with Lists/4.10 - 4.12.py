@@ -6,6 +6,7 @@ print(f"The first three items in the list are: {animals[:3]}.")    # animals[0:3
 print(f"Three items from the middle of the list are: {animals[2:5]}.")
 print(f"The last three items in the list are: {animals[5:]}\n")    # Here, it will print at index 5 and the rest of the elements in the list           
 
+
 # 4-11. My Pizzas, Your Pizzas
 fav_pizzas = ["pineapple", "mushroom", "pepperoni"]
 friend_pizzas = fav_pizzas[:]  # Make a copy of the list of pizzas
