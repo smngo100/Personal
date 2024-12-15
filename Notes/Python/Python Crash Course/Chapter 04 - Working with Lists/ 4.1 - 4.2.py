@@ -8,6 +8,7 @@ print(f"I love {fav_pizzas[1]} pizza, it is yummy.")
 print(f"I love {fav_pizzas[2]} pizza, it is a classic.")
 print(f"I really love pizza!\n")
 
+
 # 4-2 Animals
 animals = ["wolf", "bear", "lion"]
 for animal in animals:
