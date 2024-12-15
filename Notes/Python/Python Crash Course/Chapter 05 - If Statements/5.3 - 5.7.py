@@ -10,6 +10,7 @@ aline_color = 'red'
 if alien_color == 'green':
     print("Player did not earn points")
 
+
 # 5-4. Alien Colors #2
 alien_color = 'red'
 
@@ -17,6 +18,7 @@ if alien_color == 'green':
     print("Player just earned 5 points for shooting the alien.")
 else:
     print("Player just earned 10 points.")
+
 
 # 5-5. Alien Colors #3
 alien_color = input("\nWhat is the alien's color? ").lower()
@@ -26,6 +28,7 @@ elif alien_color == 'yellow':
     print("Player earned 10 points.")
 else:
     print("Player earned 15 points.")
+
 
 # 5-6. Stages of Life
 age = int(input("\nHow old are you? "))
@@ -59,6 +62,7 @@ else:
     status = "elder"
 
 print(f"The person is a/an {status}.\n")
+
 
 # 5-7. Favorite Fruit
 favorite_fruits = ["mango", "watermelon", "grapes", "blueberries", "cherries"]
