@@ -4,7 +4,7 @@ glossary = {
     'class': 'blueprint',
     'method': 'function',
     'string': 'characters',
-    'module': 'file',
+    'module': 'file'
     }
 
 # Add 5 more Python terms to the glossary
@@ -19,6 +19,7 @@ for term, definition in glossary.items():
     print(f"Definition: {definition.title()}")
 print()
 
+
 # 6-5. Rivers
 rivers = {
     'Nile': 'Egypt',
@@ -29,6 +30,7 @@ rivers = {
 for river, country in rivers.items():
     print(f"The {river.title()} runs through {country.title()}.")
 print()
+
 
 # 6-6. Polling
 favorite_languages = {
