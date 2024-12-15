@@ -2,19 +2,18 @@
 usernames = ['admin', 'mochiz', 'superdog', 'blueberry', 'creampuff']
 user = input("What is your username? ").lower()
 
-for username in usernames:
-    if username == 'admin':
-        print("Hello admin, would you like to see a status report?")
-    else:
-        print(f"Hello {username}, thank you for logging in again.")
+if user == 'admin':
+    print("Hello admin, would you like to see a status report?")
+if user in usernames:
+    print(f"Hello, {user}. Thank you for logging in again.")
 
 # 5-9. No Users
 usernames = []
 if usernames:                                # if list is NOT empty, print statement     
     for username in usernames:
-        print(f"Hello, {username}")    
+        print(f"Hello, {username}")
 else:                                        # Else, if list is empty, print statement
-    print("We need to find some users!\n")   
+    print("\nWe need to find some users!")
 
 # 5-10. Checking Usernames
 current_users = ['mochiz', 'blueberry', 'pinecone', 'breadie', 'creampuff']
