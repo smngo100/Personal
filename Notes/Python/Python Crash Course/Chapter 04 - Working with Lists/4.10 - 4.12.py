@@ -25,6 +25,7 @@ for friend_pizza in friend_pizzas:
     print(friend_pizza)
 print()
 
+
 # 4-12. More Loops
 foods = ["pizza", "burger", "noodles", "rice", "soup", "steak", "fries"]
 for food in foods:
