@@ -49,8 +49,7 @@ users = {
         'first': 'marie',
         'last': 'curie',
         'location': 'paris',
-    },
-
+    }
 }
 
 for username, user_info in users.items():
