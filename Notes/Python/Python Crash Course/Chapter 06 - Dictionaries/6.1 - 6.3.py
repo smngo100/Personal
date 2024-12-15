@@ -10,6 +10,8 @@ print(person['first_name'].title())
 print(person['last_name'].title())
 print(person['age'])
 print(person['city'])
+print()
+
 
 # 6-2. Favorite Numbers
 fav_nums = {
@@ -24,6 +26,8 @@ print(f"Mike's favorite number is {fav_nums['mike']}.")
 print(f"Johns's favorite number is {fav_nums['john']}.")
 print(f"Sally's favorite number is {fav_nums['sally']}.")
 print(f"Bob's favorite number is {fav_nums['bob']}.")
+print()
+
 
 # 6-3. Glossary
 glossary = {
