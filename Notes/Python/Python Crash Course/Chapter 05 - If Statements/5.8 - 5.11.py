@@ -4,8 +4,9 @@ user = input("What is your username? ").lower()
 
 if user == 'admin':
     print("Hello admin, would you like to see a status report?")
-if user in usernames:
+elif user in usernames:
     print(f"Hello, {user}. Thank you for logging in again.")
+
 
 # 5-9. No Users
 usernames = []
@@ -15,17 +16,19 @@ if usernames:                                # if list is NOT empty, print state
 else:                                        # Else, if list is empty, print statement
     print("\nWe need to find some users!")
 
+
 # 5-10. Checking Usernames
 current_users = ['mochiz', 'blueberry', 'pinecone', 'breadie', 'creampuff']
 new_users = ['pineapple', 'popcorn', 'bloop', 'blueberry', 'creampuff']
 
-# Need to make case-insensitive??
 for new_user in new_users:
     if new_user in current_users:
         print("\nUser must enter a new username.")
     else:
         print(f"\nThe username {new_user} is available.")
         print("Creating username!")
+print()
+
 
 # 5-11. Ordinal Numbers
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
