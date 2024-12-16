@@ -7,6 +7,12 @@ while message != 'quit':    # While message is not quit
     if message != 'quit':
         pizza_toppings.append(message)
         print(f"Adding {message} to pizza.")
+    
+"""
+print("You added to your pizza: ") 
+for pizza_topping in pizza_toppings: 
+print("\t" + pizza_topping) 
+"""
 
 """
 # Using a flag
@@ -42,9 +48,11 @@ while True:
     if age < 3:
         ticket = "free"
         print(f"The cost of your movie ticket is free.")
+        #break 
     elif 3 <= age < 12:
         ticket = "10"
         print(f"The cost of your movie ticket is ${ticket}.")
+        #break 
     elif age > 12:
         ticket = "15"
         print(f"The cost of your movie ticket is ${ticket}.")
