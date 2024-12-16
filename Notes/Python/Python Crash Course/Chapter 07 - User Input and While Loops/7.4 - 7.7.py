@@ -34,6 +34,7 @@ while True:
         print(f"Adding {message} to pizza.")
 """
 
+
 # 7-5. Movie Tickets
 while True:
     age = int(input("\nEnter your age: "))
@@ -49,6 +50,7 @@ while True:
         print(f"The cost of your movie ticket is ${ticket}.")
         break
 
+
 # 7-6. Three Exists
 pizza_toppings = []
 message = ""
@@ -62,6 +64,7 @@ while active:
     else:
         pizza_toppings.append(message)
         print(f"Adding {message} to pizza.")
+
 
 # 7-7. Infinity
 x = 1
