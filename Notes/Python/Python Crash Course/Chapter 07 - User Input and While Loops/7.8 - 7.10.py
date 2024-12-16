@@ -12,6 +12,7 @@ print("\nFinished making the following sandwiches: ")
 for sandwich in finished_sandwiches:                    # Loop through finished_sandwiches
     print(f"I made your {sandwich} sandwich.")
 
+
 # 7-9. No Pastrami
 sandwich_orders = ['pastrami', 'tuna', 'reuben', 'pastrami', 'turkey', 'ham', 'pastrami']
 print("\nThe deli has run out of pastrami.")
@@ -22,6 +23,7 @@ while 'pastrami' in sandwich_orders:
 print(f"The following sandwiches are left: ")
 for sandwich in sandwich_orders:
   print(f"{sandwich.title()} sandwich")
+
 
 # 7-10. Dream Vacation
 responses = {}
