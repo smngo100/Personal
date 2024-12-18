@@ -51,7 +51,7 @@ while True:
 # The continue statement returns to the beginning of the loop
 
 # Using a while loop with Lists and Dictionaries 
-# A for loop is effective for looping through a list, but you shoudlnt' modify a list inside a for loop. To modify a list as you work through it, use a while lop. 
+# A for loop is effective for looping through a list, but you shouldn't modify a list inside a for loop. To modify a list as you work through it, use a while lop. 
 unconfirmed_users = ['alice', 'brian', 'candace']
 confirmed_users = []
 
