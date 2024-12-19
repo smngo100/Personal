@@ -8,20 +8,19 @@ Arguments and Parameters
 - Argument: A piece of informaiton that's passed from a function call to a function.
 """
 
-
 ##### Defining a Function #####
+# Keyword def informs Python that you're defining a function
 def greet_user():  # This is the function definition, which tells Python the name of the function and, if applicable, what kind of information the function needs to do its job. The parentheses hold that information.
     """Display a simple greeting."""  # Docstring: describes what the function does. A string used to document a Python module, class, function or method.
     print("Hello!")
 
 greet_user()  # function call: tells Python to execute the code in the function
 
-# Keyword def informs Python that you're defining a function
 
 # Passing Information to a Function
 def greet_user(username):
     """Display a simple greeting."""
-    print(f"Hello, {username.title()}!")
+    print(f"\nHello, {username.title()}!")
 
 greet_user('jesse')
 
@@ -39,6 +38,7 @@ def describe_pet(animal_type, pet_name):
 describe_pet('hamster', 'harry')
 # The definition shows function needs a type of animal and the animal's name
 # Need to provide an animal type and name in that order
+
 
 ##### Keyword Arguments #####
 # Keyword argument: a name-value pair that you pass to a function
@@ -68,7 +68,7 @@ describe_pet(pet_name='willie')
 
 def get_formatted_name(first_name, last_name):
     """Return a full name, neatly formatted."""
-    full_name = f"{first_name} {last_name}"
+    full_name = f"\n{first_name} {last_name}\n"
     return full_name.title()
 
 musician = get_formatted_name('jimi', 'hendrix')
@@ -91,7 +91,7 @@ print(musician)
 
 # Returning a Dictionary with Optional Values
 # Optional value here is 'age'
-def build_person(first_name, last_name):
+def build_person(first_name, last_name, age):
     """Return a dictionary of information about a person."""
     person = {'first': first_name, 'last': last_name}
     if age:
@@ -107,14 +107,14 @@ def get_formatted_name(first_name, last_name):
     full_name = f"{first_name} {last_name}"
     return full_name.title()
 
-
 while True:
     print(f"\nPlease tell me your name:")
     f_name = input("First name: ")
     l_name = input("Last name: ")
 
     formatted_name = get_formatted_name(f_name, l_name)
-    print(f"\nHello, {formatted_name}!")
+    print(f"\nHello, {formatted_name}!\n")
+    break
 
 
 # Passing a List
@@ -123,10 +123,9 @@ def greet_users(names):
         msg = f"Hello, {name.title()}!"
         print(msg)
 
-
 usernames = ['hannah', 'ty', 'margot']
 greet_users(usernames)
-
+print()
 
 # Modifying a List in a Function
 def print_models(unprinted_designs, completed_models):  # Handles printing the designs
@@ -137,10 +136,9 @@ def print_models(unprinted_designs, completed_models):  # Handles printing the d
 
 
 def show_completed_models(completed_models):  # Summarizes the prints that have been made
-    print(f"\n The following models that were printed.")
+    print(f"\nThe following models that were printed.")
     for completed_model in completed_models:
         print(completed_model)
-
 
 unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
 completed_models = []
@@ -150,13 +148,12 @@ show_completed_models(completed_models)
 
 # Preventing a Function from Modifying a List
 # Send a copy of a list to a function
-function_name(list_name[:])  # Slice notation makes a copy of the list to send to the function
+#function_name(list_name[:])  # Slice notation makes a copy of the list to send to the function
 
 
 # Passing an Arbitrary Number of Arguments
 def make_pizza(*toppings):
     print(toppings)
-
 
 make_pizza('pepperoni')
 make_pizza('mushrooms', 'green peppers', 'extra cheese')
@@ -164,7 +161,7 @@ make_pizza('mushrooms', 'green peppers', 'extra cheese')
 # * asterisk in the parameter name *toppings tells Python to make a tuple called toppings, containing all the values this function receives
 
 # ** double asterisks tells Python to createa a dictionary containing all the extra name-value pairs the function receives
-# You'll often see the parameter name **kwargs used to collect nonspecific keyword arugments
+# You'll often see the parameter name **kwargs (stands for keyword arguments) used to collect nonspecific keyword arugments
 
 """
 If you specify a default value for a parameter, no spaces should be used on either side of the equal sign:
