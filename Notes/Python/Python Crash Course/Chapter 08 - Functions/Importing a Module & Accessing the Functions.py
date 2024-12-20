@@ -26,7 +26,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Using 'as' to Give a FUNCTION an Alias 
-If the name of a function you're importing might conflict with an existing name in your program, or if the function name is long, you can use a short, unique alias - an alternate name simialr to a nickname for the function.
+If the name of a function you're importing might conflict with an existing name in your program, or if the function name is long, you can use a short, unique alias - an alternate name similar to a nickname for the function.
 
   from module_name import function_name as fn 
   
