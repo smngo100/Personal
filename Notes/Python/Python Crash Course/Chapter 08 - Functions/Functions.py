@@ -160,7 +160,7 @@ make_pizza('mushrooms', 'green peppers', 'extra cheese')
 # * asterisk collects as many arguments as the calling line provides
 # * asterisk in the parameter name *toppings tells Python to make a tuple called toppings, containing all the values this function receives
 
-# ** double asterisks tells Python to createa a dictionary containing all the extra name-value pairs the function receives
+# ** double asterisks tells Python to create a dictionary containing all the extra name-value pairs the function receives
 # You'll often see the parameter name **kwargs (stands for keyword arguments) used to collect nonspecific keyword arugments
 
 """
