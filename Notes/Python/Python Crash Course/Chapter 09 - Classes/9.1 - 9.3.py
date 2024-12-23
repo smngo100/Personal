@@ -8,7 +8,7 @@ class Restaurant:
         print(f"{self.restaurant_name.title()} has {self.cuisine_type}.")
 
     def open_restaurant(self):
-        print(f"The restaurant {self.restaurant_name.title()} is now open.")
+        print(f"{self.restaurant_name.title()} is now open.")
 
 # Make an instance from the Restaurant class and assign it to the variable restaurant
 restaurant = Restaurant('in-n-out', 'burgers')
