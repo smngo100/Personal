@@ -5,7 +5,6 @@ Object-oriented programming (OOP) is one of the most effective approaches to wri
 * When you write a class, you define the general behavior that a whole category of objects can have
 """
 
-
 ##### Definitions #####
 # Instantiation: Making an object from a class, and you work with instances of a class
 # Instance: An individual object created from a class
@@ -30,19 +29,20 @@ my_dog = Dog('Willie', 6)
 
 ##### Accessing Attributes #####
 # To access the attributes of an instance, you use DOT NOTATION. 
-class Dog: 
-  def __init__(self, name, age): 
-    self.name = name 
-    self.age = age 
-    
-# So attribute name is name 
-variable_name.attribute_name
-my_dog.name 
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
+    # So attribute name is name
+
+
+variable_name.attribute_name
+my_dog.name
 
 ##### Calling Methods #####
 # Use dot notation to call any method 
-my_dog.sit() 
+# Variable then call method from the class 
+# sit() is a method that's part of class Dog 
+my_dog.sit()
 my_dog.roll_over()
-
-
