@@ -33,7 +33,7 @@ class Restaurant:
         print(f"{self.restaurant_name.title()} has {self.cuisine_type}.")
 
     def open_restaurant(self):
-        print(f"The restaurant {self.restaurant_name.title()} is now open.")
+        print(f"{self.restaurant_name.title()} is now open.")
 
 # Three different instances
 # Create three different instances from the Restaurant class and assign it to each variable
@@ -66,9 +66,9 @@ class Users:
 
 # Several instances representing different users
 # Create several instances from the Users class and assign it to each variable
-user1 = Users('mochiz', 'cheese', 'blue', 'gaming')
+user1 = Users('strawberry', 'smoothie', 'red', 'gardening')
 user2 = Users('blueberry', 'muffin', 'lavender', 'baking')
-user3 = Users('spaghetti', 'meatball', 'red', 'cooking')
+user3 = Users('vanilla', 'ice-cream', 'beige', 'cooking')
 
 # Call both methods for each user
 user1.describe_user()
