@@ -10,7 +10,7 @@ class Restaurant:
         print(f"{self.restaurant_name.title()} has {self.cuisine_type}.")
 
     def open_restaurant(self):
-        print(f"The restaurant {self.restaurant_name.title()} is now open.")
+        print(f"{self.restaurant_name.title()} is now open.")
 
     # Create new method that displays the number of customers the restaurant has served
     def customers_served(self):
