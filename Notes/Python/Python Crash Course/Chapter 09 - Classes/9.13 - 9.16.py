@@ -2,7 +2,7 @@ import random
 
 # 9-13. Dice
 class Die:
-    def __init__(self, sides = 6):
+    def __init__(self, sides=6):
         self.sides = sides
 
     # Method that prints a random number between 1 and 6
