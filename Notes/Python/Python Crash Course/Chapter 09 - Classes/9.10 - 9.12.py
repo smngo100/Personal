@@ -23,7 +23,7 @@ class Users:
         print(f"Welcome, {self.first_name.title()} {self.last_name.title()}!\n")
 
 
-# Admin class inherits from Users class
+# class Admin inherits from class Users
 class Admin(Users):
     def __init__(self, first_name, last_name, fav_color, hobby, *privileges):
         super().__init__(first_name, last_name, fav_color, hobby)
@@ -39,9 +39,6 @@ class Privileges:
 
 # Make a new instance of the Admin class and assign it to the variable _admin
 _admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
-
-
-
 
 
 # 9-12. Multiple Modules 
