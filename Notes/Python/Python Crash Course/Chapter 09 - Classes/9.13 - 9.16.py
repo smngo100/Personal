@@ -97,18 +97,4 @@ while True:
 
 
 # 9-16. Python Module of the Week
-series_of_num_letters = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e']
-winning_tickets = []
-
-while True:
-    lottery_winners = random.choice(series_of_num_letters)
-
-    print(f"Winning tickets: {lottery_winners}")
-    winning_tickets.append(lottery_winners)
-
-    print(f"Pulling numbers until your ticket wins.")
-    if ticket in winning_ticket:
-        print(f"{ticket} is a winning ticket!")
-        break
-    else:
-        print("\tPull again.\n")
+# Visit https://pymotw.com/3/
