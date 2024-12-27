@@ -18,7 +18,9 @@ class IceCreamStand(Restaurant):
         self.flavors = flavors  # new attribute that stores a list of ice cream flavors
 
     def display_flavors(self):
-        print(f"Ice cream flavors: {self.flavors}.")
+        print(f"Ice cream flavors: ")
+        for flavor in self.flavors:
+            print(f"- {flavor.title()}")
 
 # Make an instance of the IceCreamStand class and assign it to the variable ice_cream
 ice_cream = IceCreamStand('Baskin Robins', 'ice cream', 'vanilla', 'chocolate', 'strawberry')
