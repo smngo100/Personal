@@ -50,9 +50,15 @@ class Admin(Users):
         super().__init__(first_name, last_name, fav_color, hobby)
         self.privileges = privileges    # new attribute privileges that stores a list of strings
 
+# Method that lists the administrator's set of privileges
+    def show_privileges(self): 
+        print("Privileges: ") 
+        for privilege in self.privileges: 
+            print(f"- {privilege}")
+
 # Make an instance of the Admin class and assign it to the variable _admin
 admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
-
+admin.show_privileges()
 
 # 9-8. Privileges
 # Separate Privileges class
@@ -61,13 +67,15 @@ class Privileges:
         self.privileges = privileges    # stores a list of strings
 
     # Moved the show_privileges method to the Privileges class
-    def show_privileges(self):
-        print(f"Administrator's set of privileges: {self.privileges}.")
+    def show_privileges(self): 
+        print("Privileges: ") 
+        for privilege in self.privileges: 
+            print(f"- {privilege}")
 
 class Admin(Users):
-    def __init__(self, first_name, last_name, fav_color, hobby, *admin_privileges):
+    def __init__(self, first_name, last_name, fav_color, hobby, *privileges):
         super().__init__(first_name, last_name, fav_color, hobby)
-        self.privileges = Privileges(*admin_privileges)
+        self.privileges = Privileges(*privileges)
 
 # Make a new instance of the Admin class and assign it to the variable _admin
 admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
