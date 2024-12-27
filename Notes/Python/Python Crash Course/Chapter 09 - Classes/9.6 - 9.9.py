@@ -59,6 +59,8 @@ class Admin(Users):
 # Make an instance of the Admin class and assign it to the variable _admin
 admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
 admin.show_privileges()
+print()
+
 
 # 9-8. Privileges
 # Separate Privileges class
