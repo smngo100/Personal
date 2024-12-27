@@ -76,7 +76,7 @@ for i in range(4):
     # Randomly select 4 numbers or letters from the list
     ticket = random.choice(series_of_num_letters)
     winning_ticket.append(ticket)
-    print(f"Winning tickets: {winning_ticket}")
+print(f"Winning tickets: {winning_ticket}")
 
 
 # 9-15. Lottery Analysis
