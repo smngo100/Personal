@@ -51,7 +51,7 @@ class Admin(Users):
         self.privileges = privileges    # new attribute privileges that stores a list of strings
 
 # Make an instance of the Admin class and assign it to the variable _admin
-_admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
+admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
 
 
 # 9-8. Privileges
@@ -70,8 +70,8 @@ class Admin(Users):
         self.privileges = Privileges(*admin_privileges)
 
 # Make a new instance of the Admin class and assign it to the variable _admin
-_admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
-_admin.privileges.show_privileges()
+admin = Admin('blueberry', 'muffin', 'blue', 'baking', 'can add post', 'can delete post', 'can ban user')
+admin.privileges.show_privileges()
 
 
 # 9-9. Battery Upgrade
