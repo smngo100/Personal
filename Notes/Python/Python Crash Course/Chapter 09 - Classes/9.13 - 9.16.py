@@ -78,7 +78,7 @@ for i in range(4):
     winning_ticket.append(ticket)
 
 for ticket in winning_ticket: 
-    print(ticket, end=', ')
+    print(ticket, end=' ')
 print()
 
 
