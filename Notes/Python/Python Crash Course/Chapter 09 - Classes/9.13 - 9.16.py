@@ -84,13 +84,13 @@ print()
 
 # 9-15. Lottery Analysis
 my_ticket = []
-print("Pulling numbers until your ticket wins.")
+print("\nPulling numbers until your ticket wins.")
 while True:
     ticket = random.choice(series_of_num_letters)
     print(f"\tPulled ticket: {ticket}")
 
     if ticket in winning_ticket:
-        print(f"{ticket} is a winning ticket!")
+        print(f"\n{ticket} is a winning ticket!")
         break
     else:
         print("\tPull again.\n")
