@@ -86,6 +86,7 @@ print()
 my_ticket = []
 print("\nPulling numbers until your ticket wins.")
 while True:
+    ticket = random.choice(series_of_num_letters)
     print(f"\tPulled ticket: {ticket}")
 
     if ticket in winning_ticket:
