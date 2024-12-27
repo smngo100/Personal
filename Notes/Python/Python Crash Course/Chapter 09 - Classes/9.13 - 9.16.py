@@ -65,6 +65,7 @@ for i in range(10):
 print('---------------------------------------\n')
 """
 
+
 # 9-14. Lottery
 # List containing a series of 10 numbers and 5 letters
 series_of_num_letters = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e']
