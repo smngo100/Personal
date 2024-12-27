@@ -1,5 +1,6 @@
 """
 Class names should be written in CamelCase
+Instance and module names should be written in lowercase, with underscores between words
 
 Every class should have a docstring immediately following the class definition 
 * Docstring should be brief description of what the class does
