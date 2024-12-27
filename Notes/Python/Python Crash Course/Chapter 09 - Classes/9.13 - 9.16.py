@@ -28,6 +28,42 @@ for i in range(10):
     twenty_sided_die.roll_die()
 print()
 
+# VISUALLY APPEALING VERSION OF 9-13. Dice
+"""
+import random
+
+class Die:
+    def __init__(self, sides=6):
+        self.sides = sides
+
+    # Method that prints a random number between 1 and 6
+    def roll_die(self):
+        return random.randint(1, self.sides)
+
+# 6-sided die rolled 10 times
+six_sided_die = Die()
+print("\n----- 6-sided die rolled 10 times -----")
+for i in range(10):
+    rolling = six_sided_die.roll_die()
+    print(f"{i + 1}. Rolling a {six_sided_die.sides} sided die: {rolling}")
+print('----------------------------------------\n')
+
+# 10-sided die rolled 10 times
+ten_sided_die = Die(10)
+print("\n----- 10-sided die rolled 10 times -----")
+for i in range(10):
+    rolling = ten_sided_die.roll_die()
+    print(f"{i + 1}. Rolling a {ten_sided_die.sides} sided die: {rolling}")
+print('----------------------------------------\n')
+
+# 20-sided die rolled 10 times
+twenty_sided_die = Die(20)
+print("\n----- 20-sided die rolled 10 times -----")
+for i in range(10):
+    rolling = twenty_sided_die.roll_die()
+    print(f"{i + 1}. Rolling a {twenty_sided_die.sides} sided die: {rolling}")
+print('---------------------------------------\n')
+"""
 
 # 9-14. Lottery
 # List containing a series of 10 numbers and 5 letters
