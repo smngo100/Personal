@@ -56,7 +56,15 @@ path.write_text("I love programming.")
 # Python can only write strings to a text file. If you want to store numerical data in a text file, you'll have to 
 # convert the data to string format first using the str() function.
 
+##### Writing Multiple Lines #####
+from pathlib import Path 
 
+contents = "I love programming.\n"
+contents += "I love creating new games.\n"
+cotnents += "I also love working with data.n\"
+
+path = Path('programming.txt') 
+path.write_text(contents) 
 
 
 
