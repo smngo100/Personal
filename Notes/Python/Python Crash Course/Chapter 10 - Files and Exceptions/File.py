@@ -7,7 +7,7 @@
 from pathlib import Path 
 
 path = Path('pi_digits.txt') 
-contents = path.read_text()
+contents = path.read_text()  # read_text() method reads the entire contents of the file
 print(contents) 
 
 
