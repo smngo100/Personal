@@ -47,6 +47,15 @@ print(pi_string)
 print(len(pi_string))
 
 
+##### Writing to a File ##### 
+# Writing a Single Line 
+from pathlib import Path 
+
+path = Path('programming.txt') 
+path.write_text("I love programming.") 
+# Python can only write strings to a text file. If you want to store numerical data in a text file, you'll have to 
+# convert the data to string format first using the str() function.
+
 
 
 
