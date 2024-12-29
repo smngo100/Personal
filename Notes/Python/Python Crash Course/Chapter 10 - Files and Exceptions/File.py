@@ -20,3 +20,22 @@ path = Path('text_files/filename.txt')
 # These paths are usually longer than realtive paths, because they start at your system's root folder 
 path = Path('/home/user/data_files/text_files/filename.txt')
 
+
+##### Accesing a File's Lines ##### 
+# splitlines() method turns a long string into a set of lines
+from pathlib import Path 
+
+path = Path('pi_digits.txt') 
+contents = path.read_text() 
+lines = contents.splitlines()
+for line in lines: 
+  print(line) 
+
+
+##### Working with a File's Contents ##### 
+
+
+
+
+
+
