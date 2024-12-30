@@ -52,5 +52,5 @@ contents = path.read_text(encoding='utf-8)
 # We can handle the error weith a try block 
 try: 
     contents = path.read_text(encoding='utf-8) 
-                        
-
+except FileNotFoundError:                         
+    print(f"Sorry, the file {path} does not exist.")
