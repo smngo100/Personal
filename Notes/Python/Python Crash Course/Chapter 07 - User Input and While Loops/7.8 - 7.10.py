@@ -33,7 +33,7 @@ while polling_active:
     name = input("\nWhat is your name? ")
     response = input("If you could visit one place in the world, where would you go? ")
 
-    responses[name] = response
+    responses[name] = response  # Synax for adding or modifying key-value pairs in a dictionary: dictionary[key] = value
 
     repeat = input("Would you like to let another person respond? (yes / no) ")
     if repeat == 'no':
