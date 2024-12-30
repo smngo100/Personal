@@ -80,4 +80,14 @@ for filename in filenames:
     count_words(path)
 
 
+##### Failing Silently ##### 
+# To make a program fail silently, you write a try block as usualy, but you explictly tell Python to do nothing in the except block. 
+# Python has a pass statement that tells it to do nothing in a block 
+try: 
+    --snip-- 
+except FileNotFoundError: 
+    pass
+else: 
+    --snip--
+
 
