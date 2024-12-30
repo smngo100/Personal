@@ -67,4 +67,6 @@ path = Path('programming.txt')
 path.write_text(contents) 
 
 
+##### Analyzing Text ##### 
+# string method split() default splits a string wherever it finds any whitespace 
 
