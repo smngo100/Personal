@@ -37,6 +37,8 @@ while True:
 
 
 # 10-8. Cats and Dogs
+"""Reads contents of cat and dog files and prints a friendly message if a file is missing."""
+
 path_cat = Path('cats.txt')
 path_dog = Path('dogs.txt')
 
