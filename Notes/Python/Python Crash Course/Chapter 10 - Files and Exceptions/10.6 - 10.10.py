@@ -13,6 +13,7 @@ else:
     print(f"Result: {result}")
 print()
 
+
 # While loop
 print("\nwhile loop\n")
 while True:
