@@ -61,7 +61,7 @@ else:
 
 # 10-9. Silent Cats and Dogs
 """Modifies Exercise 10-8 to fail silently if either file is missing."""
-
+# To fail silently when an exception occurs and continue on as if nothing happened just use a pass statement. It tells Python to do nothing in a block.
 path_cat = Path('cats.txt')
 path_dog = Path('dogs.txt')
 
