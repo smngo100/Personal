@@ -84,5 +84,26 @@ else:
     print(f"Dog names: \n{dog_contents}\n")
 
 
-
 # 10-10. Common Words
+"""Analyze file: word count, line count, and word frequency."""
+
+path = Path('moby_dick.txt')
+contents = path.read_text(encoding='utf-8')
+
+# Word count
+words = contents.split()
+num_words = len(words)
+print(f"The file {path} has about {num_words} words.")
+
+# Line count
+lines = contents.splitlines()
+num_lines = len(lines)
+print(f"The file {path} has about {num_lines} lines.")
+
+# Amount of times the word 'the' appears in each text
+the = words.count('the')
+print(the)
+
+# 'the ' with a space in the string
+the_w_space = contents.count('the ')
+print(the_w_space)
