@@ -1,5 +1,17 @@
 # 10-6. Addition
 """Prompts user for two numbers and prints their sum."""
+
+# Not using while loop
+try:
+    num1 = int(input("\nEnter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    result = num1 + num2
+except ValueError:
+    print("You must enter a number.")
+else:
+    print(sum)
+    
+
 # Using while loop
 while True:
 
@@ -24,15 +36,7 @@ while True:
         print(result)
 
 
-# Not using while loop
-try:
-    num1 = int(input("\nEnter the first number: "))
-    num2 = int(input("Enter the second number: "))
-    result = num1 + num2
-except ValueError:
-    print("You must enter a number.")
-else:
-    print(sum)
+
 
 
 # 10-7. Addition Calculator
