@@ -1,42 +1,39 @@
 # 10-6. Addition
 """Prompts user for two numbers and prints their sum."""
 
-# Not using while loop
+# No loop
+print("No loop\n")
 try:
-    num1 = int(input("\nEnter the first number: "))
-    num2 = int(input("Enter the second number: "))
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
     result = num1 + num2
-except ValueError:
-    print("You must enter a number.")
+except ValueError as e:
+    print(e)
 else:
-    print(sum)
-    
+    print(f"Result: {result}")
+print()
 
-# Using while loop
+# While loop
+print("\nwhile loop\n")
 while True:
-
-    num1 = input("\nEnter the first number: ")
+    num1 = input("Enter first number: ")
     if num1 == 'q':
         break
     try:
         num1 = int(num1)
-    except ValueError:
-        print("You must enter a number.")
+    except ValueError as e:
+        print(e, "\n")
 
-
-    num2 = input("Enter the second number: ")
+    num2 = input("Enter second number: ")
     if num2 == 'q':
         break
     try:
         num2 = int(num2)
-    except ValueError:
-        print("You must enter a number.")
+        result = int(num1) + int(num2)
+    except ValueError as e:
+        print(e, "\n")
     else:
-        result = num1 + num2
-        print(result)
-
-
-
+        print(f"Result: {result}\n")
 
 
 # 10-7. Addition Calculator
