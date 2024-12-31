@@ -40,12 +40,21 @@ while True:
 path_cat = Path('cats.txt')
 path_dog = Path('dogs.txt')
 
-cat_contents = path_cat.read_text()
-dog_contents = path_dog.read_text()
+# Cat contents
+try:
+    cat_contents = path_cat.read_text().title()
+except FileNotFoundError:
+    print(f"The file {path_cat} does not exist.")
+else:
+    print(f"Cat names: \n{cat_contents}\n")
 
-
-
-
+# Dog contents
+try:
+    dog_contents = path_dog.read_text().title()
+except FileNotFoundError:
+    print(f"The file {path_dog} does not exist.")
+else:
+    print(f"Dog names: \n{dog_contents}\n")
 
 
 # 10-9. Silent Cats and Dogs
