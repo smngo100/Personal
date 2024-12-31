@@ -60,7 +60,26 @@ else:
 
 
 # 10-9. Silent Cats and Dogs
+"""Modifies Exercise 10-8 to fail silently if either file is missing."""
 
+path_cat = Path('cats.txt')
+path_dog = Path('dogs.txt')
+
+# Cat contents
+try:
+    cat_contents = path_cat.read_text().title()
+except FileNotFoundError:
+    pass
+else:
+    print(f"Cat names: \n{cat_contents}\n")
+
+# Dog contents
+try:
+    dog_contents = path_dog.read_text().title()
+except FileNotFoundError:
+    pass
+else:
+    print(f"Dog names: \n{dog_contents}\n")
 
 
 
