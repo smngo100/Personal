@@ -14,7 +14,7 @@ print()
 
 
 # 10-7. Addition Calculator
-"""Code adapted from Exercise 10-5 adapted so the user can continue entering numbers."""
+"""Code from Exercise 10-5 adapted so the user can continue entering numbers."""
 while True:
     num1 = input("Enter first number: ")
     if num1 == 'q':
