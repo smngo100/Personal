@@ -9,10 +9,10 @@ print()
 
 # 10-5. Guest Book
 while True:
-    users = input("What is your name? ").title()
+    guest = input("What is your name? ").title()
 
-    if users.lower() == 'quit':
+    if guest.lower() == 'quit':
         break
     else:
         with open('guest_book.txt', 'a') as file:
-            file.write(users + '\n')
+            file.write(guest + '\n')
