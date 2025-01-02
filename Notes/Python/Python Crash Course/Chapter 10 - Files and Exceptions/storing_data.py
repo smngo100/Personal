@@ -4,11 +4,14 @@ and then load the data from that file the next time the program runs. """
 from pathlib import Path
 import json
 
+# **NOTE**: Creating a Path object creates a Python object that represents the path to that file
+path = Path('file_name.json')
+
 ##### json.dumps() and json.loads()
 # json.dumps() takes one argument: a piece of data that should be converted to the JSON format
     # The function returns a string, which we can then write to a data file.
 numbers = [2, 3, 5, 7, 11, 13]
-path = Path('numbers.json')
+path = Path('numbers.json')    
 contents = json.dumps(numbers)  # Converts numbers to the JSON format
 path.write_text(contents)
 
