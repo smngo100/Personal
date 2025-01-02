@@ -17,7 +17,7 @@ print()
 """Code from Exercise 10-5 adapted so the user can continue entering numbers."""
 while True:
     num1 = input("Enter first number: ")
-    if num1 == 'q':
+    if num1 == 'quit':
         break
     try:
         num1 = int(num1)
@@ -25,7 +25,7 @@ while True:
         print(e, "\n")
 
     num2 = input("Enter second number: ")
-    if num2 == 'q':
+    if num2 == 'quit':
         break
     try:
         num2 = int(num2)
@@ -34,19 +34,20 @@ while True:
         print(e, "\n")
     else:
         print(f"Result: {result}\n")
-
+print()
 
 # 10-8. Cats and Dogs
 """Reads contents of cat and dog files and prints a friendly message if a file is missing."""
 
 path_cat = Path('cats.txt')
-path_dog = Path('dogs.txt')
+path_dog = Path('dos.txt')  # Misspelled file
 
+print("----- Cat and Dog names with exception message -----")
 # Cat contents
 try:
     cat_contents = path_cat.read_text().title()
 except FileNotFoundError:
-    print(f"The file {path_cat} does not exist.")
+    print(f"The file {path_cat} does not exist.\n") # This one shows the message
 else:
     print(f"Cat names: \n{cat_contents}\n")
 
@@ -54,24 +55,25 @@ else:
 try:
     dog_contents = path_dog.read_text().title()
 except FileNotFoundError:
-    print(f"The file {path_dog} does not exist.")
+    print(f"The file {path_dog} does not exist.\n")
 else:
     print(f"Dog names: \n{dog_contents}\n")
 
 
 # 10-9. Silent Cats and Dogs
 """Modifies Exercise 10-8 to fail silently if either file is missing."""
-# To fail silently when an exception occurs and continue on as if nothing happened just use a pass statement. 
+# To fail silently when an exception occurs and continue on as if nothing happened just use a pass statement.
 # It tells Python to do nothing in a block.
 
-path_cat = Path('cats.txt')
+path_cat = Path('cas.txt')  # Misspelled file
 path_dog = Path('dogs.txt')
 
+print("----- Cat and Dog names fail silently -----")
 # Cat contents
 try:
     cat_contents = path_cat.read_text().title()
 except FileNotFoundError:
-    pass
+    pass    # Fails silently
 else:
     print(f"Cat names: \n{cat_contents}\n")
 
@@ -102,8 +104,8 @@ print(f"The file {path} has about {num_lines} lines.")
 
 # Amount of times the word 'the' appears in each text
 the = words.count('the')
-print(the)
+print(f"Word count of 'the': {the}")
 
 # 'the ' with a space in the string
 the_w_space = contents.count('the ')
-print(the_w_space)
+print(f"Word count of 'the ': {the_w_space}")
