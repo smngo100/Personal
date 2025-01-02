@@ -16,6 +16,8 @@ print(f"I know your favorite number! It's {fav_num}.")
 
 
 # 10-12. Favorite Number Remembered
+"""Combined the two programs from Exercise 10-11."""
+# If the number is already stored, report the favorite number to the user.
 def get_stored_number(path):
     """Get stored number if available."""
     if path.exists():
@@ -25,6 +27,7 @@ def get_stored_number(path):
     else:
         return None
 
+# If not, prompt the user's favorite number and store it in a file.
 def get_new_number(path):
     """Prompt for a new number."""
     fav_num = input("What is your favorite number?")
