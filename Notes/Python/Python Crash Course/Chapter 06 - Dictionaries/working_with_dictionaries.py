@@ -7,10 +7,7 @@
 # Accessing Values in a Dictionary
 alien_0 = {'color': 'green'}
 print(alien_0['color'])
-"""
-Output:
-green
-"""
+
 
 # Adding New Key-Value Pairs 
 alien_0 = {'color': 'green', 'points': 5}
@@ -19,25 +16,18 @@ print(alien_0)
 alien_0['x_position'] = 0 
 alien_0['y_position'] = 25
 print(alien_0)
-"""
-Output:
-{'color': 'green', 'points': 5}
-{'color': 'green', 'points': 5, 'x_position': 0, 'y_position': 25}
-"""
+
 
 # Modifying Values in Dictionary
 # Think of it as basically overwriting the value
 alien_0 = {'color': 'green'}
 print(f"The alien is {alien_0['color']}.")
 
+
 # See it overwrites it here with 'yellow'
 alien_0['color'] = 'yellow'
 print(f"the alien is {alien_0['color']}.")
-"""
-Output: 
-The alien is green.
-The alien is yellow.
-"""
+
 
 # Removing Key-Value Pairs
 alien_0 = {'color': 'green', 'points': 5}
@@ -45,23 +35,12 @@ print(alien_0)
 
 del alien_0['points']
 print(alien_0)
-"""
-Output:
-{'color': 'green', 'points': 5}
-{'color': 'green'}
-"""
+
 
 # Using get() to Access Values 
 alien_0 = {'color': 'green', 'speed': 'slow'}
 print(alien_0['points'])
-"""
-Output: 
-Traceback (most recent call last):
-  File "alien_no_points.py", line 2, in <module>
-    print(alien_0['points'])
-          ~~~~~~~^^^^^^^^^^
-KeyError: 'points'
-"""
+
 
 # Use the get() method. It requires a key as a first argument. As a second optional argument, you can pass the value to be returned if the key doesn't exist. If you call .get with just one argument, the key, the default value is None).
 """
@@ -73,10 +52,7 @@ value: Optional. A value to return if the specified key does not exist. Default 
 alien_0 = {'color': 'green', 'speed': 'slow'}
 point_value = alien_0.get('points', 'No point value assigned.')
 print(point_value)
-"""
-Output:
-No point value assigned.
-"""
+
 
 # Looping Through All Key-Value Pairs 
 favorite_languages = {
@@ -88,6 +64,7 @@ favorite_languages = {
 for name, language in favorite_languages.items():
   print(f"{name.title()}'s favorite language is {language.title()}.")
 # The key is assigned to the variable name, and the value is assigned to the variable language.
+
 
 # Looping Through All the Keys in a Dictionary 
 # The keys() method is useful when you don't need to work with all of the values in a dictionary.
@@ -101,6 +78,7 @@ for name in favorite_languages.keys():
   print(name.title())
   # Looping through the keys is the default behavior when looping through a dictionary, so this code would have the same output if you wrote for name in favorite_languages
 
+
 # Looping Through a Dictionary's Keys in a Particular Order
 # Can use the sorted() method to temporarily sort the keys order
 favorite_languages = {
@@ -112,6 +90,7 @@ favorite_languages = {
 for name in sorted(favorite_languages.keys()):
   print(f"{name.title()}, thank you for taking the poll.")
 
+
 # Looping Through All the Values in a Dictionary 
 # The values() method returns a sequence of values without any keys.
 favorite_languages = {
@@ -122,6 +101,7 @@ favorite_languages = {
     }
 for language in favorite_languages.values():
   print(language.title())
+
 
 # Using a set() 
 # A set is a collection in which each item must be unique.
