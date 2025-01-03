@@ -7,12 +7,3 @@
 // Functions are typically written to do a specific job or perform some useful action.
 
 // Identifier: The name of a function (or object, type, template, etc...)
-
-///// Comments ///// 
-// Single-line comments
-// The // symbole begins a C++ single-line comment, which tells the compiler to ignore evertyhing from the // symbol to the end of the line.
-
-// Multi-line comments 
-// The /* and */ pair of symbols denote a C-style multi-line comment 
-
-
