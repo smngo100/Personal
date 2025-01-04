@@ -86,7 +86,41 @@ greet_user()
 
 
 # 10-14. Verify User
+from pathlib import Path
+import json
 
+def get_stored_user_info(path):
+    if path.exists():
+        contents = path.read_text()         # read contents from file
+        user_info = json.loads(contents)    # converts JSON formatted string into a Python object
+        return user_info
+    else:
+        return None
+
+def get_new_user_info(path):
+    username = input("What is your name? ")
+    age = input("What is your age? ")
+    job = input("What is your job? ")
+
+    # Store collected information of the user in dictionary
+    user_info = {'username': username, 'age': age, 'job': job}
+
+    contents = json.dumps(user_info)    # converts a Python object into JSON formatted string
+    path.write_text(contents)           # write contents to file
+    return user_info
+
+def greet_user():
+    path = Path('user_info.json')           # create Path object for JSON file
+    user_info = get_stored_user_info(path)
+    if user_info:
+        verify_username = input("Is this the correct username? ('y' or 'n') ")
+        if verify_username.lower() == 'y':
+            print(f"Welcome back, {user_info['username'].title()}! You're {user_info['age']} years old and work as a {user_info['job']}.")
+        else:
+            user_info = get_new_user_info(path)
+            print(f"We'll remember you when you come back!\nName: {user_info['username'].title()}\nAge: {user_info['age']}\nJob: {user_info['job'].title()}")
+
+greet_user()
 
 
 
