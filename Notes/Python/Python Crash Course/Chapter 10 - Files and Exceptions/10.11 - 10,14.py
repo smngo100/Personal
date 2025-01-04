@@ -1,6 +1,8 @@
 from pathlib import Path
 import json
 
+# **NOTE**: Creating a Path object creates a Python object that represents the path to that file
+
 # 10-11. Favorite Number
 """Store user's favorite number in a file."""
 fav_num = input("What is your favorite number? ")   # prompt user for their favorite number
@@ -53,8 +55,8 @@ import json
 
 def get_stored_user_info(path):
     if path.exists():
-        contents = path.read_text()
-        user_info = json.loads(contents)
+        contents = path.read_text()         # read contents from file 
+        user_info = json.loads(contents)    # converts JSON formatted string into a Python object
         return user_info
     else:
         return None
@@ -64,15 +66,16 @@ def get_new_user_info(path):
     age = input("What is your age? ")
     job = input("What is your job? ")
 
-    # Store in dictionary
+    # Store collected information of the user in dictionary
     user_info = {'username': username, 'age': age, 'job': job}
-    contents = json.dumps(user_info)
-    path.write_text(contents)
+
+    contents = json.dumps(user_info)    # converts a Python object into JSON formatted string 
+    path.write_text(contents)           # write contents to file 
     return user_info
 
 def greet_user():
-    path = Path('user_info.json')
-    user_info = get_stored_user_info(path)
+    path = Path('user_info.json')           # create Path object for JSON file 
+    user_info = get_stored_user_info(path) 
     if user_info:
         print(f"Welcome back, {user_info['username'].title()}! You're {user_info['age']} years old and work as a {user_info['job']}.")
     else:
@@ -82,13 +85,9 @@ def greet_user():
 greet_user()
 
 
-
-
-
 # 10-14. Verify User
 
 
 
 
 
-# Creating a Path object creates a Python object that represents the path to that file
