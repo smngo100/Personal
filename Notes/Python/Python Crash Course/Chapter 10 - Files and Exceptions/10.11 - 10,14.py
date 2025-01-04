@@ -98,7 +98,7 @@ def get_stored_user_info(path):
         return None
 
 def get_new_user_info(path):
-    username = input("What is your name? ")
+    username = input("\nWhat is your name? ")
     age = input("What is your age? ")
     job = input("What is your job? ")
 
@@ -113,15 +113,13 @@ def greet_user():
     path = Path('user_info.json')           # create Path object for JSON file
     user_info = get_stored_user_info(path)
     if user_info:
-        verify_username = input("Is this the correct username? ('y' or 'n') ")
-        if verify_username.lower() == 'y':
-            print(f"Welcome back, {user_info['username'].title()}! You're {user_info['age']} years old and work as a {user_info['job']}.")
-        else:
+        print(f"Is this the correct username: {user_info['username'].title()}")
+        response = input("Enter 'y' or 'n': ")
+
+        if response.lower() == 'y':
+            print(f"\nWelcome back, {user_info['username'].title()}! You're {user_info['age']} years old and work as a {user_info['job']}.")
+        if response.lower() == 'n':
             user_info = get_new_user_info(path)
-            print(f"We'll remember you when you come back!\nName: {user_info['username'].title()}\nAge: {user_info['age']}\nJob: {user_info['job'].title()}")
+            print(f"\nWe'll remember you when you come back!\nName: {user_info['username'].title()}\nAge: {user_info['age']}\nJob: {user_info['job'].title()}")
 
 greet_user()
-
-
-
-
