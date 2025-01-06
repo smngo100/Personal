@@ -1,10 +1,8 @@
-///// Comments ///// 
 /* A 'COMMENT' is a programmer-readable note that is inserted directly into the source code of the program.
 Comments are ignored by the compiler and are for the programmer's user only. */
 
 
 // In C++ there are two different styles of comments: 
-
 // Single-line comments
 // The // symbole begins a C++ single-line comment, which tells the compiler to ignore evertyhing from the // symbol to the end of the line.
 
@@ -25,3 +23,9 @@ To summarize, write down the...
 3) Why 
 ... of your code in human language.
 */
+
+// Converting one or more lines of code into a comment is called 'COMMENTING OUT' your code.
+// This provides a convenient way to (temporarily) exclude parts of your code from being included in your compiled program.
+
+
+
