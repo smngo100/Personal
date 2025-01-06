@@ -20,4 +20,9 @@
 # F next to the file name means that one test failed. 
 # An angle bracket ('<', '>') indicates the line of code that caused the test to fail. 
 # E shows the actual error that caused the failure 
-# 
+
+
+##### Responding to a Failed Test ##### 
+# When a test fails, don't change the test. 
+# If you do, your tests might pass, but any code that calls your function like the test does will suddent stop working. 
+# Instead, fix the code that's causing the test to fail.
