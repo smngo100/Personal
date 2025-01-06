@@ -24,7 +24,7 @@ To summarize, write down the...
 ... of your code in human language.
 
 Another summary...
-1) At the library, program, or function level, use comments to describe what.
+1) At (placed at top, so like 1st line) the library, program, or function level, use comments to describe what.
 2) Inside the library, program, or function, use comments to describe how.
 3) At the statement level, use comments to describe why.
 */
