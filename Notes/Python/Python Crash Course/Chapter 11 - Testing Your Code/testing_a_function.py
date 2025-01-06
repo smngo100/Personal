@@ -12,8 +12,12 @@
 
 
 ##### Runnning a Test ##### 
-# To let pytest run the test file...
-# Open a termal window and navigate to the folder that contains the test file.
+# To let pytest run the test file, open a termal window and navigate to the folder that contains the test file.
 # In the terminal window, enter the command pytest
 
 
+##### A Failing Test ##### 
+# F next to the file name means that one test failed. 
+# An angle bracket ('<', '>') indicates the line of code that caused the test to fail. 
+# E shows the actual error that caused the failure 
+# 
