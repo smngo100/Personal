@@ -22,6 +22,11 @@ To summarize, write down the...
 2) How
 3) Why 
 ... of your code in human language.
+
+Another summary...
+1) At the library, program, or function level, use comments to describe what.
+2) Inside the library, program, or function, use comments to describe how.
+3) At the statement level, use comments to describe why.
 */
 
 // Converting one or more lines of code into a comment is called 'COMMENTING OUT' your code.
