@@ -16,3 +16,15 @@ assert element not in list      Assert that an element is not in a list.
 
 ##### Testing the Class #####
 # Write a test that verifies one aspect of the way the class behaves 
+
+
+##### Using Fixtures #####
+# Fixture: Helps set up a test environment 
+# Decorator: A directive placed just before a function definition 
+  # Python applies this directive to the function before it runs, to alter how the function code behaves.
+# Syntax: 
+import pytest 
+
+@pytest.fixture  # Add decorator before the function 
+def function_name(): 
+  --snip--
