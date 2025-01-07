@@ -11,4 +11,8 @@ assert element not in list      Assert that an element is not in a list.
 
 
 ##### A Class to Test #####
+# Testing a class is similar to testing a funciton, because much of the work involves testing the behavior of the methods in the class.
 
+
+##### Testing the Class #####
+# Write a test that verifies one aspect of the way the class behaves 
