@@ -42,4 +42,4 @@ print(f"\nWelcome back, {user}!")
 ##### Refactoring #####
 """Refactoring is when you could improve code by breaking it up into a series of functions that have specific jobs. 
 It makes your code cleaner, easier to understand, and easier to extend."""
-# Refer to remember_me.py for refactoring (basically just moved all the code into a function
+# Refer to remember_me.py for refactoring (basically just moved all the code into a function)
