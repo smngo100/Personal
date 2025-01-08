@@ -7,3 +7,8 @@
 // Functions are typically written to do a specific job or perform some useful action.
 
 // Identifier: The name of a function (or object, type, template, etc...)
+
+// Data: Any information that can be moved, processed, or stored by a computer.
+
+// Value: A single piece of data.
+
