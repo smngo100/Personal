@@ -21,4 +21,4 @@ int e {};      // value-initialization (empty braces)
 // Value-initialization: A special form of list-initialization when a variable is initialized using an empty set of braces.
 // Zero-initialization: When zeroing occurs
    
-// **NOTE**: List-initialization is the preferred form of initialization in modern C++
+// **NOTE**: List-initialization (including value-initialization) is the preferred form of initialization in modern C++
