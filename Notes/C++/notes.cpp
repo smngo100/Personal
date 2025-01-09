@@ -12,3 +12,11 @@
 
 // Value: A single piece of data.
 
+// An 'OBJECT' represents a region of storage (typically RAM or a CPU register) that can hold a value.
+
+// Variable: An object with a name.
+
+// Compile-time: When the program is being compiled.
+
+// Allocation: The process of reserving storage for an object’s use 
+
