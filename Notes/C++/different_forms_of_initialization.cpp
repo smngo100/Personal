@@ -20,5 +20,16 @@ int e {};      // value-initialization (empty braces)
     // int height = { 6 };   copy-list-initialization (rarely used)
 // Value-initialization: A special form of list-initialization when a variable is initialized using an empty set of braces.
 // Zero-initialization: When zeroing occurs
-   
+
+
 // **NOTE**: List-initialization (including value-initialization) is the preferred form of initialization in modern C++
+
+
+// Q: When should I initialize with { 0 } vs {}?
+// Use direct-list-initialization when you’re actually using the initial value:
+int x { 0 };    // direct-list-initialization with initial value 0
+std::cout << x; // we're using that 0 value here
+
+// Use value-initialization when the object’s value is temporary and will be replaced:
+int x {};      // value initialization
+std::cin >> x; // we're immediately replacing that value so an explicit 0 would be meaningless
