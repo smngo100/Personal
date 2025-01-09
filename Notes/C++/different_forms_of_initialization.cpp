@@ -16,5 +16,5 @@ int e {};      // value-initialization (empty braces)
 // Direct-initialization: When an initial value is provided inside parenthesis.
 // List-initialization (or uniform initialization or brace initialization): 
   // List-initialization comes in two forms:
-    // int width { 5 };      direct-list-initialization
-    // int height = { 6 };   copy-list-initialization 
+    // int width { 5 };      direct-list-initialization (preferred)
+    // int height = { 6 };   copy-list-initialization (rarely used)
