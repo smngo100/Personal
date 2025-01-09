@@ -33,3 +33,14 @@ std::cout << x; // we're using that 0 value here
 // Use value-initialization when the object’s value is temporary and will be replaced:
 int x {};      // value initialization
 std::cin >> x; // we're immediately replacing that value so an explicit 0 would be meaningless
+
+
+// Initializing multiple variables
+int a = 5, b = 6;          // copy-initialization
+int c ( 7 ), d ( 8 );      // direct-initialization
+int e { 9 }, f { 10 };     // direct-list-initialization
+int i {}, j {};            // value-initialization
+
+// Common pitfall
+int a, b = 5;     // wrong: a is not initialized to 5!
+int a = 5, b = 5; // correct: a and b are initialized to 5
