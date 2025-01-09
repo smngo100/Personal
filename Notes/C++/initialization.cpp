@@ -44,3 +44,14 @@ int i {}, j {};            // value-initialization
 // Common pitfall
 int a, b = 5;     // wrong: a is not initialized to 5!
 int a = 5, b = 5; // correct: a and b are initialized to 5
+
+
+// Unused initialized variables warnings
+// There are a few easy ways to fix this:
+  // 1) Remove the definition
+  // 2) Simply use the variable somewhere
+
+/* However, in some cases, neither of the above options are desirable. 
+To address such cases, C++17 introduced the [[maybe_unused]] attribute, which allows us 
+to tell the compiler that we’re okay with a variable being unused. The compiler will not 
+generate unused variable warnings for such variables. */
