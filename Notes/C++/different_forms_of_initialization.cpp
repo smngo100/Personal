@@ -18,3 +18,5 @@ int e {};      // value-initialization (empty braces)
   // List-initialization comes in two forms:
     // int width { 5 };      direct-list-initialization (preferred)
     // int height = { 6 };   copy-list-initialization (rarely used)
+
+// **NOTE**: List-initialization is the modern way to initialize objects in C++ 
