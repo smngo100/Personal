@@ -53,3 +53,4 @@ int main()
   std::cout << "You entered << x << '\n';
   return 0;
 }
+// When writing an INPUT line, you don't need to write '\n' because the user will press the enter key to get their input accepted, and this will move the cursor to the next line of the console.
