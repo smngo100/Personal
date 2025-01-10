@@ -1,10 +1,10 @@
-iostream // io stands for input/output
-std::cout  // cout stands for "character output" 
+iostream   // io stands for input/output
+std::cout  // cout stands for "character output"; uses the insertion operator << to provide data
+std::cin   // cint stands for "character input"; uses the extraction operator >> to put the input data in a variable     
 
 
 // Concatenate (link together) multiple pieces of output
 #include <iostream> 
-
 int main() 
 {
   std::cout << "Hello" << " world!"; 
@@ -14,7 +14,6 @@ int main()
 
 // Using std::endl to output a newline 
 #include <iostream> 
-
 int main() 
 {
   std::cout << "Hi!" << std::endl;  // std::endl will cause the cursor to move to the next line 
@@ -33,7 +32,6 @@ int main()
 // Using \n to output a newline 
 // std::endl is often inefficient as it flushes the buffer, however, \n outputs a newline without flushing the output buffer.
 #include <iostream> // for std::cout
-
 int main()
 {
   int x{ 5 };
@@ -42,4 +40,16 @@ int main()
   std::cout << "And that's all, folks!\n";      // between double quotes in existing text (conventional)
   return 0;
 }
+// Prefer \n over std::endl when outputting text to the console.
 
+
+// std::cin
+#include <iostream>
+int main()
+{
+  std::cout << "Enter a number: "; 
+  int x{}; 
+  std::cin >> x; 
+  std::cout << "You entered << x << '\n';
+  return 0;
+}
