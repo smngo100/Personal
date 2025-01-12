@@ -53,15 +53,17 @@ int main()
   std::cout << "You entered << x << '\n';
   return 0;
 }
+
 // When writing an INPUT line, you don't need to write '\n' because the user will press the enter key to get their input accepted, and this will move the cursor to the next line of the console.
 
 // It's possible to input more than one value on a single line:
+
 #include <iostream>  // for std::cout and std::cin
 int main()
 {
     std::cout << "Enter two numbers separated by a space: ";
-    int x{}; // define variable x to hold user input (and value-initialize it)
-    int y{}; // define variable y to hold user input (and value-initialize it)
+    int x{};            // define variable x to hold user input (and value-initialize it)
+    int y{};            // define variable y to hold user input (and value-initialize it)
     std::cin >> x >> y; // get two numbers and store in variable x and y respectively
     std::cout << "You entered " << x << " and " << y << '\n';
     return 0;
