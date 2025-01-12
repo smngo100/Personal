@@ -1,6 +1,6 @@
 iostream   // io stands for input/output
 std::cout  // cout stands for "character output"; uses the insertion operator << to provide data
-std::cin   // cint stands for "character input"; uses the extraction operator >> to put the input data in a variable     
+std::cin   // cin stands for "character input"; uses the extraction operator >> to put the input data in a variable     
 
 
 // Concatenate (link together) multiple pieces of output
