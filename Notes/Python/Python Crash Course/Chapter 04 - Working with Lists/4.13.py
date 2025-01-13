@@ -5,6 +5,7 @@ foods = ("pizza", "sandwiches", "tacos", "burgers", "salad")    # Store five sim
 # For a tuple, you use a for loop as you would a list
 for food in foods:
     print(food)
+print()
 
 # Error
 # Why? Because tuples are immutable. Once you create a tuple you cannot modify it.
@@ -16,3 +17,4 @@ print(foods)"""
 foods = ('pizza', "sandwiches", "tacos", "fries", "steak")
 for food in foods:
     print(food)
+print()
