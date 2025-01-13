@@ -1,6 +1,6 @@
 ##### Unit Tests and Test Cases ##### 
 # A 'UNIT TEST' verifies that one specific aspect of a function's behavior is correct. 
-# A 'TEST CAST' is a collection of unit tests that together prove that a function behaves as it's supposed to, within the full range of sutations you expect it to handle.
+# A 'TEST CASE' is a collection of unit tests that together prove that a function behaves as it's supposed to, within the full range of sutations you expect it to handle.
 # A test case with 'FULL COVERAGE' includes a full range of unit tests covering all the possible ways you can use a function.
 
 
