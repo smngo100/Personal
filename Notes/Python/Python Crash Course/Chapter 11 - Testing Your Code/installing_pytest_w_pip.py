@@ -9,3 +9,7 @@ $ python -m pip install --upgrade package_name  # might not need $
 ##### Installing pytest #####
 # Command to install many third-party packages: 
 $ python -m pip install --user package_name  # might not need $  
+
+
+##### Running pytest ##### 
+python -m pytest
