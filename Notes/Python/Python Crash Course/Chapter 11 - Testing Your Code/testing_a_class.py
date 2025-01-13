@@ -1,3 +1,5 @@
+# Assertion: A claim about a condition.
+
 ##### A Variety of Assertions ##### 
 # Commonly Used Assertion Statements in Tests 
 Assertion                       Claim 
