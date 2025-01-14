@@ -13,7 +13,7 @@
 
 ##### Runnning a Test ##### 
 # To let pytest run the test file, open a termal window and navigate to the folder that contains the test file.
-# In the terminal window, enter the command pytest
+# In the terminal window, enter the command 'pytest' or 'python -m pytest'
 
 
 ##### A Failing Test ##### 
