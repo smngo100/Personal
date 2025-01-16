@@ -1,5 +1,11 @@
 # Documentation of syntax for installing Pyhotn third-party packages 
 
+##### GENERAL COMMAND FOR INSTALLING THIRD-PARTY PACKAGES #####
+$ python -m pip install --user package_name  # might not need $ 
+# or 
+pip install <python package> 
+
+
 ##### Pip #####
 # Updating pip 
 $ python -m pip install --upgrade package_name  # might not need $
@@ -15,9 +21,3 @@ python -m pytest
 
 ##### Pygame #####
 python -m pip install --user pygame
-
-
-##### GENERAL COMMAND FOR INSTALLING THIRD-PARTY PACKAGES #####
-$ python -m pip install --user package_name  # might not need $ 
-# or 
-pip install <python package> 
