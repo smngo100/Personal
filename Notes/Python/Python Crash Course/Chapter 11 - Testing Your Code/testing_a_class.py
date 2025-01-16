@@ -24,6 +24,8 @@ assert element not in list      Assert that an element is not in a list.
 # Fixture: Helps set up a test environment 
 # Decorator: A directive placed just before a function definition 
   # Python applies this directive to the function before it runs, to alter how the function code behaves.
+# When you want to write a fixture, write a function that generates the resource that's used by multiple test functions. 
+# Add the @pytest.fixture decorator to the new function, and add the name of this function as a parameter for each test function that uses this resource.
 # Syntax: 
 import pytest 
 
