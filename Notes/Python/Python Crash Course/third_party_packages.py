@@ -1,4 +1,4 @@
-# Documentation of syntax for installing Pyhotn third-party packages 
+# Commands for installing, running, and upgrading Pyhotn third-party packages 
 # **NOTE**: might not need $
 
 ##### Upgrading a third-party package #####
