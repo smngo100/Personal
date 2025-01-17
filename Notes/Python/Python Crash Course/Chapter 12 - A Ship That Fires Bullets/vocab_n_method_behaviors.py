@@ -1,3 +1,9 @@
+##### Vocabulary #####
+# A 'SURFACE' in Pygame is a part of the screen where a game elemnt can be displayed.
+# An 'EVENT' is an action that the user performs while playing the game, such as pressing a key or moving the mouse. 
+
+
+##### Method behaviors #####
 pygame.init() # initializes the background settings that Pygame needs to work properly 
 pygame.display.set_mode() # creates a display window, on which we'll draw the game's graphical elements 
 run_game() # method contains a while loop that runs continually
