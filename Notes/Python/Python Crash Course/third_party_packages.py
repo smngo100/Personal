@@ -2,7 +2,7 @@
 # **NOTE**: might not need $
 
 ##### Upgrading a third-party package #####
-$ python -m pip install --upgrade package_name  
+$ python -m pip install --upgrade <package_name> 
 
 
 ##### Installing a third-party package #####
