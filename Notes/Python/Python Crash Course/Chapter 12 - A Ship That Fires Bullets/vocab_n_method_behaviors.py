@@ -12,3 +12,13 @@ run_game() # method contains a while loop that runs continually
            # the loop contains an event loop and code that manages screen updates
 pygame.event.get() # returns a list of events that have taken place since the last time this function was called
 pygame.display.flip() # tells Pygame to make the most rectnyl drawn screen visible
+
+
+##### Events #####
+# KEYDOWN: When the player presses down on the key
+# KEYUP: When the player releases the key
+
+
+##### Keyboard Input #####
+# K_RIGHT: Right arrow key
+# K_LEFT: Left arrow key
