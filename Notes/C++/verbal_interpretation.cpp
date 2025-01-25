@@ -8,7 +8,7 @@ int main()
 }
 
 /* 
-Can be read as: "Hello world!" is sent to character output 
+Can be read as: "Hello world!" is sent to the console
 - cout stands for "character output" or "console output" 
 - << is the output operator (like an arrow showing the direction of data flow) 
 
