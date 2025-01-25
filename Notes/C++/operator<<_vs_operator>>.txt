@@ -1,15 +1,27 @@
- 
 std::cin and std::cout always go on the left-hand side of the operator.
 
 std::cout is used to output a value (cout = character output).
-
-std:cin is used to get an input value (cin = character input). 
-
 << is used with std::cout, and shows the direction that data is moving. 
       std::cout << 4 moves the value 4 to the console.
 
+
+std:cin is used to get an input value (cin = character input). 
 >> is used with std:cin, and shows the direction that data is moving. 
       std::cin >> x moves the value the user entered from the keyboard into variable x.
+
+
+########## SUMMARY ##########
+In C++, the operators << and >> are known as the insertion and extraction operators, respectively, when used with streams. 
+
+<< (Insertion Operator) 
+* It's used to insert data into a stream, like cout
+* Think of it as directing data from right-hand side (a variable, literal, etc) into the left-hand side (the output stream) 
+* The direction of the arrows visually represent the flow of data. 
+
+>> (Extraction Operator) 
+* It's used to extract data from a stream, like cin 
+* Think of it as pulling data out of the left-hand side (the input stream) and storing it in the right-hand side (a variable) 
+* Again, the direction of the arrows visually represents the flow of data 
 
 Analogy: 
 Imagine a pipe. 
@@ -19,6 +31,3 @@ Imagine a pipe.
       >> is like pulling something out of the pipe.
             std::cin >> name;
             The user's input is being pulled out of the input stream and stored in the variable. 
-*/
-
-/
