@@ -1,0 +1,20 @@
+1.1 
+
+
+
+1.2
+
+
+
+
+
+1.3 - Introduction to objects and variables 
+1. What is data? Any information that can be moved, processed, or stored by a computer. 
+2. What is a value? A value is a letter (e.g. a), number (e.g. 5), text(e.g. Hello) or instance of some other useful concept that can be represented as data. 
+3. What is an object? An object is a region of storage (usually memory) that can store a value. 
+4. What is a variable? A variable is an object that has a name. 
+5. What is an identified? An identifier is the name that a variable is accessed by. 
+6. What is a data type used for? A data type determines what kind of value (e.g. a number, a letterl, text, etc...) the object will store. 
+
+
+1.4 - Variable assignment and initialization 
