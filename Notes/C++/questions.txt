@@ -18,14 +18,7 @@
 
 
 1.4 - Variable assignment and initialization 
+Code snippet and asks to run the program multiple times and describe the ouptu taht results when I enter the following types of input 
 
-#include <iostream> 
 
-int main() { 
-  std::cout << "Enter a number: ";
-  int x{}; 
-  std::cin >> x; 
-  std::cout << "You entered " << x << "\n";
-
-  return 0;
-}
+1.5 - 
