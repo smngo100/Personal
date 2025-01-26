@@ -134,6 +134,6 @@ class Settings:
 
 
 # 12-5. Keys 
-
-
-
+"""Make a Pygame file that creates an empty screen. In the event loop, print the event.key attribute 
+whenever a pygame.KEYDOWN event is detected. Run the program and press various keys to see how Pygame responds."""
+# Not sure what this means. Removing the ship then pressing various keys would result in nothing being shown because there is no object to be mvoed.
