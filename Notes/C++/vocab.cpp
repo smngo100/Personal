@@ -20,3 +20,4 @@
 
 // Allocation: The process of reserving storage for an object’s use 
 
+// Uninitialized variable: A variabel that has not been given a known value (through) initalization or assignment.
