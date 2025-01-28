@@ -1,2 +1,1 @@
-Self-study of C++ using website
-* https://www.learncpp.com/
+Self-study of C++ using https://www.learncpp.com/
