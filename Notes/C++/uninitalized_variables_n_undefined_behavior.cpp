@@ -9,3 +9,5 @@
 // Undefined behavior: The result of executing code whose behavior is not well-defined by the C++ language
 // Analogy: Undefined behavior is like a box of chocolates. You never know what you're going to get!
 
+// Rule: Take care to avoid all situations that result in undefined behavior, such as using uninitialized variables. 
+
