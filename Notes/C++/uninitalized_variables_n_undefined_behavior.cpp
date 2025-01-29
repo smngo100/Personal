@@ -15,3 +15,5 @@
 
 // Implementation-defined behavior: Behavior that is defined by the implementation 
 
+// Unspecififed behavior: Behavior is left up to the implemtnation to define, but the implementation is not required to document the behavior
+
