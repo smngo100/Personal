@@ -11,3 +11,7 @@
 
 // Rule: Take care to avoid all situations that result in undefined behavior, such as using uninitialized variables. 
 
+// Implementation: A specific compiler and the associated standard library it comes with 
+
+// Implementation-defined behavior: Behavior that is defined by the implementation 
+
