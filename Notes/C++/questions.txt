@@ -21,4 +21,10 @@
 Code snippet and asks to run the program multiple times and describe the ouptu taht results when I enter the following types of input 
 
 
-1.5 - 
+1.6 - Uninitialized variables and undefined behavior
+1. What is an uninitialized variable? Why should you avoid using them? An uninitialized variable is a variable that has not been given a value by the program (generally through initialization or assignment). Using the value stored in an uninitialized variable will result in undefined behavior. 
+2. What is undefined behavior, and what can happen if you do something that exhibits undefined behavior? Undefined behavior is the result of executing code whose behavior is not well defined by the language. The result can be almost anything, including something that behaves correctly. 
+
+
+1.7 - Keywords and naming identifiers 
+
