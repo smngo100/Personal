@@ -20,11 +20,10 @@ C++ is case sensitive, and thus distinguishes between lower and upper case lette
   // 2. Avoid naming your identifiers starting with an underscore. Allowed but typically reserved for OS, library, and/or compiler use.
   // 3. Name of your identifiers should make clear what the value they are holding means (particularly if the units aren’t obvious)
   // 4. Avoid abbreviations, except when they are common and unambiguous (e.g. num, cm, idx)
-  // 5. 
+  // 5. For variable declarations, it can be useful to use a comment to describe what a variable is going to be used for, or to explain anything else that might not be obvious. 
 
 // A good rule of thumb is to make the length of an identifier proportional to how specific and accessible the identifier is. This means: 
   // An identifier that exists for only a few statement (e.g. in the body of a short function) can have a shorter name. 
   // An identifier that is accessible from anywhere might benefit from a longer name. 
   // An identifier that represents a non-specific number (e.g. anything the user provides) can have a shorter name. 
   // An identifer that represents a specific value (e.g. the length of an inseam in millimeters) should have a longer name.
-
