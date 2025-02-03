@@ -44,7 +44,3 @@
     value         = 5; 
     numberOfItems = 17;
   */
-
-
-            
-  
