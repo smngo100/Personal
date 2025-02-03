@@ -3,6 +3,8 @@
 
 
 ////////// Basic Formatting //////////
+// C++ does not enforce any kind of formatting restrictions on the programmer; bc of this we say that C++ is a whitespace-independent language.
+
 // Recommendations for basic formatting 
   // 1. Fine to use either tabs or spaces for identation. Recommended set the tabs to 4 spaces worth of indentation.
   // 2. There are two conventional styles for function braces.
