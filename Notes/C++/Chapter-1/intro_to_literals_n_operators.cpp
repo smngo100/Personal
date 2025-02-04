@@ -1,5 +1,6 @@
 1.9 - Introduction to literals and operators
 
+////////// Literals //////////
 // Literal (aka literal constant) is a fixed value that has been inserted directly into the source code.
 
 ///// Literals and variables Similarities and Differences /////
@@ -14,4 +15,4 @@
   // A variable's value is placed in memory, and the value of the memory can be changed while the executable is running. 
 
 
-
+////////// Operators //////////
