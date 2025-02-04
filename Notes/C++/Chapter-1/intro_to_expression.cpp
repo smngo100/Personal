@@ -21,3 +21,5 @@
   // The subexpressions of x = 4 + 5 are x and 4 + 5. The subexpressions of 4 + 5 are 4 and 5.
 // Full expression: An expression that is not a subexpression.
 // Compound expression: An expression that contains two or more uses of operations.
+
+// **NOTE**: The syntax <type> <name> = <expression> is not an expression
