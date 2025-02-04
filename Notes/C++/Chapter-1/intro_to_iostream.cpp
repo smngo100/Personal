@@ -1,3 +1,5 @@
+1.5 Intoduction to iostream: cout, cin, and endl
+
 iostream   // io stands for input/output
 std::cout  // cout stands for "character output"; uses the insertion operator << to provide data
 std::cin   // cin stands for "character input"; uses the extraction operator >> to put the input data in a variable     
