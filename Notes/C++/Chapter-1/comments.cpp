@@ -1,3 +1,5 @@
+1.2 Comments
+
 /* A 'COMMENT' is a programmer-readable note that is inserted directly into the source code of the program.
 Comments are ignored by the compiler and are for the programmer's user only. */
 
