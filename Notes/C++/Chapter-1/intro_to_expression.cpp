@@ -1,7 +1,7 @@
 1.10 - Introduction to Expressions
 
 ////////// Expressions //////////
-// An expression is a non-empty sequence of literals, variabels, operators, and function calls that calculates a value. 
+// Expression: A non-empty sequence of literals, variabels, operators, and function calls that calculates a value. 
 // The process of executing an expresson is called evaluation. 
 // The result value produced is called the result of the expression (also sometimes called the return value).
 // Expression do not end in a semicolon, and cannot be compiled by themselves.
