@@ -1,3 +1,5 @@
+1.4 Variable assignments and initialization
+
 // 5 common forms of initialization: 
 
 int a;         // default-initialization (no initializer)
