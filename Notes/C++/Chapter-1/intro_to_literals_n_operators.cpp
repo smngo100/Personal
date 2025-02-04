@@ -16,3 +16,13 @@
 
 
 ////////// Operators //////////
+// An operation is a process involving zero or more input values (called operands) that produce a new value (called an output value). 
+// The specific operation to be performed is denoted by a symbol called an operator.
+// THe output value of an operation is often called a return value.
+// The number of operands that an operator takes as input is called the operator's arity.
+// Operations in C++ come in four different arities: 
+  // 1. Unary operators act on one operand 
+  // 2. Binary operators act on two operands
+  // 3. Ternary operators act on three operands
+  // 4. Nullary operators act on zero operands
+//
