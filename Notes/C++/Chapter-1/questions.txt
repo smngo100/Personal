@@ -26,5 +26,5 @@ Code snippet and asks to run the program multiple times and describe the ouptu t
 2. What is undefined behavior, and what can happen if you do something that exhibits undefined behavior? Undefined behavior is the result of executing code whose behavior is not well defined by the language. The result can be almost anything, including something that behaves correctly. 
 
 
-1.7 - Keywords and naming identifiers 
-
+1.10 - Introduction to expressions
+1. What is the difference between a statement and an expression? Statements are used when we want the program to perform an action. Expressions are used when we want the program to calculate a value. 
