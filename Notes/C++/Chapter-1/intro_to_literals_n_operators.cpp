@@ -25,4 +25,10 @@
   // 2. Binary operators act on two operands
   // 3. Ternary operators act on three operands
   // 4. Nullary operators act on zero operands
-//
+
+
+////////// Return Values and Side Effects //////////
+// An operator (or functiON) that has some observable effect beyong producing a return value is said to have a side effect.
+// In common language, we often think of side effects as things we want to avoid. 
+// However, in C++, the term "side effect" has a different meaning: it is an observable effect of an operator or functon beyond producing a return value. 
+
