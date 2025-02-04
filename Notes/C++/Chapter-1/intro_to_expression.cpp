@@ -4,7 +4,7 @@
 // An expression is a non-empty sequence of literals, variabels, operators, and function calls that calculates a value. 
 // The process of executing an expresson is called evaluation. 
 // The result value produced is called the result of the expression (also sometimes called the return value).
-// Expression do not end in a semicoo, and cannot be compiled by themselves.
+// Expression do not end in a semicolon, and cannot be compiled by themselves.
   // Rather, they are always evaluated as part of statements.
   // int x{2 + 3}; 
   // 2 + 3 is an expression that has no semicolon -- the semicolon is at the end of the statement containing the expression 
