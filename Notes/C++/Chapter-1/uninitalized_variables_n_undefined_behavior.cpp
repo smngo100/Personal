@@ -1,3 +1,5 @@
+1.6 Uninitialized variables and undefined behavior
+
 // Uninitialized variable: A variable that has not been given a known value (through initialization or assignment)
 
 // Note: 
@@ -16,4 +18,3 @@
 // Implementation-defined behavior: Behavior that is defined by the implementation 
 
 // Unspecififed behavior: Behavior is left up to the implemtnation to define, but the implementation is not required to document the behavior
-
