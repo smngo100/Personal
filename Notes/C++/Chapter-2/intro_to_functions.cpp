@@ -19,3 +19,6 @@ returnType functionName() // This is the function header (tells the compiler abo
 // The curly braces and statements in-between are called the function body. This is where the statements that determine what your function does will go.
 
 
+////////// Nested functions are not supported ///// 
+// Nested function: A function whose definition is placed inside another funciton.
+
