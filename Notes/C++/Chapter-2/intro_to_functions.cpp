@@ -9,7 +9,7 @@
 // Callee: The function being called (executed) 
 
 
-////////// An example of a user-defined function ///// 
+////////// An example of a user-defined function ////////// 
 returnType functionName() // This is the function header (tells the compiler about the existence of the function) 
 {
   // THis is the function body (tells the compiler what the function does) 
@@ -19,6 +19,9 @@ returnType functionName() // This is the function header (tells the compiler abo
 // The curly braces and statements in-between are called the function body. This is where the statements that determine what your function does will go.
 
 
-////////// Nested functions are not supported ///// 
+////////// Nested functions are not supported ////////// 
 // Nested function: A function whose definition is placed inside another funciton.
 
+
+////////// RANDOM ////////// 
+// "foo" is a meanignless word that is often used as a placeholder name for a function or variable when the name is unimportant to the demonstration of some concept.
