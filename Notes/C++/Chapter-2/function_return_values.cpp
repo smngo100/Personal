@@ -27,5 +27,3 @@
 
 ///// MODULAR PROGRAMMING /////
 // Ability to write a funciton, test it, ensure that it works, and then resuse it as many times as needed
-  
-  
