@@ -10,4 +10,6 @@
 // The process of returning a copied value back to the caller is named return by value.
 
 
-////////// Fixing Our Challenge Program //////////
+////////// Staatus Code //////////
+// The return value from main() is sometimes called a status code (or less comonly, an exit code, or rarely a return code).
+// The status code is used to signal whether your program was successful or not.
