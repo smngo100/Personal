@@ -11,5 +11,17 @@
 
 
 ////////// Staatus Code //////////
-// The return value from main() is sometimes called a status code (or less comonly, an exit code, or rarely a return code).
+// The return value from main() is sometimes called a status code (or less commonly, an exit code, or rarely a return code).
 // The status code is used to signal whether your program was successful or not.
+
+///// What it means /////
+// Status code of 0 means the program ran normally (program executed and behaved as expected) 
+// A non-zero status code often used to indciate some kind of failure.
+
+
+////////// A value-returning function that does not return a value will produce undefined behavior //////////
+// A function that returns a value is called a value-returning function.
+  // Function is value-returning if the return type is anything other than void.
+  // Must return a value of that type, otherwise undefined behavior will result.
+
+  
