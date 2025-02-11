@@ -24,4 +24,8 @@
   // Function is value-returning if the return type is anything other than void.
   // Must return a value of that type, otherwise undefined behavior will result.
 
+
+///// MODULAR PROGRAMMING /////
+// Ability to write a funciton, test it, ensure that it works, and then resuse it as many times as needed
+  
   
