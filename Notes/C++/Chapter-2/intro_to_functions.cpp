@@ -12,7 +12,7 @@
 ////////// An example of a user-defined function ////////// 
 returnType functionName() // This is the function header (tells the compiler about the existence of the function) 
 {
-  // THis is the function body (tells the compiler what the function does) 
+  // This is the function body (tells the compiler what the function does) 
 }
 
 // The first line is called the function header; tells the compiler about the existence of a function, function's name, and other info.
