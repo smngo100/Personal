@@ -29,3 +29,5 @@
 // "Going out of scope" : Typically applied to objects. Say it goes out of scope at the end of the scope (the end curly brace)
 
 
+////////// Introduction to temporary objects //////////
+// A temporary object (aka anonymous object) is an unnamed object that is used to hold a value that is only needed for a short period of time. 
