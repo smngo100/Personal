@@ -25,3 +25,7 @@
   // ...curly braces containing the identifier (or for function parameters, at the end of the function). 
 // Ensures local variables cannot be used before point of deinition or after they're destroyed
 
+// "Out of scope" : An identifier is out of scope anywhere it cannot be accessed within the code.
+// "Going out of scope" : Typically applied to objects. Say it goes out of scope at the end of the scope (the end curly brace)
+
+
