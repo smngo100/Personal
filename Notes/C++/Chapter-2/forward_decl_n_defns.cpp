@@ -19,3 +19,8 @@
 // A declaration tells the compiler about the existence of an identifier and its associatedd type informtaion. 
 // A definition is a declaration that actually implements (for functions and types) or instantiates (for variables) the identifier.
 
+// All definitions are declarations, BUT not all declarations are definitions.
+// Pure declarations: Declarations that aren't definitions.
+
+
+
