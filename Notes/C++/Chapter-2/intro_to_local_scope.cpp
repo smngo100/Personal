@@ -11,7 +11,7 @@
 // Variable creation and destruction happen during runtime, not compile time 
   // Lifetime is a runtime property
 
-// What happens when an object is destroyed/ Destroyed object becomes invalid.
+// What happens when an object is destroyed? Destroyed object becomes invalid.
 
 // Deallocated: Memory used by the object is freed up for reuse.
 
