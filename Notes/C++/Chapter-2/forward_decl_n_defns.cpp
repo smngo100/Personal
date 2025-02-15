@@ -23,4 +23,10 @@
 // Pure declarations: Declarations that aren't definitions.
 
 
-
+///// SUMMARY ///// 
+/* 
+Declaration: Tells compiler about an identifier and its associated type information.
+Definition: Implements a function or instantiates a variable. Definitions are also declarations. 
+Pure declaration: A declaration that isn't a definition.
+Initialization: Provides an initial value for a defined object.
+*/
