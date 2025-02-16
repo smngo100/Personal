@@ -1,8 +1,8 @@
 2.8 - Programs with multiple code files
 
-// Use function declaration when
-// Think of this as an import in Python 
-// In Python, you import a function from another file, but in C++ you do a function declaration
+// Use function declaration when code is separated in multiple files
+// Esentially, the forward declaration tells the compiler the eistence of an identifier, but it doesn't actually implement anything. 
+// It's saying "Hey compiler, this identifier exists somewhere in the program, but not in this file."
 
 // add.cpp: 
 int add(int x, int y) 
