@@ -42,15 +42,4 @@
 #if 0 
 // Used to exclude a block of code from being compiled (as if it were inside a comment body)
 // Why use this over multi-line commenting? Because multi-line comments are non-nestable
-// Using multi-line comments (cannot be nested)
-/*
-  int x = 10;
-  /*
-  int y = 20; // This will cause an error
-  */
-*/
-
 // To temporarily re-enable code that has been wrapped in an #if 0, you can change the #if 0 to #if 1
-
-
-
