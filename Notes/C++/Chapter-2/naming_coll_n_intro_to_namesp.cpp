@@ -38,6 +38,3 @@ using namespace std; // this is a using-directive
 
 // USING-DIRECTIVE: It allows us to access names in the namespace without using a namespace prefix
 // AVOID using-directives 
-
-
-
