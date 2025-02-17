@@ -6,11 +6,11 @@
 // The entire process of preprocessing, compiling, and linking is called TRANSLATION. 
 
 
-////////// Preprocessor directives //////////
+//////////////////// Preprocessor directives ////////////////////
 // Preprocessor directives (aka directives) are instructions that start with a # symbol and end with a newline (NOT semicolon).
 
 
-////////// Macro defines //////////
+//////////////////// Macro defines ////////////////////
 // A MACRO is a rule that defines how input text is converted into replacement output text. 
 // 2 basic types of macro: 
   // 1. object-like macros 
@@ -19,4 +19,38 @@
 // Object-like macros can be defined in one of two ways: 
   #define IDENTIFIER 
   #define IDENTIFIER substitution_text 
+
+// Avoid macros with substitution text
+
+
+//////////////////// Conditional compilation ////////////////////
+// the CONDITIONAL COMPILATION PREPROCESSOR directive allows you to specify under what conditions something will or won't compile. 
+
+#define 
+// Defines a macro, which can be tested for existence or value.
+
+#if, #elif, #else, #endif 
+// Conrol which code blocks are compiled based on a constant expression or macro definition. 
+
+#ifdef 
+// Checks if a macro is defined. 
+
+#ifndef 
+// Checks if a macro is not defined.
+
+//////////////////// #if 0 ////////////////////
+#if 0 
+// Used to exclude a block of code from being compiled (as if it were inside a comment body)
+// Why use this over multi-line commenting? Because multi-line comments are non-nestable
+// Using multi-line comments (cannot be nested)
+/*
+  int x = 10;
+  /*
+  int y = 20; // This will cause an error
+  */
+*/
+
+// To temporarily re-enable code that has been wrapped in an #if 0, you can change the #if 0 to #if 1
+
+
 
