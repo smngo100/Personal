@@ -29,6 +29,15 @@
 // Use double quotes to include header files that you've written or are expected to be found in the current directory. 
 
 
+//////////////////// Transitive includes ////////////////////
+/* When your source (.cpp) file #includes a header file, you'll also get any other header files that are #included by that header
+files those include, and so on). These additional header files are sometimes called transitive includes, as they're included 
+implicitly rather than explicity. */
+// BEST PRACTICE: Each file should explicitly #include all of the header files it needs to compile. Do not rely on headers included transitively from other headers.
 
+// To maximize the chance that missing includes will be flagged by compiler, order your #includes as follows (skipping any that are not relevant):
 
-
+The paired header file for this code file (e.g. add.cpp should #include "add.h")
+Other headers from the same project (e.g. #include "mymath.h")
+3rd party library headers (e.g. #include <boost/tuple/tuple.hpp>)
+Standard library headers (e.g. #include <iostream>)
