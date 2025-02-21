@@ -11,7 +11,7 @@
 
 
 //////////////////// Macro defines ////////////////////
-// A MACRO is a rule that defines how input text is converted into replacement output text. 
+// A macro is a rule that defines how input text is converted into replacement output text. 
 // 2 basic types of macro: 
   // 1. object-like macros 
   // 2. function-like macros 
