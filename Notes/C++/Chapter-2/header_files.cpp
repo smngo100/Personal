@@ -14,7 +14,7 @@
 
 //////////////////// Using header files to propagate forward declarations ////////////////////
 // If a header file is paired with a code file (e.g. add.h with add.cpp), they should both have the same base name (add)
-// To use the header file in main.cpp or any file, we have to #include (sing quotes, not angle brackets) 
+// To use the header file in main.cpp or any file, we have to #include (using quotes, not angle brackets) 
 #include "add.h" 
 
 
