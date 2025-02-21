@@ -42,3 +42,4 @@ implicitly rather than explicity. */
   * 3rd party library headers (e.g. #include <boost/tuple/tuple.hpp>)
   * Standard library headers (e.g. #include <iostream>)
   */
+// Headers should be sorted alphabetically 
