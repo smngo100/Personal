@@ -1,4 +1,0 @@
-How to design your first programs
-
-Design step 1: Define your goal
-
