@@ -1,4 +1,4 @@
-3,1 - Syntax and semantic errors 
+3.1 - Syntax and semantic errors 
 
 ////////// Errors fall into 1 of 2 categories //////////
 // 1. Syntax errors 
