@@ -8,4 +8,4 @@
 
 
 //////////////////// Reproducing the problem ////////////////////
-// Reproduction steps are a list of clera and precise steps that can be followed to cause an issue to recur with a high level of predictability. 
+// Reproduction steps are a list of clear and precise steps that can be followed to cause an issue to recur with a high level of predictability. 
