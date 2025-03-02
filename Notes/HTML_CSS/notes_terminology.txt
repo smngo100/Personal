@@ -3,3 +3,12 @@ Element is a generic term that we use to describe anything that we can display o
 
 Syntax: Rules for writing code, grammar (for code)
 <>/ 
+
+
+HTML Tag: Tells the computer what we're trying to create (e.g. <button>)
+* Every element consists of two tags. an opening tag and a closing tag 
+* closing tag has a </tag_name> '/' in front of the tag name
+
+<a> = anchor element, link to another website
+
+HTML attribute: modifies how an element behaves 
