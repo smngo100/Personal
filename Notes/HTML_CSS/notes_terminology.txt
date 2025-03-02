@@ -12,3 +12,6 @@ HTML Tag: Tells the computer what we're trying to create (e.g. <button>)
 <a> = anchor element, link to another website
 
 HTML attribute: modifies how an element behaves 
+
+
+CSS - used to style our webpage, change the appearnance of our HTML elements
