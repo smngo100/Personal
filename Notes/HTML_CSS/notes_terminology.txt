@@ -1,0 +1,5 @@
+HTML elements: <button>, <p>
+Element is a generic term that we use to describe anything that we can display on the webpage
+
+Syntax: Rules for writing code, grammar (for code)
+<>/ 
