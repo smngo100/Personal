@@ -15,3 +15,9 @@ HTML attribute: modifies how an element behaves
 
 
 CSS - used to style our webpage, change the appearnance of our HTML elements
+
+General Technique: 
+1. Create element with HTML
+2. Style with CSS one-by-one
+
+.<class_name> the . targets the class
