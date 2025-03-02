@@ -10,5 +10,7 @@
 //////////////////// Defining signed integers ////////////////////
 // Prefer the shorthand types that do not use the int suffix or signed prefix 
 
+
 //////////////////// Signed integer ranges ////////////////////
-//
+// The set of specific values that a data type can hold is its range. 
+// The range of an integer variable is deteremined by two factors: 1) its size (in bits), 2) whether it's signed or not.
