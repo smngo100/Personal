@@ -21,3 +21,24 @@ General Technique:
 2. Style with CSS one-by-one
 
 .<class_name> the . targets the class
+
+
+
+pseudo styles: add extra styles in certain situations
+
+box-shadow creates a shadow behind the button
+box-shadow: 0 0 0 0 
+takes 4 values 
+1) horizontal positional of the shadow
+2) vertical position of the shadow
+3) blur  
+4) color 
+
+
+Margin: spacing on the outside of the element
+Padding: spacing on the inside of the element
+
+CSS Box Model: how much space an element takes up, and how far awway it is from other elements
+
+padding is a better alternative to height x width because it adjusts to the contents if we ever need to modify it
+Box model determines how much space an element takes up on the page
