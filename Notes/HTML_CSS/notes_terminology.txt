@@ -45,4 +45,5 @@ Box model determines how much space an element takes up on the page
 
 
 The selector that's more specifi has higher priority
+class name selecotr has more priorirty than the element name selector 
 
