@@ -13,4 +13,6 @@
 
 //////////////////// Signed integer ranges ////////////////////
 // The set of specific values that a data type can hold is its range. 
-// The range of an integer variable is deteremined by two factors: 1) its size (in bits), 2) whether it's signed or not.
+// The range of an integer variable is deteremined by two factors: 
+  // 1) its size (in bits)
+  // 2) whether it's signed or not.
