@@ -42,3 +42,7 @@ CSS Box Model: how much space an element takes up, and how far awway it is from 
 
 padding is a better alternative to height x width because it adjusts to the contents if we ever need to modify it
 Box model determines how much space an element takes up on the page
+
+
+The selector that's more specifi has higher priority
+
