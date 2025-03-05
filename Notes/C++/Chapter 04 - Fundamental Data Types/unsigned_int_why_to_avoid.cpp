@@ -1,6 +1,6 @@
 4.5 - Unsigned integers, and why to avoid them
 
-// Unsigned integers are integers that hold non-negative whole numbners.
+// Unsigned integers are integers that hold non-negative whole numbers.
 
 //////////////////// Unsigned integer range ////////////////////
 // An n-bit unsigned variable has a range of 0 to (2^n) - 1
