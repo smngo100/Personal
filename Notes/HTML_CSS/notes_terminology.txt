@@ -54,3 +54,14 @@ Text Element
 
 <span></span> most generic text elemenets, has no style, can give it a class and can style it ourselves and give it any style we want. lets us modify a specific part of the text without modifying the whole thing. most flexible. can style it however we want.
 
+<!DOCTYPE html> 
+* tells browser to use modern version of HTML it'll fall back to an older version that has less features
+
+nesting: can have elments inside elements
+
+<html> = web page
+<body></body> = contains all elements that are visible
+
+<link> is a special elemnet, it doesn't require a CLOSING TAG 
+* called a void element
+* void elemnets don't need a closing tag
