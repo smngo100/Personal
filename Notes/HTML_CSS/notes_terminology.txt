@@ -75,6 +75,10 @@ BASIC STRUCTURE FOR ALL HTML FILES
   <body></body>
 </html>
 
+
+FOR IMAGES 
+* When we set the width, the height will also adjust so that he image will have the same dimensions (keeps the same shape)
+
 WHAT WE GET FROM THIS STRUCTURE 
 1. <title>
 2. Live Server 
