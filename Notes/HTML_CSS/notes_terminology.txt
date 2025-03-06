@@ -62,6 +62,22 @@ nesting: can have elments inside elements
 <html> = web page
 <body></body> = contains all elements that are visible
 
+
 <link> is a special elemnet, it doesn't require a CLOSING TAG 
 * called a void element
 * void elemnets don't need a closing tag
+
+
+BASIC STRUCTURE FOR ALL HTML FILES 
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body></body>
+</html>
+
+WHAT WE GET FROM THIS STRUCTURE 
+1. <title>
+2. Live Server 
+3. Link CSS files 
+4. Add new fonts and more
+
