@@ -96,3 +96,21 @@ Linking an image
 <body>
   <img class="" src="where to find the image">
 </body>
+
+
+
+CSS has three types of elements
+1) Block = takes up the entire line. so paragraph by default is a block element
+  * regardless of how much space they actually take up, they take up the entire line. they're forced to be on their own line.
+2) Inline-block elements = only takes up as much space as needed 
+  * doesn't take up the entire line
+  * ex) input element and input element 
+3) inline element = appear within a line of text 
+  * text elements
+
+block => inline-block
+You can apply properies to multiple classes at once by separating them with a comma: 
+.video-author, .video-stats {display:inline-block}
+
+inline-block => block 
+display: block;
