@@ -85,3 +85,14 @@ WHAT WE GET FROM THIS STRUCTURE
 3. Link CSS files 
 4. Add new fonts and more
 
+
+
+Search box 
+<body>
+  <input class="" type="text" placeholder="text you want to put">
+</body>
+
+Linking an image
+<body>
+  <img class="" src="where to find the image">
+</body>
