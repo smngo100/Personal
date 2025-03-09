@@ -126,6 +126,9 @@ DIV ELEMENT
 * <div> is a block element, so takes up the entire line 
 * <div> can contain other elements 
 * <div> = container 
+* container that groups other elements together to ceate complex layouts 
 
 
 BLOCK ELEMENTS... take up the entire line in their container 
+
+
