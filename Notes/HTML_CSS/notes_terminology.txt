@@ -127,3 +127,5 @@ DIV ELEMENT
 * <div> can contain other elements 
 * <div> = container 
 
+
+BLOCK ELEMENTS... take up the entire line in their container 
