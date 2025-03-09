@@ -11,3 +11,19 @@
   // 3) extended-precision  long double
 
 // Actual size of these types are not defined 
+
+
+//////////////////// Floating point precision //////////////////// 
+// The precision of a floating point type defines how many significant digits it can represent without information loss. 
+
+
+//////////////////// Outputting floating point values //////////////////// 
+// Output manipulators alter how data is output, and are defined in the iomanip header 
+// Rounding error: When precision is lost because a number can't be stored precisely 
+
+
+//////////////////// NaN and Inf //////////////////// 
+// IEEE 754 formats for special values
+  // Inf represents infinity 
+  // NaN stands for "Not a Number" 
+  // Signed zero, "positive zero" (+0.0) and "negative zero" (-0.0)
