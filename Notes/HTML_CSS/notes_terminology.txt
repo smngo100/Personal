@@ -114,3 +114,16 @@ You can apply properies to multiple classes at once by separating them with a co
 
 inline-block => block 
 display: block;
+
+
+DISPLAY PROPERTY
+* Control how an element is displayed
+
+
+DIV ELEMENT 
+<div> = division 
+* essentially just a box 
+* <div> is a block element, so takes up the entire line 
+* <div> can contain other elements 
+* <div> = container 
+
