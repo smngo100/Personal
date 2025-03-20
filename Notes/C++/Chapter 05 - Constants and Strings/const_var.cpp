@@ -14,3 +14,6 @@ const double gravity { 9.8 }; // preferred use of const before type
 // Place const before the type 
 // Don't use const for value parameters
 // Don't use const when returning by value
+
+// A type qualifier (aka qualifier) is a keyword that is applied to a type that modifies how that type behaves/
+// const type qualifier (aka const qualifier): The const used to declare a constant variable 
