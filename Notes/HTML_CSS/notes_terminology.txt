@@ -132,3 +132,14 @@ DIV ELEMENT
 BLOCK ELEMENTS... take up the entire line in their container 
 
 
+NESTED LAYOUTS TECHNIQUE 
+1. Vertical Layout
+-----
+-----
+-----
+
+
+2. Horizontal Layout
+|||||
+|||||
+|||||
