@@ -143,3 +143,10 @@ NESTED LAYOUTS TECHNIQUE
 |||||
 |||||
 |||||
+
+
+
+3 ways to write CSS 
+1. style element
+2. put css in separate file
+3. inline styles - writing css inside a line of <html></html>
