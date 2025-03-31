@@ -150,3 +150,7 @@ NESTED LAYOUTS TECHNIQUE
 1. style element
 2. put css in separate file
 3. inline styles - writing css inside a line of <html></html>
+
+
+fr is a special value in grid that stands for freespace
+* to take up the remaining space on the grid
