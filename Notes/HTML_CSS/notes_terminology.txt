@@ -154,3 +154,4 @@ NESTED LAYOUTS TECHNIQUE
 
 fr is a special value in grid that stands for freespace
 * to take up the remaining space on the grid
+* number that goes in front of fr (e.g. 1fr, 2fr) is the ratio
