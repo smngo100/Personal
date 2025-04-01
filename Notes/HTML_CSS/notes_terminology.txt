@@ -164,3 +164,8 @@ Flexbox
 Difference between Grid vs Flexbox 
 * Grid = rigid layout 
 * Flexbox = flexible layout 
+
+Flexbox - focused on content size, used to spread out content evenly on horizontal 
+when we focus on content size, use flexbox 
+when we want to use grid, use grid 
+horizontal layout - can use grid or flexbox 
