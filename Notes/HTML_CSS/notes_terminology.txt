@@ -174,3 +174,7 @@ horizontal layout - can use grid or flexbox
 General technqiue: 
 1. Cretae element with html
 2. Style with CSS one-by-one
+
+
+flex-shrink: 0; means it won't shrink
+width: 0; means it will shrink
