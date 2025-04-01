@@ -169,3 +169,8 @@ Flexbox - focused on content size, used to spread out content evenly on horizont
 when we focus on content size, use flexbox 
 when we want to use grid, use grid 
 horizontal layout - can use grid or flexbox 
+
+
+General technqiue: 
+1. Cretae element with html
+2. Style with CSS one-by-one
