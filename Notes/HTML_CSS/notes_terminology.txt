@@ -160,3 +160,7 @@ fr is a special value in grid that stands for freespace
 Flexbox 
 * Flexbox is similar to CSS grid, it can create the same kind of layouts BUT it's more flexible
 * Inside flexbox, the divs (which are block elemenets) don't behave like block elements anymore. They behave more like inline-block elements. They only take up as much horizontal space as they need to
+
+Difference between Grid vs Flexbox 
+* Grid = rigid layout 
+* Flexbox = flexible layout 
