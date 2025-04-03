@@ -183,3 +183,5 @@ flex-shrink: 0; means it won't shrink
 width: 0; means it will shrink
 
 When a position abosolute is inside a position fixed element, it's going to be placed relative to the position fixed element
+
+When position absolute is inside position relative, position absolute will be positioned on the element, not on the page.
