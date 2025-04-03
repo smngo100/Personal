@@ -171,6 +171,9 @@ when we want to use grid, use grid
 horizontal layout - can use grid or flexbox 
 
 
+fixed = placed in the browser window 
+absolute = placed on the page 
+
 General technqiue: 
 1. Cretae element with html
 2. Style with CSS one-by-one
