@@ -186,4 +186,4 @@ When a position abosolute is inside a position fixed element, it's going to be p
 
 When position absolute is inside position relative, position absolute will be positioned on the element, not on the page.
 
-Causes display element to display normally, so can scroll with page, but we have something in the bottom right corner, so these are positioned relative. then to put something at the bottom right corner, put position absolute inside. 
+Causes display element to display normally, so can scroll with page, but we have something in the bottom right corner, so these are positioned relative. Then to put something at the bottom right corner, put position absolute inside. 
