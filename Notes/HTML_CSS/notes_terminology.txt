@@ -1,3 +1,6 @@
+
+
+
 HTML elements: <button>, <p>
 Element is a generic term that we use to describe anything that we can display on the webpage
 
@@ -189,3 +192,12 @@ When position absolute is inside position relative, position absolute will be po
 Causes display element to display normally, so can scroll with page, but we have something in the bottom right corner, so these are positioned relative. Then to put something at the bottom right corner, put position absolute inside. 
 
 To put an element in the corner of another element: we need an absolute inside a position relative.
+
+
+
+MAJOR SKILLS OF HTML 8 CSS
+1. Nested layouts
+2. Display: block / inline-block
+3. Grid
+4. Flexbox
+5. Position
