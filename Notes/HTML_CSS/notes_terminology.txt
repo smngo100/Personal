@@ -203,5 +203,10 @@ MAJOR SKILLS OF HTML 8 CSS
 Ex) .sidebar-link img { }
   * Note: the space between .sidebar-link and img indicates that we're targeting all img in the .sidebar-link divs
 
+
+For ROW 
 align-items: center; <-- this aligns the columns vertically in the center
 justify-content: center <-- this aligns the items horizontally
+
+For COLUMN (it's reverse of row)
+
