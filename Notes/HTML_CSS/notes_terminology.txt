@@ -204,5 +204,5 @@ MAJOR SKILLS OF HTML 8 CSS
 
 * If you want to target a specific selector in a div but not all the other selectors then just do selector *space* selector 
 Ex) .sidebar-link img { }
-  * Note: the space between .sidebar-link and img indicates that we're targeting all        img in the .sidebar-link divs
+  * Note: the space between .sidebar-link and img indicates that we're targeting all img in the .sidebar-link divs
 
