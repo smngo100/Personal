@@ -204,3 +204,4 @@ Ex) .sidebar-link img { }
   * Note: the space between .sidebar-link and img indicates that we're targeting all img in the .sidebar-link divs
 
 align-items: center; <-- this aligns the columns vertically in the center
+justify-content: center <-- this aligns the items horizontally
