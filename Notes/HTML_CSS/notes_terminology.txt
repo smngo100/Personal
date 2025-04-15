@@ -1,6 +1,3 @@
-
-
-
 HTML elements: <button>, <p>
 Element is a generic term that we use to describe anything that we can display on the webpage
 
@@ -206,3 +203,4 @@ MAJOR SKILLS OF HTML 8 CSS
 Ex) .sidebar-link img { }
   * Note: the space between .sidebar-link and img indicates that we're targeting all img in the .sidebar-link divs
 
+align-items: center; <-- this aligns the columns vertically in the center
