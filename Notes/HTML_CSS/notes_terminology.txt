@@ -224,3 +224,8 @@ Inheritance
   * doesn't affect margin, padding, etc 
 
 css specificity: if we set the same style on the same elements, the style that is more specific has higher priority, and it will override the more general style
+
+semantic elements - <nav></nav> work same as <div> have meaning to screen readers; they're for the robots
+ex) <header></header?
+ex) <nav></nav>
+ex) <main></main> contains main content 
