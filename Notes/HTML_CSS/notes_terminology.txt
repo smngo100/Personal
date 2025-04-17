@@ -223,3 +223,4 @@ Inheritance
   * it targets text properties all the <p> in the outter element 
   * doesn't affect margin, padding, etc 
 
+css specificity: if we set the same style on the same elements, the style that is more specific has higher priority, and it will override the more general style
