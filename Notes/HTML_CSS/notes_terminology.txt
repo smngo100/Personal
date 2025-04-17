@@ -191,14 +191,6 @@ Causes display element to display normally, so can scroll with page, but we have
 To put an element in the corner of another element: we need an absolute inside a position relative.
 
 
-
-MAJOR SKILLS OF HTML 8 CSS
-1. Nested layouts
-2. Display: block / inline-block
-3. Grid
-4. Flexbox
-5. Position
-
 * If you want to target a specific selector in a div but not all the other selectors then just do selector *space* selector 
 Ex) .sidebar-link img { }
   * Note: the space between .sidebar-link and img indicates that we're targeting all img in the .sidebar-link divs
@@ -229,3 +221,12 @@ semantic elements - <nav></nav> work same as <div> have meaning to screen reader
 ex) <header></header?
 ex) <nav></nav>
 ex) <main></main> contains main content 
+
+
+
+MAJOR SKILLS OF HTML & CSS / Techniques We Learned
+1. Nested layouts technique
+2. Display: block / inline-block
+3. Grid
+4. Flexbox
+5. Position
