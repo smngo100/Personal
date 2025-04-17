@@ -216,3 +216,10 @@ CSS Shorthand properties
 * border: width style color;
 * padding / margin: top right bottom left;
   * think clockwise direction 
+
+
+Inheritance 
+* text-decoration: underline;
+  * it targets text properties all the <p> in the outter element 
+  * doesn't affect margin, padding, etc 
+
