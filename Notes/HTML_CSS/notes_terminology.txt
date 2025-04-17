@@ -210,3 +210,9 @@ justify-content: center <-- this aligns the items horizontally
 
 For COLUMN (it's reverse of row)
 
+
+
+CSS Shorthand properties
+* border: width style color;
+* padding / margin: top right bottom left;
+  * think clockwise direction 
