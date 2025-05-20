@@ -15,3 +15,10 @@ document.body.innerHTML = 'hello'; // Replaces all content on page with this mes
 Basics of JavaScript 
 - Code: Giving instructions to a computer
 - Running the code: The computer follows our instructions 
+
+Syntax: Rules that we have to follow when using a programming language 
+
+In programming: 
+2, 3, 4 = integers 
+2.2, 2.5 = floating point numbers (floats) 
+Computers have a problem working with floats
