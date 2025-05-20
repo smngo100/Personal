@@ -30,3 +30,7 @@ So to avoid inaccuracies when working with money:
 2. Convert back to dollars 
 Ex) $20.95 + $7.99 --> (2095 + 799) / 100 
 Both expressions give the same result
+
+-------------------- Rounding Numbers --------------------
+Math.round()
+
