@@ -22,3 +22,11 @@ In programming:
 2, 3, 4 = integers 
 2.2, 2.5 = floating point numbers (floats) 
 Computers have a problem working with floats
+
+-------------------- Float Caclulations --------------------
+Calcuations with floats are sometimes inaccurate.
+So to avoid inaccuracies when working with money:
+1. Do the calculation in cents 
+2. Convert back to dollars 
+Ex) $20.95 + $7.99 --> (2095 + 799) / 100 
+Both expressions give the same result
