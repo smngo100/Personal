@@ -7,10 +7,11 @@ What is JavaScript?
 - Giving instructions to a computer
 - Computer follows our instructions 
 
+
+----- Some codes -----
 alert('message'); // Creates a pop up message 
+document.body.innerHTML = 'hello'; // Replaces all content on page with this message
 
-
-Terminology (naming) 
-* Instructions we give to computer are called code 
-* When we press enter and the computer follows the instructions it's called running the code 
-
+Basics of JavaScript 
+- Code: Giving instructions to a computer
+- Running the code: The computer follows our instructions 
