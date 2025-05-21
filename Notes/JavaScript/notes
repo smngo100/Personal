@@ -64,3 +64,9 @@ Character:
 -------------------- Random Notes --------------------
 Web page = a single page (on a website) 
 (home page, cart page, etc.)
+
+CSS selector: Selects which elements to change
+CSS Styles: How to change the appearance
+ left side = CSS property: what we're changing
+ right side = CSS value: what we're chnaging the property to
+
