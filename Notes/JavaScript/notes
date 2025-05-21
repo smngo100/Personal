@@ -83,7 +83,10 @@ in an element onclick=""
 -------------------- Variables --------------------
 variable = a container 
 let keyword creates a new variable 
-Ex) let x = 5;
+Ex) let x = 5; // This is called assigning a value to a variable
+               // When we reassign it's called re-assigning a value to a variable
+                  // When re-assigning no need to put let 
+                  Ex) x = 2;
 
 Variable name restrictions: 
 1. Can't use special words 
@@ -93,3 +96,9 @@ Variable name restrictions:
        let br5ead = 2; ALLOWED
        let bread5 = 2; ALLOWED
 3. Can't use special characters except: $, _
+
+Naming Conventions 
+camelCase       cartQuantity
+PascalCase      CartQuantity
+kebab-case      cart-quantity (doesn't work in JS but works in HTML & CSS)
+snake_case      cart_quantity (not used in JS)
