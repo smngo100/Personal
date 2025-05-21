@@ -104,7 +104,7 @@ kebab-case      cart-quantity (doesn't work in JS but works in HTML & CSS)
 snake_case      cart_quantity (not used in JS)
 
 3 ways to create variables
-1. let x = 5;
+1. let x = 5;      let = use when we want to change variable later on (aka re-assign)
 2. const x = 5;    const = can't change it later
 3. var x = 5;      var = variable (not used in new JS code)
 
