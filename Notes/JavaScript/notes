@@ -60,13 +60,22 @@ Character:
 3. symbol (!, @, #)
 4. escape character \', \", \n
 
-
--------------------- Random Notes --------------------
+-------------------- HTML CSS Review, console.log  --------------------
 Web page = a single page (on a website) 
 (home page, cart page, etc.)
 
+CSS review
 CSS selector: Selects which elements to change
 CSS Styles: How to change the appearance
  left side = CSS property: what we're changing
  right side = CSS value: what we're chnaging the property to
 
+HTML attributes: change the behavior of an element 
+<element_name attribute_name="attribute_value"> </element_name>
+attribute_name: what we're changing about this element
+attribute_value: what we're changing this attribute to 
+
+to display js code
+<script></script>
+- OR - 
+in an element onclick=""
