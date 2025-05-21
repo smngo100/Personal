@@ -40,5 +40,11 @@ Math.round()
 
 
 -------------------- Strings --------------------
+string = text
+concatentation = when we combine strings together
+type coercion (automatic type conversion)
+
+// Numbers and strings are different types of values 
 
 
+3 Ways to Create string 
