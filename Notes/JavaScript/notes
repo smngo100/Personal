@@ -56,4 +56,4 @@ Character:
 1. letter (a, b, c)
 2. number (1, 2, 3)
 3. symbol (!, @, #)
-4. escape character \', \"
+4. escape character \', \", \n
