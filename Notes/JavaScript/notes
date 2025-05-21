@@ -79,3 +79,17 @@ to display js code
 <script></script>
 - OR - 
 in an element onclick=""
+
+-------------------- Variables --------------------
+variable = a container 
+let keyword creates a new variable 
+Ex) let x = 5;
+
+Variable name restrictions: 
+1. Can't use special words 
+   Ex) let let = 5; NOT ALLOWED
+2. Cant't start with a number 
+   Ex) let 5bread = 2; NOT ALLOWED
+       let br5ead = 2; ALLOWED
+       let bread5 = 2; ALLOWED
+3. Can't use special characters except: $, _
