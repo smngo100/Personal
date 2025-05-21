@@ -50,7 +50,7 @@ type coercion (automatic type conversion)
 3 Ways to Create string 
 1. '...'
 2. "..."
-3. 
+3. `...`
 
 Character: 
 1. letter (a, b, c)
