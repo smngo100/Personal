@@ -3,12 +3,15 @@
 2. CSS: Changes the appearance of the website
 3. JavaScript: Makes the website interactive 
 
+
+
+-------------------- JavaScript Basics --------------------
 What is JavaScript? 
 - Giving instructions to a computer
 - Computer follows our instructions 
 
 
------ Some codes -----
+// Some Code 
 alert('message'); // Creates a pop up message 
 document.body.innerHTML = 'hello'; // Replaces all content on page with this message
 
@@ -23,7 +26,9 @@ In programming:
 2.2, 2.5 = floating point numbers (floats) 
 Computers have a problem working with floats
 
--------------------- Float Caclulations --------------------
+
+-------------------- Numbers and Math --------------------
+// Float Calculations
 Calcuations with floats are sometimes inaccurate.
 So to avoid inaccuracies when working with money:
 1. Do the calculation in cents 
@@ -31,6 +36,9 @@ So to avoid inaccuracies when working with money:
 Ex) $20.95 + $7.99 --> (2095 + 799) / 100 
 Both expressions give the same result
 
--------------------- Rounding Numbers --------------------
 Math.round()
+
+
+-------------------- Strings --------------------
+
 
