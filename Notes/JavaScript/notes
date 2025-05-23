@@ -3,12 +3,18 @@
 2. CSS (Cascading Style Sheets): Changes the appearance of the website
 3. JavaScript: Makes the website interactive 
 
+Order of Operations 
+1. (...)
+2. * / 
+3. + 0 
+4. Comparison operators
+5. Logical operators 
+
 
 -------------------- JavaScript Basics --------------------
 What is JavaScript? 
 - Giving instructions to a computer
 - Computer follows our instructions 
-
 
 // Some Code 
 alert('message'); // Creates a pop up message 
@@ -60,6 +66,7 @@ Character:
 3. symbol (!, @, #)
 4. escape character \', \", \n
 
+
 -------------------- HTML CSS Review, console.log  --------------------
 Web page = a single page (on a website) 
 (home page, cart page, etc.)
@@ -79,6 +86,7 @@ to display js code
 <script></script>
 - OR - 
 in an element onclick=""
+
 
 -------------------- Variables --------------------
 variable = a container 
@@ -129,12 +137,6 @@ false
 === converts
 use === 
 use !==, not !=
-
-Order of Operations 
-1. (...)
-2. * / 
-3. + 0 
-4. Comparison operators
 
 logical && operator 
 - checks if the left side is true and the right side if also true 
