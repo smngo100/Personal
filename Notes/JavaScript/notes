@@ -135,3 +135,6 @@ Order of Operations
 2. * / 
 3. + 0 
 4. Comparison operators
+
+logical && operator 
+- checks if the left side is true and the right side if also true 
