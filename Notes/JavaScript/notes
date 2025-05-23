@@ -109,3 +109,29 @@ snake_case      cart_quantity (not used in JS)
 3. var x = 5;      var = variable (not used in new JS code)
 
 // Recommended to use const 
+
+
+-------------------- Booleans --------------------
+- Booleans are another type of value 
+- There are only 2 boolean values: true, false
+- Purpose: represents whether something is true or false
+
+Syntax rules for Boolean: 
+just type 
+true 
+or 
+false
+
+== vs ===
+== converts both values into the same type 
+  ex) console.log()5 == '5.00; 
+      output: true
+=== converts
+use === 
+use !==, not !=
+
+Order of Operations 
+1. (...)
+2. * / 
+3. + 0 
+4. Comparison operators
