@@ -176,3 +176,6 @@ Rules for function names:
 2. Can't start with a number 
 3. Can't use special characters except: $, _
 Best practice = use camelCase
+
+
+When we use a return statement, it ends the function immediately  
