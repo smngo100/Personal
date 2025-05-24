@@ -140,3 +140,12 @@ use !==, not !=
 
 logical && operator 
 - checks if the left side is true and the right side if also true 
+
+Falsy Values 
+false
+0 
+'' 
+NaN (Not a Number)
+undefined 
+null 
+- Any value not on this list is truthy 
