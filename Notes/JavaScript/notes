@@ -149,3 +149,18 @@ NaN (Not a Number)
 undefined 
 null 
 - Any value not on this list is truthy 
+
+----- Ternary operator -----
+condition ? expressionIfTrue : expressionIfFalse;
+
+AND Operator &&
+false && value2
+// Called a short circuit evaluation
+- Stops early 
+- Doesn't need to run the code on the right 
+
+
+---------- Shortcuts for If-Statements ----------
+- Ternary Operator ? :
+- Guard Operator && 
+- Default Operator ||
