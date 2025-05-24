@@ -164,3 +164,15 @@ false && value2
 - Ternary Operator ? :
 - Guard Operator && 
 - Default Operator ||
+
+-------------------- Functions --------------------
+What is a function? A function lets us reuse code
+function keyword creates a new function then we choose function name
+ex) function function_name() {}
+to call a function: function_name();
+
+Rules for function names: 
+1. Can't use special words 
+2. Can't start with a number 
+3. Can't use special characters except: $, _
+Best practice = use camelCase
