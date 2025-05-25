@@ -188,3 +188,6 @@ Rules for Parameter Names
 2. Can't start with a number 
 3. Can't use special characters except $, _
 Best practice = use camelCase
+
+* When a function has a parameter, we say "this function takes a parameter", or "this function takes a number"
+* When we pass a value into the function, we say "passing a value into the function" (name for this value is called the argument)
