@@ -181,3 +181,10 @@ Best practice = use camelCase
 When we use a return statement, it ends the function immediately  
 Return statement: lets us get a value out of the function 
 Return = gets a value out of a function
+Parameter = puts a value into a function
+
+Rules for Parameter Names 
+1. Can't use special words
+2. Can't start with a number 
+3. Can't use special characters except $, _
+Best practice = use camelCase
