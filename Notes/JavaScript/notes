@@ -179,3 +179,5 @@ Best practice = use camelCase
 
 
 When we use a return statement, it ends the function immediately  
+Return statement: lets us get a value out of the function 
+Return = gets a value out of a function
