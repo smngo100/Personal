@@ -22,7 +22,8 @@ General Technique:
 
 .<class_name> the . targets the class
 
-
+property - what we're modifying
+value - what we're modifying the property to 
 
 pseudo styles: add extra styles in certain situations
 
