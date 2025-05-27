@@ -225,11 +225,12 @@ Which one should we use?
 
 Function inside object = method
 
+
 2 More Built-in Objects
 - JSON 
 - localStorage
 
-JSON
+---------- JSON ----------
 - JavaScript Object Notation
 - a syntax
 - similar to JavaScript object
@@ -237,3 +238,35 @@ JSON
 We use JSON 
 - when we send data between computers
 - when we store data 
+
+Convert: 
+JavaScript Object --> JSON strings
+console.log(JSON.stringify(product));
+
+JSON string --> JavaScript Object
+JSON.parse()
+console.log(JSON.parse(jsonString));
+
+null vs undefined 
+null = intentionally want something to be empty
+---------- localStorage ----------
+- save values more permanently
+
+
+---------- Object Notes ----------
+- objects are references 
+- can't compare objects directly
+- When you compare two variables that are objects, you're comparing the references, not the values inside
+- copy by reference
+
+
+---------- Destructing ----------
+- easier way to take properties out of an object 
+ex) 
+const object4 = {
+ message: 'Good job!',
+ price: 799
+}
+
+const { message, price } = object4;
+console.log(message, price);
