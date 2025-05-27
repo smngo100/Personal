@@ -226,5 +226,14 @@ Which one should we use?
 Function inside object = method
 
 2 More Built-in Objects
-- JSON
+- JSON 
 - localStorage
+
+JSON
+- JavaScript Object Notation
+- a syntax
+- similar to JavaScript object
+
+We use JSON 
+- when we send data between computers
+- when we store data 
