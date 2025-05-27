@@ -214,3 +214,7 @@ Why we use objects
 Objects 
 - let us **group** multiple values together
 - let us **use** multiple values together 
+
+Bracket Notation 
+- lets us use properties that don't work with dot notation 
+product['name];
