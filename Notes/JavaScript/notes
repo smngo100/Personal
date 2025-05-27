@@ -218,3 +218,9 @@ Objects
 Bracket Notation 
 - lets us use properties that don't work with dot notation 
 product['name];
+
+Which one should we use? 
+- use dot notation by default 
+- for properties that don't work, use bracket notation
+
+Function inside object = method
