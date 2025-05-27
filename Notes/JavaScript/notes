@@ -224,3 +224,7 @@ Which one should we use?
 - for properties that don't work, use bracket notation
 
 Function inside object = method
+
+2 More Built-in Objects
+- JSON
+- localStorage
