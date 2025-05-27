@@ -10,6 +10,10 @@ Order of Operations
 4. Comparison operators
 5. Logical operators 
 
+Strategy for JavaScript 
+1. Think abotu what steps we need (algorithm)
+2. Convert those steps into code
+
 
 -------------------- JavaScript Basics --------------------
 What is JavaScript? 
