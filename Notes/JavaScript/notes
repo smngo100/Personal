@@ -226,9 +226,11 @@ Which one should we use?
 Function inside object = method
 
 
+
 2 More Built-in Objects
 - JSON 
 - localStorage
+
 
 ---------- JSON ----------
 - JavaScript Object Notation
@@ -249,6 +251,8 @@ console.log(JSON.parse(jsonString));
 
 null vs undefined 
 null = intentionally want something to be empty
+
+
 ---------- localStorage ----------
 - save values more permanently
 
