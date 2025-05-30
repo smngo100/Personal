@@ -200,6 +200,7 @@ Best practice = use camelCase
 -------------------- Objects --------------------
 What is an object? 
 - An object groups multiple values together
+- objects are values
 
 const prudct = {
  name: 'socks',
@@ -285,3 +286,13 @@ DOM (document object model) = another built-in object
 - The DOM combines JS and HTML together
 - When a HTML element is inside JS, the HTML element is converted into a JS object
 - innerHTML gives us control of all HTML inside the body
+
+document.querySelector() 
+- lets us get any elements from the page and put it inside JS 
+
+- Every HTML element has a property .innerHTML
+- HTML elements are JS objects
+
+Summary 
+- DOM combines JS and HTML together
+- It gives JS full control of the webpage
