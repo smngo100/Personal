@@ -274,3 +274,14 @@ const object4 = {
 
 const { message, price } = object4;
 console.log(message, price);
+
+
+
+-------------------- DOM --------------------
+DOM (document object model) = another built-in object 
+- The document object represents / models the webpage
+- Document object is linked to the webpage
+- We can have HTML elements inside JS 
+- The DOM combines JS and HTML together
+- When a HTML element is inside JS, the HTML element is converted into a JS object
+- innerHTML gives us control of all HTML inside the body
