@@ -296,3 +296,13 @@ document.querySelector()
 Summary 
 - DOM combines JS and HTML together
 - It gives JS full control of the webpage
+
+- Whenever we get a value from the DOM, the value will be a string
+
+clicks, keydowns => events 
+onclick, onkeydown => event listeners
+
+- Every event listener gets an event object
+
+document object represents the webpage 
+the window object represents the browser
