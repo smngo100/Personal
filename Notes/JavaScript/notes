@@ -306,3 +306,5 @@ onclick, onkeydown => event listeners
 
 document object represents the webpage 
 the window object represents the browser
+
+.classList = gives us control of the class attribute
