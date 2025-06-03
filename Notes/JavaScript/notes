@@ -308,3 +308,17 @@ document object represents the webpage
 the window object represents the browser
 
 .classList = gives us control of the class attribute
+
+
+-------------------- Arrays --------------------
+- another type of value 
+- represents a list of values
+- Array = list of values
+- To get a specific value in an array => []
+- Index = position in the array
+  - 0-indexed array
+- Inside an array we can put any type of value
+- Array has properties and methods
+
+Way to find out if something is an Array 
+Array.isArray(); then console log it --> console.log(Array.isArray([1, 2));
