@@ -334,3 +334,21 @@ myArray.splice(index we want to remove, # of values to remove);
 
 for loop 
 for (loop variable; loop condition; increment step) {}
+
+While vs For Loop
+- Standard loop => for 
+- Non-standard loop => while
+
+
+---------- Accumulator Pattern ----------
+1. Creat a value to store the result 
+2. Loop through the array and update the result 
+
+
+- Render: to display something on the page
+
+
+---------- Main Idea of JavaScript ----------
+1. Save the data
+2. Generate the HTML 
+3. Make it interactive
