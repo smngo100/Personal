@@ -322,3 +322,15 @@ the window object represents the browser
 
 Way to find out if something is an Array 
 Array.isArray(); then console log it --> console.log(Array.isArray([1, 2));
+
+.push() 
+- Adds a value to the end of the array
+
+.splice() 
+- Removes a value from the array 
+- Takes 2 arguments 
+
+myArray.splice(index we want to remove, # of values to remove);
+
+for loop 
+for (loop variable; loop condition; increment step) {}
