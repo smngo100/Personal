@@ -326,7 +326,7 @@ Array.isArray(); then console log it --> console.log(Array.isArray([1, 2));
 .push() 
 - Adds a value to the end of the array
 
-.splice() 
+.slice() 
 - Removes a value from the array 
 - Takes 2 arguments 
 
@@ -352,3 +352,6 @@ While vs For Loop
 1. Save the data
 2. Generate the HTML 
 3. Make it interactive
+
+
+- Arrays are references
