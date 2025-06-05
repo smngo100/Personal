@@ -355,3 +355,7 @@ While vs For Loop
 
 
 - Arrays are references
+
+More details about loops 
+1. break = exit a loop early
+2. continue = skip 1 iteration of the loop / 1 run of the loop
