@@ -361,8 +361,12 @@ More details about loops
 2. continue = skip 1 iteration of the loop / 1 run of the loop
 
 
+-------------------- Advanced Functions --------------------
 Functions are also values 
 - we can save a function inside a variable
 
-Anonymous function: function without a name
-Hoisting: to call a function before we create it in the code
+- Anonymous function: function without a name
+- Hoisting: to call a function before we create it in the code
+- Callback: function we're passing into another function
+
+- Anything we do with a value, we can also do with a function
