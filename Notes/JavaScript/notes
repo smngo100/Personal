@@ -224,7 +224,7 @@ Which one should we use?
 - use dot notation by default 
 - for properties that don't work, use bracket notation
 
-Function inside object = method
+Function saved inside an object = method
 
 
 
@@ -359,3 +359,10 @@ While vs For Loop
 More details about loops 
 1. break = exit a loop early
 2. continue = skip 1 iteration of the loop / 1 run of the loop
+
+
+Functions are also values 
+- we can save a function inside a variable
+
+Anonymous function: function without a name
+Hoisting: to call a function before we create it in the code
