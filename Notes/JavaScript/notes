@@ -370,3 +370,10 @@ Functions are also values
 - Callback: function we're passing into another function
 
 - Anything we do with a value, we can also do with a function
+
+Built-in Method
+setTimeout(a function we want to run in the future, how long to wait before running this function) {}  // NOTE (2nd parameter is a # in milliseconds 1000 milliseconds = 1 second)
+
+- Asynchronous code: won't wait for a line to finish before going to the next line
+- Synchronous code: will wait for one line to finish before going to the next line
+
