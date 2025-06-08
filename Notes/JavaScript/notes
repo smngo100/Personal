@@ -380,4 +380,10 @@ setInterval(a function we want to run in the future, how long to wait before run
 
 - setInterval() {} keeps the running the function every **seconds that we passed in the parameter** 
 ex) if we pass in 3000, every 3 seconds it will console.log('interval')
+- this function returns a number 
+- we can use it to stop the interval
 
+
+---------- Another way to loop through an array  ----------
+.forEach(function(value in the array, index) {}); 
+- the preferred way to loop through an array 
