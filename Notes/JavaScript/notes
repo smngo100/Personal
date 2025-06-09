@@ -387,3 +387,16 @@ ex) if we pass in 3000, every 3 seconds it will console.log('interval')
 ---------- Another way to loop through an array  ----------
 .forEach(function(value in the array, index) {}); 
 - the preferred way to loop through an array 
+
+
+---------- Arrow Function ----------
+- mostly works the same as a regular function 
+ex) const arrowFunction = () => {};
+    vs normal function 
+ex) const regularFunction = function() {};
+
+Difference
+- Arrow functions have shortcuts that regular functions don't have 
+- If the arrow function has 1 parameter, then we can remove the ()
+ex) intsead of: const oneParam = (param) => {};
+     we can do: const oneParam = param => {};
