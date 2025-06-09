@@ -415,3 +415,10 @@ do:
 const object = {
  method() {}
 }
+
+
+.addEventListener(event, );
+Advantages 
+- lets us add multiple event listeners for one event
+- we can remove an event listener
+-
