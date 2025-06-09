@@ -395,8 +395,11 @@ ex) const arrowFunction = () => {};
     vs normal function 
 ex) const regularFunction = function() {};
 
-Difference
-- Arrow functions have shortcuts that regular functions don't have 
+*****Difference: Arrow functions have shortcuts that regular functions don't have*****
 - If the arrow function has 1 parameter, then we can remove the ()
 ex) intsead of: const oneParam = (param) => {};
      we can do: const oneParam = param => {};
+- If the function is one line we can do this: 
+ex) const oneLine = () => (return 2 + 3;);
+we can remove the () and return, 
+so: const oneLine = () =>  2 + 3;
