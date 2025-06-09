@@ -405,3 +405,13 @@ we can remove the {} and return,
 so: const oneLine = () =>  2 + 3;
 
 - when passing a function into another function, => use arrow functions
+
+Shortcut for functions in objects 
+instead of:
+const object = {
+ method: () => {}
+} 
+do:
+const object = {
+ method() {}
+}
