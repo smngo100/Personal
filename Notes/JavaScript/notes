@@ -400,6 +400,8 @@ ex) const regularFunction = function() {};
 ex) intsead of: const oneParam = (param) => {};
      we can do: const oneParam = param => {};
 - If the function is one line we can do this: 
-ex) const oneLine = () => (return 2 + 3;);
-we can remove the () and return, 
+ex) const oneLine = () => { return 2 + 3; };
+we can remove the {} and return, 
 so: const oneLine = () =>  2 + 3;
+
+- when passing a function into another function, => use arrow functions
