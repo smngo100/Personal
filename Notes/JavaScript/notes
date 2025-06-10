@@ -444,3 +444,38 @@ Closure
 - If a function has access to a value 
 - It will always have access to that value
 - Value gets package together (enclosed) with the function
+
+
+---------------------------------------- ADVANCED FUNCTIONS SUMMARY ----------------------------------------  
+** NOTE: We can replace the regular functions with arrow functions to make the code look cleaner **
+
+----- Regular functions -----
+
+setTimeout(function() {}, milliseconds); 
+
+setInterval(function() {}, milliseconds);
+
+.forEach(function(value, index) {}); 
+
+.addEventListener('event', function() {});
+
+.filter(function (value, index) {});
+
+.map(function (value, index) {});
+
+
+----- Arrow functions version -----
+
+setTimeout(() => {}, milliseconds);
+
+setInterval(() => {}, milliseconds);
+
+.forEach((value, index) => {});
+
+.addEventListener('event', () => {});
+
+.filter((value, index) => {});
+
+.map((value, index) => {});
+
+------------------------------------------------------------------------------------------------------------ 
