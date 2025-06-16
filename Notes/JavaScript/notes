@@ -480,3 +480,5 @@ setInterval(() => {}, milliseconds);
 .map((value, index) => {});
 
 ------------------------------------------------------------------------------------------------------------ 
+
+data = informaiton (information about our products) 
