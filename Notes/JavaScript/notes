@@ -482,3 +482,10 @@ setInterval(() => {}, milliseconds);
 ------------------------------------------------------------------------------------------------------------ 
 
 data = informaiton (information about our products) 
+
+---------- Main Idea of JavaScript ----------
+1. Save the data
+- Create something in JavaScript that closes matches what we have on the page 
+2. Generate the HTML 
+3. Make it interactive
+
