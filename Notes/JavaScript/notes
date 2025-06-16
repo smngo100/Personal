@@ -427,6 +427,7 @@ filter((value, index) => {});
 1. creates a new array []
 2. return true, => put value in array
 3. return false, => not put value in array
+ex) const filteredArray = myArray.filter(value => value > 0);
 
 map((value, index) => {});
 - .map() = transform an array into another array
