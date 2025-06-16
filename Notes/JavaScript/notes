@@ -504,3 +504,8 @@ Get a Variable Out of a File
 1. Add type="module" attribute 
 2. Export
 3. Import
+
+type="module" attribute
+Let's this file get variables out of other files
+1. Put all imports at the top of the file 
+2. We need to use Live Server 
