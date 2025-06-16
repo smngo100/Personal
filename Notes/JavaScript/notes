@@ -499,3 +499,8 @@ Create a Module
 1. Create a file
 2. Don't load the file with <script>
 Any variables we create inside the file, will be contained inside the file.
+
+Get a Variable Out of a File 
+1. Add type="module" attribute 
+2. Export
+3. Import
