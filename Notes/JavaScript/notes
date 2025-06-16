@@ -489,3 +489,8 @@ data = informaiton (information about our products)
 2. Generate the HTML 
 3. Make it interactive
 
+
+---------- Syntax for a Data Attribute ----------
+- is just an HTML attribute
+- have to start with "data-"
+- then give it any name 
