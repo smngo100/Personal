@@ -511,3 +511,5 @@ Let's this file get variables out of other files
 2. We need to use Live Server 
 
 Module = better way to organize our code 
+
+Entry point: JavaScript file used to load our code
