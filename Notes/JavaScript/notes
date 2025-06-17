@@ -481,7 +481,7 @@ setInterval(() => {}, milliseconds);
 
 ------------------------------------------------------------------------------------------------------------ 
 
-data = informaiton (information about our products) 
+data = information (information about our products) 
 
 ---------- Main Idea of JavaScript ----------
 1. Save the data
