@@ -513,3 +513,11 @@ Let's this file get variables out of other files
 Module = better way to organize our code 
 
 Entry point: JavaScript file used to load our code
+
+
+Import Syntax 
+ex) 
+import * as cartModule from '.../data/cart.js/;
+
+cartModule.cart
+cartModule.addToCart('id');
