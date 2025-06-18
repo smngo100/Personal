@@ -15,10 +15,13 @@ const todoList = [
 
 
 2. Generate the HTML 
-Second, we'll use the data to generate the HTML
+Second, we'll use the data to generate the HTML.
+Why do we need html and todoListHTML? 
+Because html is just a temporary variable used to store the current task. It gets overwritten in each iteration of the forEach loop, so we'd lose the previous tasks.
+todoListHTML adds the current task to the accumulator.
 
 function renderTodoList() {
-  let todoListHTML = '';
+  let todoListHTML = '';  // Accumulator - keeps growing 
 
   todoList.forEach(todo => {
     const html = `<p>${todo}</p>`;
