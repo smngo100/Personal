@@ -1,0 +1,35 @@
+---------- Main Idea of JavaScript ----------
+1. Save the data
+2. Generate the HTML 
+3. Make it interactive
+
+
+1. Save the data
+First, we'll start off by providing a temporary array/object/value so that we have something to work with in the beginning before we start generating our own data.
+This will typically be at the top of the js file.
+
+const todoList = [
+  'make dinner',
+  'wash dishes'
+];
+
+
+2. Generate the HTML 
+Second, we'll use the data to generate the HTML
+
+function renderTodoList() {
+  let todoListHTML = '';
+
+  todoList.forEach(todo => {
+    const html = `<p>${todo}</p>`;
+    todoListHTML += html;
+  })
+  console.log(todoListHTML);
+
+  document.querySelector('.js-todo-list').innerHTML = todoListHTML;
+}
+
+
+3. Make it interactive
+
+
