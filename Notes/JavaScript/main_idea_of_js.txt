@@ -34,5 +34,6 @@ function renderTodoList() {
 
 
 3. Make it interactive
-
-
+onclick=""
+or 
+addEventListener(() => {});
