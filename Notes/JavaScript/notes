@@ -535,3 +535,9 @@ Best Practice
 When we need something complicated, 
 - Try to find an external library first
 - Before writing the code ourselves.
+
+ESM Version 
+ESM = EcmaScript Module 
+EcmaScript = JavaScript 
+
+ESM Version: A version that works with JavaScript Modules 
