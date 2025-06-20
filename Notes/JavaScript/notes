@@ -525,3 +525,8 @@ cartModule.addToCart('id');
 
 -------------------- External Libraries --------------------
 External library = code that is outside of our project
+
+Why we use external libraries 
+- let us share code
+- save time
+- avoid duplicating work 
