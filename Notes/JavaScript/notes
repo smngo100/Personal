@@ -530,3 +530,8 @@ Why we use external libraries
 - let us share code
 - save time
 - avoid duplicating work 
+
+Best Practice 
+When we need something complicated, 
+- Try to find an external library first
+- Before writing the code ourselves.
