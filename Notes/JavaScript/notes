@@ -521,3 +521,7 @@ import * as cartModule from '.../data/cart.js/;
 
 cartModule.cart
 cartModule.addToCart('id');
+
+
+-------------------- External Libraries --------------------
+External library = code that is outside of our project
