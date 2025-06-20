@@ -549,4 +549,35 @@ import {hello} from '../folder/file.js';
 Default Export 
 import name from 'url link';
 
+***NOTE: Some libraries don't have an ESM version, so for some libraries we have to use script tags***
 
+Normalizing the Data 
+- Save an object array separately, then use an id to point to whole option
+
+ex) 
+cart = [
+  {
+  productId: 'alksdjfaskdf',
+  quantitiy: 2,
+  delivertyOptionId: '2'
+  },
+  {
+  productId: 'alksdjfaskdf',
+  quantitiy: 1,
+  delivertyOptionId: '2'
+  },
+];
+
+delivertyOptions = [
+  {
+    id: '1',
+    deliveryTime: '7 days',
+    deliveryPrice: 0
+  },
+  {
+    id: '2',
+    deliveryTime: '3 days',
+    deliveryPrice: 499
+  }
+]
+// Notice that we have two object arrays. This makes the code cleaner. Also, note that the general object array has a property that points to the id of the second object array
