@@ -541,3 +541,12 @@ ESM = EcmaScript Module
 EcmaScript = JavaScript 
 
 ESM Version: A version that works with JavaScript Modules 
+
+
+Named Export
+import {hello} from '../folder/file.js';
+
+Default Export 
+import name from 'url link';
+
+
