@@ -583,3 +583,18 @@ delivertyOptions = [
 // Notice that we have two object arrays. This makes the code cleaner. Also, note that the general object array has a property that points to the id of the second object array
 
 A function cna call / re-run itself = recursion 
+
+
+-------------------- MVC --------------------
+MVC (MOdel - View - Controller) Technique 
+1. Update the data
+2. Regenerate all the HTML
+
+- split our code into 3 parts 
+1. Model = saves and manages the data 
+2. View = takes the data and displays it on the page
+3. Controller = runs some code when we interact with the page 
+
+MVC = make sure the page always matches the data
+- MVC is a design pattern 
+- It's a way to organize and design our code 
