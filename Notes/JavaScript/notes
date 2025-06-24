@@ -601,6 +601,7 @@ MVC = make sure the page always matches the data
 
 
 -------------------- Testing --------------------
+automated tests = using code to test code
 situation = test case
 group of related tests = test suite
 
