@@ -602,3 +602,8 @@ MVC = make sure the page always matches the data
 
 -------------------- Testing --------------------
 situation = test case
+
+2 Types of Test Cases
+1. Basic test cases = tests if the code is working
+2. Edge cases = test with values that are tricky (on the edge of what our code can handle)
+ex) 0 or 2000.5 
