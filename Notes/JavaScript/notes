@@ -607,3 +607,5 @@ situation = test case
 1. Basic test cases = tests if the code is working
 2. Edge cases = test with values that are tricky (on the edge of what our code can handle)
 ex) 0 or 2000.5 
+
+- try to test soemthing different in each case
