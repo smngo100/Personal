@@ -604,11 +604,13 @@ MVC = make sure the page always matches the data
 automated tests = using code to test code
 situation = test case
 group of related tests = test suite
+testing framework = external library that helps us write tests easier 
 
 2 Types of Test Cases
 1. Basic test cases = tests if the code is working
 2. Edge cases = test with values that are tricky (on the edge of what our code can handle)
 ex) 0 or 2000.5 
+
 
 - try to test soemthing different in each case
 
