@@ -586,7 +586,7 @@ A function cna call / re-run itself = recursion
 
 
 -------------------- MVC --------------------
-MVC (MOdel - View - Controller) Technique 
+MVC (Model - View - Controller) Technique 
 1. Update the data
 2. Regenerate all the HTML
 
