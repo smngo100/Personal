@@ -598,3 +598,7 @@ MVC (Model - View - Controller) Technique
 MVC = make sure the page always matches the data
 - MVC is a design pattern 
 - It's a way to organize and design our code 
+
+
+-------------------- Testing --------------------
+situation = test case
