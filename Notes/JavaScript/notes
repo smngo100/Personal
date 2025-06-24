@@ -605,6 +605,8 @@ automated tests = using code to test code
 situation = test case
 group of related tests = test suite
 testing framework = external library that helps us write tests easier 
+flaky test = test that sometimes passes and sometimes fails
+mocks = lets us replace a method with a fake version 
 
 2 Types of Test Cases
 1. Basic test cases = tests if the code is working
