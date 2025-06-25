@@ -609,6 +609,7 @@ flaky test = test that sometimes passes and sometimes fails
 mocks = lets us replace a method with a fake version 
 unit tests = testing 1 piece of code 
 integration test = tests many units / pieces of code working together
+hooks = lets us run some code for each test
 
 2 Types of Test Cases
 1. Basic test cases = tests if the code is working
