@@ -4,6 +4,10 @@ Object-Oriented Programming (OOP)
 - OOP = organizing our code into objects
 - organize code into an object
 
+Why do we use Object-Oriented Programming?
+OOP = tries to represent the real world
+
+
 
 
 Procedural Programming 
@@ -12,3 +16,11 @@ Procedural Programming
 - procedure = a set of step-by-step instructions
             = function 
 - organize our code into separate functions
+
+
+When writing functions 
+Shortcut for:            loadFromStorage: function() {}
+          is:            loadFromStorage() {} 
+
+
+          
