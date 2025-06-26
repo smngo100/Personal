@@ -30,3 +30,15 @@ Object-Oriented Programming & Class SUMMARY
 
 OOP = organizing our code into objects (tries to represent the real world) 
 class = help us generate these objects (object generator)
+class = better wa to generate objects in OOP 
+
+
+
+BENEFITS OF CLASSES 
+- A class looks like the object that it generates 
+- Classes have extra features for OOP
+  1. Constructor = lets us run setup code 
+     - Constructor lets us put this setup code inside the class
+     - Has to be named "constructor"
+     - shuold not return anything from a constructor 
+     
