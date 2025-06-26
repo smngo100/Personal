@@ -618,3 +618,9 @@ ex) 0 or 2000.5
 
 
 - try to test soemthing different in each case
+
+- Use PascalCase for things that generate objects 
+- PascalCase = start every word with a capital
+
+- class = objcet generator 
+-each object we generate from a class is an instance of the class 
