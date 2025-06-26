@@ -26,3 +26,7 @@ Shortcut for:            loadFromStorage: function() {}
 
 
           
+Object-Oriented Programming & Class SUMMARY 
+
+OOP = organizing our code into objects (tries to represent the real world) 
+class = help us generate these objects (object generator)
