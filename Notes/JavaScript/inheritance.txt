@@ -36,3 +36,10 @@ If parent class and child class have the same method, but child class has someth
 
 Polymorphism = use a method without knowing the class
 - The class will determine what this method does 
+
+
+--------------------------------------- SUMMARY ---------------------------------------
+
+inheritance = lets us reuse code between classes 
+method overriding, polymorphism 
+
