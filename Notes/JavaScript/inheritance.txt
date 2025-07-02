@@ -26,3 +26,7 @@ class Clothing extends Product {}
 
 Use inheritance when one class is a more specific type of another class
 - Here Clothing is a more specific type of Product
+
+Use super(); to call the constructor of the parent class
+
+Discriminator property = tells us which class we shuold convert the object to 
