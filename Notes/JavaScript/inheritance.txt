@@ -18,3 +18,11 @@ And since they're also products they'll need the code from the Product class, bu
 the Product class code into the other classes?
 
 That's where inheritance comes in. 
+
+class Clothing extends Product {}
+- This means clothing will get all the properties and methods of the Product class
+- (or) it will inherit all the properties and methods of the Product class 
+
+
+Use inheritance when one class is a more specific type of another class
+- Here Clothing is a more specific type of Product
