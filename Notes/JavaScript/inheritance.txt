@@ -30,3 +30,6 @@ Use inheritance when one class is a more specific type of another class
 Use super(); to call the constructor of the parent class
 
 Discriminator property = tells us which class we shuold convert the object to 
+
+
+If parent class and child class have the same method, but child class has something different, the child class method will **override / replace the parent's method (aka method overriding)
