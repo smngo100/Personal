@@ -38,8 +38,18 @@ Polymorphism = use a method without knowing the class
 - The class will determine what this method does 
 
 
+Review 
+- "this" lets an object acces its own properties 
+- "this" can be used anywhere in our code 
+- Inside a funciton, we can change "this" to whatever we want
+- Arrow functions do not change the value of "this" 
+
+
 --------------------------------------- SUMMARY ---------------------------------------
 
 inheritance = lets us reuse code between classes 
 method overriding, polymorphism 
 
+1. Inside a method, "this" points to the outer object
+2. Inside a function, "this" = undefined
+3. Arrow functions, do not change the vlaue of "this"
