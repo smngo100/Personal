@@ -14,7 +14,7 @@ class Clothing {}    // Child class
 class Appliances {}  // Child class
 
 If we have some properties that are only in clothing, or properties that are only in appliances we'll need separate classes. 
-And since they're also products they'll need the code from the Product class, but how can we do this without duplicating all 
+And since they're also products they'll need the properties and methods from the Product class, but how can we do this without duplicating all 
 the Product class code into the other classes?
 
 That's where inheritance comes in. 
