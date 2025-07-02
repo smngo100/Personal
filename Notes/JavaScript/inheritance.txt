@@ -32,4 +32,6 @@ Use super(); to call the constructor of the parent class
 Discriminator property = tells us which class we shuold convert the object to 
 
 
-If parent class and child class have the same method, but child class has something different, the child class method will **override / replace the parent's method (aka method overriding)
+If parent class and child class have the same method, but child class has something different, the child class method will **override / replace the parent's method (aka method overriding). IF you want to call the method in the parent class, then in the child class function above that code write super.methodName();
+
+Polymorphism = user a method without knowing the class
