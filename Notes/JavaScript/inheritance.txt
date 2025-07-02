@@ -1,0 +1,3 @@
+inheritance = lets us reuse code between classes 
+
+- inheritance: allows one class to get all the properties and methods from another class, so we don't have to duplicate code 
