@@ -1,0 +1,12 @@
+new Promise((resolve) => {
+  console.log('promise');
+});
+
+// When we create a promise, it runs the inner function immediately 
+// It allows JavaScript to do multiple tihngs at the same time 
+// Promise creates a separate thread of code 
+
+resolve is a function 
+- similar to done() funciton is Jasmine Test
+- lets us control when to go to the next step 
+
