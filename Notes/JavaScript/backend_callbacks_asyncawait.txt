@@ -1,1 +1,58 @@
 Backend = another cumpter that manages the data of a website 
+
+To send a message to backend: 
+const xhr = new XMLHttpRequest();
+xhr.open('GET', where to send this HTTP message)
+
+GET = get some information from the backend 
+
+
+
+URL = Uniform Resource Locator 
+
+Ex of URL: https://supersimplebackend.dev/hello
+
+https - using 'http' to communicate with the computer
+      - 's' means using a secure version of 'http'
+
+supersimplebackend.dev - domain name 
+
+/hello - URL path
+       - Each URL path will give us a different response
+
+
+Request-Response Cycle = 1 request, 1 response 
+
+xhr.send(); // Asynchronous code = does not wait for this line of code to finish, it sends a request then immediately goes to the next line
+
+- A backend only supports a certain set of URL paths 
+- If we send a request to a URL path that is not supported, the backend will respond with an error 
+- The backend can respond with different types of data 
+
+
+Status Code
+- Whenever we get a response from the backend, the backend also gives us a status code
+- status code = tells us if a request succeeded or failed
+- Starts with 4 or 5 (400, 404, 500) = failed 
+  - 4 = our problem (x. sent wrong URL)
+  - 5 = backend's problem (ex. backend crashed) 
+- Start with 2 (200, 201, 204) = succeeded 
+
+Backend API 
+API = application progrmaming interface 
+interface = how we interact with something
+
+Callback = a function to run in the future 
+
+new Promise((resolve) => {
+  console.log('promise');
+});
+
+// When we create a promise, it runs the inner function immediately 
+// It allows JavaScript to do multiple tihngs at the same time 
+// Promise creates a separate thread of code 
+
+resolve is a function 
+- similar to done() funciton is Jasmine Test
+- lets us control when to go to the next step 
+
