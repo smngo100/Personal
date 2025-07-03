@@ -10,3 +10,10 @@ resolve is a function
 - similar to done() funciton is Jasmine Test
 - lets us control when to go to the next step 
 
+Why we use Promises instead of callbacks? Multiple callbacks cause a lot of nesting 
+Promises help keep our code flat and avoid nesting.
+Use promises instead of callbacks
+
+Promise.all() 
+- lets us run multiple promises at the same time 
+- and wait for all of them to finish 
