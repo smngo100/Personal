@@ -17,3 +17,12 @@ Use promises instead of callbacks
 Promise.all() 
 - lets us run multiple promises at the same time 
 - and wait for all of them to finish 
+
+
+
+async = makes a function return a promise 
+
+What's the point of this feature? 
+= async lets us use await 
+
+await = lets us wait for a promise to finish, before going to the next line. it lets use write asynchronous code like normal code 
