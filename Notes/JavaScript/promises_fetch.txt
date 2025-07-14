@@ -33,3 +33,5 @@ We can only use await, when we're inside an async function
 async await 
 = shortcut for promises 
 = lets us write asynchronous code like normal code 
+
+Use async await, over promises and callbacks
