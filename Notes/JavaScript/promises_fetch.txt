@@ -38,3 +38,12 @@ Use async await, over promises and callbacks
 
 reject() is a function 
 - it lets us create an error in the future 
+
+
+To send data in a request, we need to use a different type of request.
+
+4 Types of Requests 
+GET = get something from the backend 
+POST = create something 
+PUT = update something 
+DELETE = delete something 
