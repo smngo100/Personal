@@ -26,3 +26,5 @@ What's the point of this feature?
 = async lets us use await 
 
 await = lets us wait for a promise to finish, before going to the next line. it lets use write asynchronous code like normal code 
+
+We can only use await, when we're inside an async function 
