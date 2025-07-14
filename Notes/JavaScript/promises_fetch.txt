@@ -35,3 +35,6 @@ async await
 = lets us write asynchronous code like normal code 
 
 Use async await, over promises and callbacks
+
+reject() is a function 
+- it lets us create an error in the future 
